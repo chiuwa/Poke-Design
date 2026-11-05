@@ -1,0 +1,345 @@
+{
+  "id": 47,
+  "name": "Parasect",
+  "species": "Mushroom Pokémon",
+  "type": [
+    "Bug",
+    "Grass"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    },
+    {
+      "name": "Grass",
+      "slot": 2
+    }
+  ],
+  "height": 1,
+  "weight": 29.5,
+  "abilities": [
+    {
+      "name": "Effect spore",
+      "url": "https://pokeapi.co/api/v2/ability/27/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Dry skin",
+      "url": "https://pokeapi.co/api/v2/ability/87/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Damp",
+      "url": "https://pokeapi.co/api/v2/ability/6/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 80,
+    "speed": 30
+  },
+  "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+  "flavorTexts": [
+    {
+      "text": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "version": "red"
+    },
+    {
+      "text": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "version": "blue"
+    },
+    {
+      "text": "The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.",
+      "version": "yellow"
+    },
+    {
+      "text": "It stays mostly in dark, damp places, the preference not of the bug, but of the big mush­ rooms on its back.",
+      "version": "gold"
+    },
+    {
+      "text": "The larger the mushroom on its back grows, the stronger the mush­ room spores it scatters.",
+      "version": "silver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ee3131",
+    "secondary": "#b44139",
+    "accent": "#bd3141",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ee3131",
+      "#b44139",
+      "#bd3141"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/47.png",
+    "front": "/pokemon/sprites/47.png",
+    "back": "/pokemon/sprites/back/47.png",
+    "shiny": "/pokemon/sprites/shiny/47.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/47.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Paras",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Parasect",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Scratch",
+      "url": "https://pokeapi.co/api/v2/move/10/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Mega Drain",
+      "url": "https://pokeapi.co/api/v2/move/72/",
+      "type": "Grass",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Leech Seed",
+      "url": "https://pokeapi.co/api/v2/move/73/",
+      "type": "Grass",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Growth",
+      "url": "https://pokeapi.co/api/v2/move/74/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Poison Powder",
+      "url": "https://pokeapi.co/api/v2/move/77/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 75,
+      "pp": 35,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 142,
+  "order": 81,
+  "isDefault": true,
+  "captureRate": 75,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Parasect",
+      "raw_name": "parasect",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/47.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/47.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Parasect",
+      "raw_name": "parasect",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/47/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Tiny Mushroom",
+      "rarity": 50
+    },
+    {
+      "name": "Big Mushroom",
+      "rarity": 5
+    },
+    {
+      "name": "Balm Mushroom",
+      "rarity": 1
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/47.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "パラセクト",
+    "roomaji": "Parasect",
+    "ko": "파라섹트",
+    "zh-Hant": "派拉斯特",
+    "fr": "Parasect",
+    "de": "Parasek",
+    "es": "Parasect",
+    "it": "Parasect",
+    "en": "Parasect",
+    "ja": "パラセクト",
+    "zh-Hans": "派拉斯特"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ee8b31",
+      "#ac6a41",
+      "#b46231"
+    ],
+    "primary": "#ee8b31",
+    "secondary": "#ac6a41",
+    "accent": "#b46231"
+  }
+}

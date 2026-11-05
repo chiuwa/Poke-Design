@@ -1,0 +1,83 @@
+{
+  "id": 10285,
+  "name": "Froslass-mega",
+  "species": "Pokémon",
+  "type": [
+    "Ice",
+    "Ghost"
+  ],
+  "typeDetails": [
+    {
+      "name": "Ice",
+      "slot": 1
+    },
+    {
+      "name": "Ghost",
+      "slot": 2
+    }
+  ],
+  "height": 2.6,
+  "weight": 29.6,
+  "abilities": [],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 70,
+    "specialAttack": 140,
+    "specialDefense": 100,
+    "speed": 120
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#fefefe",
+    "secondary": "#79b4d3",
+    "accent": "#557cb2",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fefefe",
+      "#79b4d3",
+      "#557cb2",
+      "#8337c6",
+      "#bf3029",
+      "#c6cddd"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10285.png",
+    "front": "/pokemon/sprites/10285.png",
+    "back": "/pokemon/sprites/back/10285.png",
+    "shiny": "/pokemon/sprites/shiny/10285.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10285.png",
+    "front_female": "/pokemon/sprites/female/10285.png",
+    "back_female": "/pokemon/sprites/back/female/10285.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10285.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10285.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

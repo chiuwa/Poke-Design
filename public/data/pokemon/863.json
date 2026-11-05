@@ -1,0 +1,328 @@
+{
+  "id": 863,
+  "name": "Perrserker",
+  "species": "Viking Pokémon",
+  "type": [
+    "Steel"
+  ],
+  "typeDetails": [
+    {
+      "name": "Steel",
+      "slot": 1
+    }
+  ],
+  "height": 0.8,
+  "weight": 28,
+  "abilities": [
+    {
+      "name": "Battle armor",
+      "url": "https://pokeapi.co/api/v2/ability/4/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Tough claws",
+      "url": "https://pokeapi.co/api/v2/ability/181/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Steely spirit",
+      "url": "https://pokeapi.co/api/v2/ability/252/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 100,
+    "specialAttack": 50,
+    "specialDefense": 60,
+    "speed": 50
+  },
+  "description": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+  "flavorTexts": [
+    {
+      "text": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+      "version": "sword"
+    },
+    {
+      "text": "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#bfc1bf",
+    "secondary": "#3d4547",
+    "accent": "#272d2e",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#bfc1bf",
+      "#3d4547",
+      "#272d2e"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/863.png",
+    "front": "/pokemon/sprites/863.png",
+    "back": "/pokemon/sprites/back/863.png",
+    "shiny": "/pokemon/sprites/shiny/863.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/863.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Meowth",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Persian",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "level up"
+        },
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Perrserker",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Pay Day",
+      "url": "https://pokeapi.co/api/v2/move/6/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Scratch",
+      "url": "https://pokeapi.co/api/v2/move/10/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thrash",
+      "url": "https://pokeapi.co/api/v2/move/37/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder",
+      "url": "https://pokeapi.co/api/v2/move/87/",
+      "type": "Electric",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Screech",
+      "url": "https://pokeapi.co/api/v2/move/103/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 85,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Metronome",
+      "url": "https://pokeapi.co/api/v2/move/118/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Amnesia",
+      "url": "https://pokeapi.co/api/v2/move/133/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 154,
+  "order": 1047,
+  "isDefault": true,
+  "captureRate": 90,
+  "baseHappiness": 50,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Perrserker",
+      "raw_name": "perrserker",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/863.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/863.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/863.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/863.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Perrserker",
+      "raw_name": "perrserker",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/863/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/863.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ニャイキング",
+    "roomaji": "Nyaiking",
+    "ko": "나이킹",
+    "zh-Hant": "喵頭目",
+    "fr": "Berserkatt",
+    "de": "Mauzinger",
+    "es": "Perrserker",
+    "it": "Perrserker",
+    "en": "Perrserker",
+    "ja": "ニャイキング",
+    "zh-Hans": "喵头目"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#cf8f44",
+      "#3d4547",
+      "#272d2e"
+    ],
+    "primary": "#cf8f44",
+    "secondary": "#3d4547",
+    "accent": "#272d2e"
+  }
+}

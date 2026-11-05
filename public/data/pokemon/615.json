@@ -1,0 +1,314 @@
+{
+  "id": 615,
+  "name": "Cryogonal",
+  "species": "Crystallizing Pokémon",
+  "type": [
+    "Ice"
+  ],
+  "typeDetails": [
+    {
+      "name": "Ice",
+      "slot": 1
+    }
+  ],
+  "height": 1.1,
+  "weight": 148,
+  "abilities": [
+    {
+      "name": "Levitate",
+      "url": "https://pokeapi.co/api/v2/ability/26/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 95,
+    "specialDefense": 135,
+    "speed": 105
+  },
+  "description": "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+  "flavorTexts": [
+    {
+      "text": "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
+      "version": "black"
+    },
+    {
+      "text": "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+      "version": "white"
+    },
+    {
+      "text": "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148° F.",
+      "version": "black-2"
+    },
+    {
+      "text": "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148° F.",
+      "version": "white-2"
+    },
+    {
+      "text": "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#5262c5",
+    "secondary": "#3141a4",
+    "accent": "#29315a",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#5262c5",
+      "#3141a4",
+      "#29315a",
+      "#8dadfc",
+      "#8bd5ec",
+      "#101010"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/615.png",
+    "front": "/pokemon/sprites/615.png",
+    "back": "/pokemon/sprites/back/615.png",
+    "shiny": "/pokemon/sprites/shiny/615.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/615.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Cryogonal",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Bind",
+      "url": "https://pokeapi.co/api/v2/move/20/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mist",
+      "url": "https://pokeapi.co/api/v2/move/54/",
+      "type": "Ice",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Aurora Beam",
+      "url": "https://pokeapi.co/api/v2/move/62/",
+      "type": "Ice",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Recover",
+      "url": "https://pokeapi.co/api/v2/move/105/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Haze",
+      "url": "https://pokeapi.co/api/v2/move/114/",
+      "type": "Ice",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 180,
+  "order": 737,
+  "isDefault": true,
+  "captureRate": 25,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Cryogonal",
+      "raw_name": "cryogonal",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/615.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/615.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/615.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Cryogonal",
+      "raw_name": "cryogonal",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/615/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Never Melt Ice",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/615.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/615.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "フリージオ",
+    "roomaji": "Freegeo",
+    "ko": "프리지오",
+    "zh-Hant": "幾何雪花",
+    "fr": "Hexagel",
+    "de": "Frigometri",
+    "es": "Cryogonal",
+    "it": "Cryogonal",
+    "en": "Cryogonal",
+    "ja": "フリージオ",
+    "zh-Hans": "几何雪花"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#528bc5",
+      "#3162a4",
+      "#29415a"
+    ],
+    "primary": "#528bc5",
+    "secondary": "#3162a4",
+    "accent": "#29415a"
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "id": 17,
+  "name": "Pidgeotto",
+  "species": "Bird Pokémon",
+  "type": [
+    "Normal",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 1.1,
+  "weight": 30,
+  "abilities": [
+    {
+      "name": "Keen eye",
+      "url": "https://pokeapi.co/api/v2/ability/51/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Tangled feet",
+      "url": "https://pokeapi.co/api/v2/ability/77/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Big pecks",
+      "url": "https://pokeapi.co/api/v2/ability/145/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "specialAttack": 50,
+    "specialDefense": 50,
+    "speed": 71
+  },
+  "description": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+  "flavorTexts": [
+    {
+      "text": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+      "version": "red"
+    },
+    {
+      "text": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+      "version": "blue"
+    },
+    {
+      "text": "This POKéMON is full of vitality. It constantly flies around its large territory in search of prey.",
+      "version": "yellow"
+    },
+    {
+      "text": "It has outstanding vision. However high it flies, it is able to distin­ guish the move­ ments of its prey.",
+      "version": "gold"
+    },
+    {
+      "text": "It immobilizes its prey using well- developed claws, then carries the prey more than 60 miles to its nest.",
+      "version": "silver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ffe68b",
+    "secondary": "#835231",
+    "accent": "#e86549",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ffe68b",
+      "#835231",
+      "#e86549",
+      "#fbad79",
+      "#101010",
+      "#d978cb"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/17.png",
+    "front": "/pokemon/sprites/17.png",
+    "back": "/pokemon/sprites/back/17.png",
+    "shiny": "/pokemon/sprites/shiny/17.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/17.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Pidgey",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Pidgeotto",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Razor Wind",
+      "url": "https://pokeapi.co/api/v2/move/13/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Gust",
+      "url": "https://pokeapi.co/api/v2/move/16/",
+      "type": "Flying",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Wing Attack",
+      "url": "https://pokeapi.co/api/v2/move/17/",
+      "type": "Flying",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Whirlwind",
+      "url": "https://pokeapi.co/api/v2/move/18/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Fly",
+      "url": "https://pokeapi.co/api/v2/move/19/",
+      "type": "Flying",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Sand Attack",
+      "url": "https://pokeapi.co/api/v2/move/28/",
+      "type": "Ground",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Quick Attack",
+      "url": "https://pokeapi.co/api/v2/move/98/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 1
+    },
+    {
+      "name": "Rage",
+      "url": "https://pokeapi.co/api/v2/move/99/",
+      "type": "Normal",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mimic",
+      "url": "https://pokeapi.co/api/v2/move/102/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 122,
+  "order": 22,
+  "isDefault": true,
+  "captureRate": 120,
+  "baseHappiness": 70,
+  "growthRate": "medium slow",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Pidgeotto",
+      "raw_name": "pidgeotto",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/17.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Pidgeotto",
+      "raw_name": "pidgeotto",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/17/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/17.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/17.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ピジョン",
+    "roomaji": "Pigeon",
+    "ko": "피죤",
+    "zh-Hant": "比比鳥",
+    "fr": "Roucoups",
+    "de": "Tauboga",
+    "es": "Pidgeotto",
+    "it": "Pidgeotto",
+    "en": "Pidgeotto",
+    "ja": "ピジョン",
+    "zh-Hans": "比比鸟"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f6ffac",
+      "#dede94",
+      "#738331"
+    ],
+    "primary": "#f6ffac",
+    "secondary": "#dede94",
+    "accent": "#738331"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "id": 103,
+  "name": "Exeggutor",
+  "species": "Coconut Pokémon",
+  "type": [
+    "Grass",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Grass",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 2,
+  "weight": 120,
+  "abilities": [
+    {
+      "name": "Chlorophyll",
+      "url": "https://pokeapi.co/api/v2/ability/34/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Harvest",
+      "url": "https://pokeapi.co/api/v2/ability/139/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "specialAttack": 125,
+    "specialDefense": 75,
+    "speed": 55
+  },
+  "description": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+  "flavorTexts": [
+    {
+      "text": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+      "version": "red"
+    },
+    {
+      "text": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+      "version": "blue"
+    },
+    {
+      "text": "Its cries are very noisy. This is because each of the 3 heads thinks about whatever it likes.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its three heads think independent­ ly. However, they are friendly and never appear to squabble.",
+      "version": "gold"
+    },
+    {
+      "text": "If a head drops off, it emits a telepathic call in search of others to form an EXEGGCUTE cluster.",
+      "version": "silver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#9cd54a",
+    "secondary": "#8b7341",
+    "accent": "#fddd74",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#9cd54a",
+      "#8b7341",
+      "#fddd74",
+      "#feeda9",
+      "#e3ac62",
+      "#ffffff"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/103.png",
+    "front": "/pokemon/sprites/103.png",
+    "back": "/pokemon/sprites/back/103.png",
+    "shiny": "/pokemon/sprites/shiny/103.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/103.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Exeggcute",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Exeggutor",
+      "level": 2,
+      "details": [
+        {
+          "item": "leaf stone",
+          "trigger": "use item"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Low Kick",
+      "url": "https://pokeapi.co/api/v2/move/67/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Mega Drain",
+      "url": "https://pokeapi.co/api/v2/move/72/",
+      "type": "Grass",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Leech Seed",
+      "url": "https://pokeapi.co/api/v2/move/73/",
+      "type": "Grass",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Stun Spore",
+      "url": "https://pokeapi.co/api/v2/move/78/",
+      "type": "Grass",
+      "power": null,
+      "accuracy": 75,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 186,
+  "order": 161,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Exeggutor",
+      "raw_name": "exeggutor",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/103.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/103.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/103.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Exeggutor",
+      "raw_name": "exeggutor",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/103/",
+      "type": ""
+    },
+    {
+      "name": "Alolan Exeggutor",
+      "raw_name": "exeggutor-alola",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10114/",
+      "type": "Alolan"
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/103.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/103.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ナッシー",
+    "roomaji": "Nassy",
+    "ko": "나시",
+    "zh-Hant": "椰蛋樹",
+    "fr": "Noadkoko",
+    "de": "Kokowei",
+    "es": "Exeggutor",
+    "it": "Exeggutor",
+    "en": "Exeggutor",
+    "ja": "ナッシー",
+    "zh-Hans": "椰蛋树"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#cdac00",
+      "#c56239",
+      "#e6834a"
+    ],
+    "primary": "#cdac00",
+    "secondary": "#c56239",
+    "accent": "#e6834a"
+  }
+}

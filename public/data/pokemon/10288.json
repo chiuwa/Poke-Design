@@ -1,0 +1,83 @@
+{
+  "id": 10288,
+  "name": "Scolipede-mega",
+  "species": "Pokémon",
+  "type": [
+    "Bug",
+    "Poison"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    },
+    {
+      "name": "Poison",
+      "slot": 2
+    }
+  ],
+  "height": 3.2,
+  "weight": 230.5,
+  "abilities": [],
+  "baseStats": {
+    "hp": 60,
+    "attack": 140,
+    "defense": 149,
+    "specialAttack": 75,
+    "specialDefense": 99,
+    "speed": 62
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#a8a5b1",
+    "secondary": "#858aa4",
+    "accent": "#bf255b",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#a8a5b1",
+      "#858aa4",
+      "#bf255b",
+      "#7f134a",
+      "#3c4458",
+      "#46eca9"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10288.png",
+    "front": "/pokemon/sprites/10288.png",
+    "back": "/pokemon/sprites/back/10288.png",
+    "shiny": "/pokemon/sprites/shiny/10288.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10288.png",
+    "front_female": "/pokemon/sprites/female/10288.png",
+    "back_female": "/pokemon/sprites/back/female/10288.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10288.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10288.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

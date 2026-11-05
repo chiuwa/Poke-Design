@@ -1,0 +1,321 @@
+{
+  "id": 384,
+  "name": "Rayquaza",
+  "species": "Sky High Pokémon",
+  "type": [
+    "Dragon",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dragon",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 7,
+  "weight": 206.5,
+  "abilities": [
+    {
+      "name": "Air lock",
+      "url": "https://pokeapi.co/api/v2/ability/76/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 150,
+    "defense": 90,
+    "specialAttack": 150,
+    "specialDefense": 90,
+    "speed": 95
+  },
+  "description": "RAYQUAZA lived for hundreds of millions of years in the earth’s ozone layer,  never descending to the ground. This POKéMON appears to feed on water and particles in the atmosphere.",
+  "flavorTexts": [
+    {
+      "text": "RAYQUAZA lived for hundreds of millions of years in the earth’s ozone layer,  never descending to the ground. This POKéMON appears to feed on water and particles in the atmosphere.",
+      "version": "ruby"
+    },
+    {
+      "text": "RAYQUAZA is said to have lived for hundreds of millions of years in the earth’s ozone layer, above the clouds. Its existence had been completely unknown because it lived so high in the sky.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A POKéMON that flies endlessly in the ozone layer. It is said it would descend to the ground if KYOGRE and GROUDON were to fight.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has lived for hundreds of millions of years in the ozone layer. Its flying form looks like a meteor.",
+      "version": "firered"
+    },
+    {
+      "text": "It has lived for hundreds of millions of years in the ozone layer. Its flying form looks like a meteor.",
+      "version": "leafgreen"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#4a8373",
+    "secondary": "#5abd8b",
+    "accent": "#c3a327",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#4a8373",
+      "#5abd8b",
+      "#c3a327",
+      "#e05775",
+      "#b8658b",
+      "#000000"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/384.png",
+    "front": "/pokemon/sprites/384.png",
+    "back": "/pokemon/sprites/back/384.png",
+    "shiny": "/pokemon/sprites/shiny/384.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/384.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Rayquaza",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Fly",
+      "url": "https://pokeapi.co/api/v2/move/19/",
+      "type": "Flying",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bind",
+      "url": "https://pokeapi.co/api/v2/move/20/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Rare",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 306,
+  "order": 511,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Rayquaza",
+      "raw_name": "rayquaza",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/384.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/384.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/384.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Rayquaza",
+      "raw_name": "rayquaza",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/384/",
+      "type": ""
+    },
+    {
+      "name": "Mega Rayquaza",
+      "raw_name": "rayquaza-mega",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10079/",
+      "type": "Mega"
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/384.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/384.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "レックウザ",
+    "roomaji": "Rayquaza",
+    "ko": "레쿠쟈",
+    "zh-Hant": "烈空坐",
+    "fr": "Rayquaza",
+    "de": "Rayquaza",
+    "es": "Rayquaza",
+    "it": "Rayquaza",
+    "en": "Rayquaza",
+    "ja": "レックウザ",
+    "zh-Hans": "烈空坐"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#4a524a",
+      "#737b73",
+      "#181818"
+    ],
+    "primary": "#4a524a",
+    "secondary": "#737b73",
+    "accent": "#181818"
+  }
+}

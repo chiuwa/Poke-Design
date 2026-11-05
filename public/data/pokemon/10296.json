@@ -1,0 +1,78 @@
+{
+  "id": 10296,
+  "name": "Floette-mega",
+  "species": "Pokémon",
+  "type": [
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    }
+  ],
+  "height": 0.2,
+  "weight": 100.8,
+  "abilities": [],
+  "baseStats": {
+    "hp": 74,
+    "attack": 85,
+    "defense": 87,
+    "specialAttack": 155,
+    "specialDefense": 148,
+    "speed": 102
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#484250",
+    "secondary": "#342e4c",
+    "accent": "#538ed2",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#484250",
+      "#342e4c",
+      "#538ed2",
+      "#eb515d",
+      "#f1fcff",
+      "#5f8ac2"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10296.png",
+    "front": "/pokemon/sprites/10296.png",
+    "back": "/pokemon/sprites/back/10296.png",
+    "shiny": "/pokemon/sprites/shiny/10296.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10296.png",
+    "front_female": "/pokemon/sprites/female/10296.png",
+    "back_female": "/pokemon/sprites/back/female/10296.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10296.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10296.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

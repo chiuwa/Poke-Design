@@ -1,0 +1,314 @@
+{
+  "id": 781,
+  "name": "Dhelmise",
+  "species": "Sea Creeper Pokémon",
+  "type": [
+    "Ghost",
+    "Grass"
+  ],
+  "typeDetails": [
+    {
+      "name": "Ghost",
+      "slot": 1
+    },
+    {
+      "name": "Grass",
+      "slot": 2
+    }
+  ],
+  "height": 3.9,
+  "weight": 210,
+  "abilities": [
+    {
+      "name": "Steelworker",
+      "url": "https://pokeapi.co/api/v2/ability/200/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 131,
+    "defense": 100,
+    "specialAttack": 86,
+    "specialDefense": 90,
+    "speed": 40
+  },
+  "description": "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+  "flavorTexts": [
+    {
+      "text": "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+      "version": "sun"
+    },
+    {
+      "text": "The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.",
+      "version": "moon"
+    },
+    {
+      "text": "It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its chain-like green seaweed can stretch outward for hundreds of yards. For some reason, it gets along well with Skrelp.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
+      "version": "sword"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#248a91",
+    "secondary": "#a46636",
+    "accent": "#f1e036",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#248a91",
+      "#a46636",
+      "#f1e036",
+      "#d7972a",
+      "#155a69",
+      "#c681ba"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/781.png",
+    "front": "/pokemon/sprites/781.png",
+    "back": "/pokemon/sprites/back/781.png",
+    "shiny": "/pokemon/sprites/shiny/781.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/781.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Dhelmise",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Wrap",
+      "url": "https://pokeapi.co/api/v2/move/35/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Mega Drain",
+      "url": "https://pokeapi.co/api/v2/move/72/",
+      "type": "Grass",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Growth",
+      "url": "https://pokeapi.co/api/v2/move/74/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rock Slide",
+      "url": "https://pokeapi.co/api/v2/move/157/",
+      "type": "Rock",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 181,
+  "order": 957,
+  "isDefault": true,
+  "captureRate": 25,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Dhelmise",
+      "raw_name": "dhelmise",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/781.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/781.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/781.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Dhelmise",
+      "raw_name": "dhelmise",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/781/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/781.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ダダリン",
+    "roomaji": "Dadarin",
+    "ko": "타타륜",
+    "zh-Hant": "破破舵輪",
+    "fr": "Sinistrail",
+    "de": "Moruda",
+    "es": "Dhelmise",
+    "it": "Dhelmise",
+    "en": "Dhelmise",
+    "ja": "ダダリン",
+    "zh-Hans": "破破舵轮"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#d82838",
+      "#ef5a5a",
+      "#020202"
+    ],
+    "primary": "#d82838",
+    "secondary": "#ef5a5a",
+    "accent": "#020202"
+  }
+}

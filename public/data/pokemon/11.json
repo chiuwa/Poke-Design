@@ -1,0 +1,229 @@
+{
+  "id": 11,
+  "name": "Metapod",
+  "species": "Cocoon Pokémon",
+  "type": [
+    "Bug"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    }
+  ],
+  "height": 0.7,
+  "weight": 9.9,
+  "abilities": [
+    {
+      "name": "Shed skin",
+      "url": "https://pokeapi.co/api/v2/ability/61/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 30
+  },
+  "description": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+  "flavorTexts": [
+    {
+      "text": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "red"
+    },
+    {
+      "text": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "blue"
+    },
+    {
+      "text": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.",
+      "version": "yellow"
+    },
+    {
+      "text": "Inside the shell, it is soft and weak as it pre­ pares to evolve. It stays motion­ less in the shell.",
+      "version": "gold"
+    },
+    {
+      "text": "It prepares for evolution by har­ dening its shell as much as possi­ ble to protect its soft body.",
+      "version": "silver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#83c54a",
+    "secondary": "#6a8b5a",
+    "accent": "#4a6a52",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#83c54a",
+      "#6a8b5a",
+      "#4a6a52",
+      "#455f4a",
+      "#4d8059",
+      "#9acb72"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/11.png",
+    "front": "/pokemon/sprites/11.png",
+    "back": "/pokemon/sprites/back/11.png",
+    "shiny": "/pokemon/sprites/shiny/11.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/11.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Caterpie",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Metapod",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 7,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Butterfree",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "String Shot",
+      "url": "https://pokeapi.co/api/v2/move/81/",
+      "type": "Bug",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Harden",
+      "url": "https://pokeapi.co/api/v2/move/106/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Iron Defense",
+      "url": "https://pokeapi.co/api/v2/move/334/",
+      "type": "Steel",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Bug Bite",
+      "url": "https://pokeapi.co/api/v2/move/450/",
+      "type": "Bug",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Electroweb",
+      "url": "https://pokeapi.co/api/v2/move/527/",
+      "type": "Electric",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 72,
+  "order": 15,
+  "isDefault": true,
+  "captureRate": 120,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Metapod",
+      "raw_name": "metapod",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/11.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Metapod",
+      "raw_name": "metapod",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/11/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/11.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "トランセル",
+    "roomaji": "Trancell",
+    "ko": "단데기",
+    "zh-Hant": "鐵甲蛹",
+    "fr": "Chrysacier",
+    "de": "Safcon",
+    "es": "Metapod",
+    "it": "Metapod",
+    "en": "Metapod",
+    "ja": "トランセル",
+    "zh-Hans": "铁甲蛹"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#c55a18",
+      "#ff7339",
+      "#943918"
+    ],
+    "primary": "#c55a18",
+    "secondary": "#ff7339",
+    "accent": "#943918"
+  }
+}

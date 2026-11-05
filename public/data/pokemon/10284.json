@@ -1,0 +1,83 @@
+{
+  "id": 10284,
+  "name": "Skarmory-mega",
+  "species": "Pokémon",
+  "type": [
+    "Steel",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Steel",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 1.7,
+  "weight": 40.4,
+  "abilities": [],
+  "baseStats": {
+    "hp": 65,
+    "attack": 140,
+    "defense": 110,
+    "specialAttack": 40,
+    "specialDefense": 100,
+    "speed": 110
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#fff489",
+    "secondary": "#fee949",
+    "accent": "#403d6d",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fff489",
+      "#fee949",
+      "#403d6d",
+      "#231c31",
+      "#101010",
+      "#dd222c"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10284.png",
+    "front": "/pokemon/sprites/10284.png",
+    "back": "/pokemon/sprites/back/10284.png",
+    "shiny": "/pokemon/sprites/shiny/10284.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10284.png",
+    "front_female": "/pokemon/sprites/female/10284.png",
+    "back_female": "/pokemon/sprites/back/female/10284.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10284.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10284.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

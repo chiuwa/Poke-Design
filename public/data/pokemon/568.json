@@ -1,0 +1,344 @@
+{
+  "id": 568,
+  "name": "Trubbish",
+  "species": "Trash Bag Pokémon",
+  "type": [
+    "Poison"
+  ],
+  "typeDetails": [
+    {
+      "name": "Poison",
+      "slot": 1
+    }
+  ],
+  "height": 0.6,
+  "weight": 31,
+  "abilities": [
+    {
+      "name": "Stench",
+      "url": "https://pokeapi.co/api/v2/ability/1/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Sticky hold",
+      "url": "https://pokeapi.co/api/v2/ability/60/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Aftermath",
+      "url": "https://pokeapi.co/api/v2/ability/106/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 62,
+    "specialAttack": 40,
+    "specialDefense": 62,
+    "speed": 65
+  },
+  "description": "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+  "flavorTexts": [
+    {
+      "text": "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+      "version": "black"
+    },
+    {
+      "text": "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+      "version": "white"
+    },
+    {
+      "text": "Wanting more garbage, they follow people who litter. They always belch poison gas.",
+      "version": "black-2"
+    },
+    {
+      "text": "Wanting more garbage, they follow people who litter. They always belch poison gas.",
+      "version": "white-2"
+    },
+    {
+      "text": "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#296a4a",
+    "secondary": "#184a31",
+    "accent": "#a38b75",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#296a4a",
+      "#184a31",
+      "#a38b75",
+      "#726253",
+      "#e759a3",
+      "#228ce2"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/568.png",
+    "front": "/pokemon/sprites/568.png",
+    "back": "/pokemon/sprites/back/568.png",
+    "shiny": "/pokemon/sprites/shiny/568.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/568.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Trubbish",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Garbodor",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Pound",
+      "url": "https://pokeapi.co/api/v2/move/1/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Slap",
+      "url": "https://pokeapi.co/api/v2/move/3/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Sand Attack",
+      "url": "https://pokeapi.co/api/v2/move/28/",
+      "type": "Ground",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Haze",
+      "url": "https://pokeapi.co/api/v2/move/114/",
+      "type": "Ice",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Self Destruct",
+      "url": "https://pokeapi.co/api/v2/move/120/",
+      "type": "Normal",
+      "power": 200,
+      "accuracy": 100,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Sludge",
+      "url": "https://pokeapi.co/api/v2/move/124/",
+      "type": "Poison",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Amnesia",
+      "url": "https://pokeapi.co/api/v2/move/133/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Poison Gas",
+      "url": "https://pokeapi.co/api/v2/move/139/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Explosion",
+      "url": "https://pokeapi.co/api/v2/move/153/",
+      "type": "Normal",
+      "power": 250,
+      "accuracy": 100,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thief",
+      "url": "https://pokeapi.co/api/v2/move/168/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 66,
+  "order": 690,
+  "isDefault": true,
+  "captureRate": 190,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Trubbish",
+      "raw_name": "trubbish",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/568.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/568.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/568.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Trubbish",
+      "raw_name": "trubbish",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/568/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Nugget",
+      "rarity": 1
+    },
+    {
+      "name": "Silk Scarf",
+      "rarity": 5
+    },
+    {
+      "name": "Black Sludge",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/568.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/568.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ヤブクロン",
+    "roomaji": "Yabukuron",
+    "ko": "깨봉이",
+    "zh-Hant": "破破袋",
+    "fr": "Miamiasme",
+    "de": "Unratütox",
+    "es": "Trubbish",
+    "it": "Trubbish",
+    "en": "Trubbish",
+    "ja": "ヤブクロン",
+    "zh-Hans": "破破袋"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#294a6a",
+      "#10294a",
+      "#101831"
+    ],
+    "primary": "#294a6a",
+    "secondary": "#10294a",
+    "accent": "#101831"
+  }
+}

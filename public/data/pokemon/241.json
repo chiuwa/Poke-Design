@@ -1,0 +1,326 @@
+{
+  "id": 241,
+  "name": "Miltank",
+  "species": "Milk Cow Pokémon",
+  "type": [
+    "Normal"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    }
+  ],
+  "height": 1.2,
+  "weight": 75.5,
+  "abilities": [
+    {
+      "name": "Thick fat",
+      "url": "https://pokeapi.co/api/v2/ability/47/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Scrappy",
+      "url": "https://pokeapi.co/api/v2/ability/113/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Sap sipper",
+      "url": "https://pokeapi.co/api/v2/ability/157/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "specialAttack": 40,
+    "specialDefense": 70,
+    "speed": 100
+  },
+  "description": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
+  "flavorTexts": [
+    {
+      "text": "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
+      "version": "gold"
+    },
+    {
+      "text": "If it has just had a baby, the milk it produces con­ tains much more nutrition than usual.",
+      "version": "silver"
+    },
+    {
+      "text": "In order to milk a MILTANK, one must have a knack for rhythmically pull­ ing up and down on its udders.",
+      "version": "crystal"
+    },
+    {
+      "text": "MILTANK gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can’t drink milk turn it into yogurt and eat it instead.",
+      "version": "ruby"
+    },
+    {
+      "text": "MILTANK gives over five gallons of milk on a daily basis. Its sweet milk is enjoyed by children and grown-ups alike. People who can’t drink milk turn it into yogurt and eat it instead.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#d58b83",
+    "secondary": "#f6b4a4",
+    "accent": "#313131",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#d58b83",
+      "#f6b4a4",
+      "#313131",
+      "#5a5a62",
+      "#feedb8",
+      "#d3ac78"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/241.png",
+    "front": "/pokemon/sprites/241.png",
+    "back": "/pokemon/sprites/back/241.png",
+    "shiny": "/pokemon/sprites/shiny/241.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/241.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Miltank",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Fire Punch",
+      "url": "https://pokeapi.co/api/v2/move/7/",
+      "type": "Fire",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Grassland",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 172,
+  "order": 336,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 8,
+  "forms": [
+    {
+      "name": "Miltank",
+      "raw_name": "miltank",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/241.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/241.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/241.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/241.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Miltank",
+      "raw_name": "miltank",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/241/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Moomoo Milk",
+      "rarity": 100
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/241.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/241.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ミルタンク",
+    "roomaji": "Miltank",
+    "ko": "밀탱크",
+    "zh-Hant": "大奶罐",
+    "fr": "Écrémeuh",
+    "de": "Miltank",
+    "es": "Miltank",
+    "it": "Miltank",
+    "en": "Miltank",
+    "ja": "ミルタンク",
+    "zh-Hans": "大奶罐"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#94acd5",
+      "#c5deff",
+      "#6a1800"
+    ],
+    "primary": "#94acd5",
+    "secondary": "#c5deff",
+    "accent": "#6a1800"
+  }
+}

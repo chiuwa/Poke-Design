@@ -1,0 +1,327 @@
+{
+  "id": 321,
+  "name": "Wailord",
+  "species": "Float Whale Pokémon",
+  "type": [
+    "Water"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    }
+  ],
+  "height": 14.5,
+  "weight": 398,
+  "abilities": [
+    {
+      "name": "Water veil",
+      "url": "https://pokeapi.co/api/v2/ability/41/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Oblivious",
+      "url": "https://pokeapi.co/api/v2/ability/12/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Pressure",
+      "url": "https://pokeapi.co/api/v2/ability/46/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 170,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 90,
+    "specialDefense": 45,
+    "speed": 60
+  },
+  "description": "WAILORD is the largest of all identified POKéMON up to now. This giant POKéMON swims languorously in the vast open sea, eating massive amounts of food at once with its enormous mouth.",
+  "flavorTexts": [
+    {
+      "text": "WAILORD is the largest of all identified POKéMON up to now. This giant POKéMON swims languorously in the vast open sea, eating massive amounts of food at once with its enormous mouth.",
+      "version": "ruby"
+    },
+    {
+      "text": "When chasing prey, WAILORD herds them by leaping out of the water and making a humongous splash. It is breathtaking to see this POKéMON leaping out of the sea with others in its pod.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It breathes through nostrils that it raises above the sea. By inhaling to its maximum capacity, a WAILORD can dive close to 10,000 feet beneath the waves.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is among the largest of all POKéMON. It herds prey in a pack then swallows the massed prey in one gulp.",
+      "version": "firered"
+    },
+    {
+      "text": "It is among the largest of all POKéMON. It herds prey in a pack then swallows the massed prey in one gulp.",
+      "version": "leafgreen"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#eee6ff",
+    "secondary": "#1052cd",
+    "accent": "#2073de",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#eee6ff",
+      "#1052cd",
+      "#2073de"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/321.png",
+    "front": "/pokemon/sprites/321.png",
+    "back": "/pokemon/sprites/back/321.png",
+    "shiny": "/pokemon/sprites/shiny/321.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/321.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Wailmer",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Wailord",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Mist",
+      "url": "https://pokeapi.co/api/v2/move/54/",
+      "type": "Ice",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Sea",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 175,
+  "order": 432,
+  "isDefault": true,
+  "captureRate": 60,
+  "baseHappiness": 70,
+  "growthRate": "fast then very slow",
+  "hatchCounter": 40,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Wailord",
+      "raw_name": "wailord",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/321.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/321.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/321.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/321.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Wailord",
+      "raw_name": "wailord",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/321/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/321.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/321.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ホエルオー",
+    "roomaji": "Whaloh",
+    "ko": "고래왕",
+    "zh-Hant": "吼鯨王",
+    "fr": "Wailord",
+    "de": "Wailord",
+    "es": "Wailord",
+    "it": "Wailord",
+    "en": "Wailord",
+    "ja": "ホエルオー",
+    "zh-Hans": "吼鲸王"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#eee6ff",
+      "#9452a4",
+      "#a473c5"
+    ],
+    "primary": "#eee6ff",
+    "secondary": "#9452a4",
+    "accent": "#a473c5"
+  }
+}

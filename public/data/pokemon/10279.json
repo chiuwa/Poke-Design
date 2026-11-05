@@ -1,0 +1,83 @@
+{
+  "id": 10279,
+  "name": "Victreebel-mega",
+  "species": "Pokémon",
+  "type": [
+    "Grass",
+    "Poison"
+  ],
+  "typeDetails": [
+    {
+      "name": "Grass",
+      "slot": 1
+    },
+    {
+      "name": "Poison",
+      "slot": 2
+    }
+  ],
+  "height": 4.5,
+  "weight": 125.5,
+  "abilities": [],
+  "baseStats": {
+    "hp": 80,
+    "attack": 125,
+    "defense": 85,
+    "specialAttack": 135,
+    "specialDefense": 95,
+    "speed": 70
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#f6ed9a",
+    "secondary": "#edd473",
+    "accent": "#90c37f",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#f6ed9a",
+      "#edd473",
+      "#90c37f",
+      "#55a37c",
+      "#e99a59",
+      "#a27b39"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10279.png",
+    "front": "/pokemon/sprites/10279.png",
+    "back": "/pokemon/sprites/back/10279.png",
+    "shiny": "/pokemon/sprites/shiny/10279.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10279.png",
+    "front_female": "/pokemon/sprites/female/10279.png",
+    "back_female": "/pokemon/sprites/back/female/10279.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10279.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10279.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

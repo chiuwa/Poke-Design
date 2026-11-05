@@ -1,0 +1,83 @@
+{
+  "id": 10299,
+  "name": "Dragalge-mega",
+  "species": "Pokémon",
+  "type": [
+    "Poison",
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Poison",
+      "slot": 1
+    },
+    {
+      "name": "Dragon",
+      "slot": 2
+    }
+  ],
+  "height": 2.1,
+  "weight": 100.3,
+  "abilities": [],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defense": 105,
+    "specialAttack": 132,
+    "specialDefense": 163,
+    "speed": 44
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#7f5d3c",
+    "secondary": "#5c3f30",
+    "accent": "#b787be",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#7f5d3c",
+      "#5c3f30",
+      "#b787be",
+      "#745774",
+      "#da496c",
+      "#829253"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10299.png",
+    "front": "/pokemon/sprites/10299.png",
+    "back": "/pokemon/sprites/back/10299.png",
+    "shiny": "/pokemon/sprites/shiny/10299.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10299.png",
+    "front_female": "/pokemon/sprites/female/10299.png",
+    "back_female": "/pokemon/sprites/back/female/10299.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10299.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10299.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

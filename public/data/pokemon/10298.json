@@ -1,0 +1,83 @@
+{
+  "id": 10298,
+  "name": "Barbaracle-mega",
+  "species": "Pokémon",
+  "type": [
+    "Rock",
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Rock",
+      "slot": 1
+    },
+    {
+      "name": "Fighting",
+      "slot": 2
+    }
+  ],
+  "height": 2.2,
+  "weight": 100,
+  "abilities": [],
+  "baseStats": {
+    "hp": 72,
+    "attack": 140,
+    "defense": 130,
+    "specialAttack": 64,
+    "specialDefense": 106,
+    "speed": 88
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#80a6c7",
+    "secondary": "#4f5760",
+    "accent": "#f6884a",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#80a6c7",
+      "#4f5760",
+      "#f6884a",
+      "#e45c44",
+      "#474c52",
+      "#c4d5e4"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10298.png",
+    "front": "/pokemon/sprites/10298.png",
+    "back": "/pokemon/sprites/back/10298.png",
+    "shiny": "/pokemon/sprites/shiny/10298.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10298.png",
+    "front_female": "/pokemon/sprites/female/10298.png",
+    "back_female": "/pokemon/sprites/back/female/10298.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10298.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10298.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

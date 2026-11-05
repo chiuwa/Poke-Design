@@ -1,0 +1,83 @@
+{
+  "id": 10292,
+  "name": "Chesnaught-mega",
+  "species": "Pokémon",
+  "type": [
+    "Grass",
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Grass",
+      "slot": 1
+    },
+    {
+      "name": "Fighting",
+      "slot": 2
+    }
+  ],
+  "height": 1.6,
+  "weight": 90,
+  "abilities": [],
+  "baseStats": {
+    "hp": 88,
+    "attack": 137,
+    "defense": 172,
+    "specialAttack": 74,
+    "specialDefense": 115,
+    "speed": 44
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#f1f0ef",
+    "secondary": "#f5dbad",
+    "accent": "#5c8530",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#f1f0ef",
+      "#f5dbad",
+      "#5c8530",
+      "#395a22",
+      "#662031",
+      "#a32e41"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10292.png",
+    "front": "/pokemon/sprites/10292.png",
+    "back": "/pokemon/sprites/back/10292.png",
+    "shiny": "/pokemon/sprites/shiny/10292.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10292.png",
+    "front_female": "/pokemon/sprites/female/10292.png",
+    "back_female": "/pokemon/sprites/back/female/10292.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10292.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10292.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

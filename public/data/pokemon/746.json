@@ -1,0 +1,316 @@
+{
+  "id": 746,
+  "name": "Wishiwashi-solo",
+  "species": "Small Fry Pokémon",
+  "type": [
+    "Water"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    }
+  ],
+  "height": 0.2,
+  "weight": 0.3,
+  "abilities": [
+    {
+      "name": "Schooling",
+      "url": "https://pokeapi.co/api/v2/ability/208/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 20,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 40
+  },
+  "description": "When it’s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+  "flavorTexts": [
+    {
+      "text": "When it’s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
+      "version": "moon"
+    },
+    {
+      "text": "They’re weak, so they move in schools. However, they can also often be seen all alone, having strayed from the school.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it’s in a jam, its shining eyes attract others of its kind. The light from its eyes is visible almost 25 miles away.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Individually, they’re incredibly weak. It’s by gathering up into schools that they’re able to confront opponents.",
+      "version": "sword"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#eeeeee",
+    "secondary": "#ccd1d1",
+    "accent": "#4764c9",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#eeeeee",
+      "#ccd1d1",
+      "#4764c9",
+      "#99b3c7",
+      "#6cc7dc",
+      "#2a3b7a"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/746.png",
+    "front": "/pokemon/sprites/746.png",
+    "back": "/pokemon/sprites/back/746.png",
+    "shiny": "/pokemon/sprites/shiny/746.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/746.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Wishiwashi",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mist",
+      "url": "https://pokeapi.co/api/v2/move/54/",
+      "type": "Ice",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Waterfall",
+      "url": "https://pokeapi.co/api/v2/move/127/",
+      "type": "Water",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 61,
+  "order": 901,
+  "isDefault": true,
+  "captureRate": 60,
+  "baseHappiness": 70,
+  "growthRate": "fast",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Wishiwashi solo",
+      "raw_name": "wishiwashi-solo",
+      "form_name": "solo",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/746.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/746.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/746.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/746.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Wishiwashi solo",
+      "raw_name": "wishiwashi-solo",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/746/",
+      "type": ""
+    },
+    {
+      "name": "Wishiwashi school",
+      "raw_name": "wishiwashi-school",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10127/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/746.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ヨワシ",
+    "roomaji": "Yowashi",
+    "ko": "약어리",
+    "zh-Hant": "弱丁魚",
+    "fr": "Froussardine",
+    "de": "Lusardin",
+    "es": "Wishiwashi",
+    "it": "Wishiwashi",
+    "en": "Wishiwashi",
+    "ja": "ヨワシ",
+    "zh-Hans": "弱丁鱼"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f1f1c0",
+      "#8c9c9d",
+      "#4764c9"
+    ],
+    "primary": "#f1f1c0",
+    "secondary": "#8c9c9d",
+    "accent": "#4764c9"
+  }
+}

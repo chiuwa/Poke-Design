@@ -1,0 +1,345 @@
+{
+  "id": 448,
+  "name": "Lucario",
+  "species": "Aura Pokémon",
+  "type": [
+    "Fighting",
+    "Steel"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fighting",
+      "slot": 1
+    },
+    {
+      "name": "Steel",
+      "slot": 2
+    }
+  ],
+  "height": 1.2,
+  "weight": 54,
+  "abilities": [
+    {
+      "name": "Steadfast",
+      "url": "https://pokeapi.co/api/v2/ability/80/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Inner focus",
+      "url": "https://pokeapi.co/api/v2/ability/39/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Justified",
+      "url": "https://pokeapi.co/api/v2/ability/154/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 70,
+    "specialAttack": 115,
+    "specialDefense": 70,
+    "speed": 90
+  },
+  "description": "It has the ability to sense the auras of all things. It understands human speech.",
+  "flavorTexts": [
+    {
+      "text": "It has the ability to sense the auras of all things. It understands human speech.",
+      "version": "diamond"
+    },
+    {
+      "text": "By catching the aura emanating from others, it can read their thoughts and movements.",
+      "version": "pearl"
+    },
+    {
+      "text": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+      "version": "platinum"
+    },
+    {
+      "text": "It’s said that no foe can remain invisible to LUCARIO, since it can detect auras. Even foes it could not otherwise see.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s said that no foe can remain invisible to LUCARIO, since it can detect auras. Even foes it could not otherwise see.",
+      "version": "soulsilver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#5a5a5a",
+    "secondary": "#393939",
+    "accent": "#29739c",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#5a5a5a",
+      "#393939",
+      "#29739c"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/448.png",
+    "front": "/pokemon/sprites/448.png",
+    "back": "/pokemon/sprites/back/448.png",
+    "shiny": "/pokemon/sprites/shiny/448.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/448.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Riolu",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Lucario",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Low Kick",
+      "url": "https://pokeapi.co/api/v2/move/67/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 184,
+  "order": 573,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium slow",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": 1,
+  "forms": [
+    {
+      "name": "Lucario",
+      "raw_name": "lucario",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/448.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/448.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/448.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Lucario",
+      "raw_name": "lucario",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/448/",
+      "type": ""
+    },
+    {
+      "name": "Mega Lucario",
+      "raw_name": "lucario-mega",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10059/",
+      "type": "Mega"
+    },
+    {
+      "name": "Mega Lucario Z",
+      "raw_name": "lucario-mega-z",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10310/",
+      "type": "Mega"
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/448.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/448.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ルカリオ",
+    "roomaji": "Lucario",
+    "ko": "루카리오",
+    "zh-Hant": "路卡利歐",
+    "fr": "Lucario",
+    "de": "Lucario",
+    "es": "Lucario",
+    "it": "Lucario",
+    "en": "Lucario",
+    "ja": "ルカリオ",
+    "zh-Hans": "路卡利欧"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#527383",
+      "#39525a",
+      "#aca429"
+    ],
+    "primary": "#527383",
+    "secondary": "#39525a",
+    "accent": "#aca429"
+  }
+}

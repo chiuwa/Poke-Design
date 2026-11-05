@@ -1,0 +1,309 @@
+{
+  "id": 926,
+  "name": "Fidough",
+  "species": "Puppy Pokémon",
+  "type": [
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    }
+  ],
+  "height": 0.3,
+  "weight": 10.9,
+  "abilities": [
+    {
+      "name": "Own tempo",
+      "url": "https://pokeapi.co/api/v2/ability/20/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Klutz",
+      "url": "https://pokeapi.co/api/v2/ability/103/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 37,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 30,
+    "specialDefense": 55,
+    "speed": 65
+  },
+  "description": "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.",
+  "flavorTexts": [
+    {
+      "text": "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
+      "version": "violet"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#dacc9e",
+    "secondary": "#fcf0d0",
+    "accent": "#f3d333",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#dacc9e",
+      "#fcf0d0",
+      "#f3d333"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/926.png",
+    "front": "/pokemon/sprites/926.png",
+    "back": null,
+    "shiny": "/pokemon/sprites/shiny/926.png",
+    "back_shiny": null,
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Fidough",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Dachsbun",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tail Whip",
+      "url": "https://pokeapi.co/api/v2/move/39/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Lick",
+      "url": "https://pokeapi.co/api/v2/move/122/",
+      "type": "Ghost",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Protect",
+      "url": "https://pokeapi.co/api/v2/move/182/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 4
+    },
+    {
+      "name": "Mud Slap",
+      "url": "https://pokeapi.co/api/v2/move/189/",
+      "type": "Ground",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 62,
+  "order": 970,
+  "isDefault": true,
+  "captureRate": 190,
+  "baseHappiness": 50,
+  "growthRate": "medium slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Fidough",
+      "raw_name": "fidough",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
+        "back_default": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/926.png",
+        "back_shiny": null,
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Fidough",
+      "raw_name": "fidough",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/926/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/926.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "パピモッチ",
+    "roomaji": "Pupimocchi",
+    "ko": "쫀도기",
+    "zh-Hant": "狗仔包",
+    "fr": "Pâtachiot",
+    "de": "Hefel",
+    "es": "Fidough",
+    "it": "Fidough",
+    "en": "Fidough",
+    "ja": "パピモッチ",
+    "zh-Hans": "狗仔包"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#a78265",
+      "#f2c4a4",
+      "#f3d236"
+    ],
+    "primary": "#a78265",
+    "secondary": "#f2c4a4",
+    "accent": "#f3d236"
+  }
+}

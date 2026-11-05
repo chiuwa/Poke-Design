@@ -1,0 +1,297 @@
+{
+  "id": 895,
+  "name": "Regidrago",
+  "species": "Dragon Orb Pokémon",
+  "type": [
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dragon",
+      "slot": 1
+    }
+  ],
+  "height": 2.1,
+  "weight": 200,
+  "abilities": [
+    {
+      "name": "Dragons maw",
+      "url": "https://pokeapi.co/api/v2/ability/263/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 200,
+    "attack": 100,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50,
+    "speed": 80
+  },
+  "description": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+  "flavorTexts": [
+    {
+      "text": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+      "version": "sword"
+    },
+    {
+      "text": "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#e05276",
+    "secondary": "#b13b52",
+    "accent": "#4b6f78",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#e05276",
+      "#b13b52",
+      "#4b6f78",
+      "#3f545f",
+      "#313b3f",
+      "#5090f7"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/895.png",
+    "front": "/pokemon/sprites/895.png",
+    "back": "/pokemon/sprites/back/895.png",
+    "shiny": "/pokemon/sprites/shiny/895.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/895.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Regidrago",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Vice Grip",
+      "url": "https://pokeapi.co/api/v2/move/11/",
+      "type": "Normal",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thrash",
+      "url": "https://pokeapi.co/api/v2/move/37/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Focus Energy",
+      "url": "https://pokeapi.co/api/v2/move/116/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Self Destruct",
+      "url": "https://pokeapi.co/api/v2/move/120/",
+      "type": "Normal",
+      "power": 200,
+      "accuracy": 100,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Explosion",
+      "url": "https://pokeapi.co/api/v2/move/153/",
+      "type": "Normal",
+      "power": 250,
+      "accuracy": 100,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 290,
+  "order": 1087,
+  "isDefault": true,
+  "captureRate": 3,
+  "baseHappiness": 35,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Regidrago",
+      "raw_name": "regidrago",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/895.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/895.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/895.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/895.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Regidrago",
+      "raw_name": "regidrago",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/895/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/895.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "レジドラゴ",
+    "roomaji": "Regidorago",
+    "ko": "레지드래고",
+    "zh-Hant": "雷吉鐸拉戈",
+    "fr": "Regidrago",
+    "de": "Regidrago",
+    "es": "Regidrago",
+    "it": "Regidrago",
+    "en": "Regidrago",
+    "ja": "レジドラゴ",
+    "zh-Hans": "雷吉铎拉戈"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#5c8bb5",
+      "#457596",
+      "#e05276"
+    ],
+    "primary": "#5c8bb5",
+    "secondary": "#457596",
+    "accent": "#e05276"
+  }
+}

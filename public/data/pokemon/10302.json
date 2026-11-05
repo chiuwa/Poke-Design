@@ -1,0 +1,83 @@
+{
+  "id": 10302,
+  "name": "Drampa-mega",
+  "species": "Pokémon",
+  "type": [
+    "Normal",
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    },
+    {
+      "name": "Dragon",
+      "slot": 2
+    }
+  ],
+  "height": 3,
+  "weight": 240.5,
+  "abilities": [],
+  "baseStats": {
+    "hp": 78,
+    "attack": 85,
+    "defense": 110,
+    "specialAttack": 160,
+    "specialDefense": 116,
+    "speed": 36
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#fffef5",
+    "secondary": "#3eaf88",
+    "accent": "#4e5666",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fffef5",
+      "#3eaf88",
+      "#4e5666",
+      "#343641",
+      "#97aad1",
+      "#687791"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10302.png",
+    "front": "/pokemon/sprites/10302.png",
+    "back": "/pokemon/sprites/back/10302.png",
+    "shiny": "/pokemon/sprites/shiny/10302.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10302.png",
+    "front_female": "/pokemon/sprites/female/10302.png",
+    "back_female": "/pokemon/sprites/back/female/10302.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10302.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10302.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

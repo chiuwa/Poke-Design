@@ -1,0 +1,336 @@
+{
+  "id": 161,
+  "name": "Sentret",
+  "species": "Scout Pokémon",
+  "type": [
+    "Normal"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    }
+  ],
+  "height": 0.8,
+  "weight": 6,
+  "abilities": [
+    {
+      "name": "Run away",
+      "url": "https://pokeapi.co/api/v2/ability/50/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Keen eye",
+      "url": "https://pokeapi.co/api/v2/ability/51/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Frisk",
+      "url": "https://pokeapi.co/api/v2/ability/119/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "specialAttack": 35,
+    "specialDefense": 45,
+    "speed": 20
+  },
+  "description": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+  "flavorTexts": [
+    {
+      "text": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+      "version": "gold"
+    },
+    {
+      "text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "version": "silver"
+    },
+    {
+      "text": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+      "version": "crystal"
+    },
+    {
+      "text": "When SENTRET sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this POKéMON becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "ruby"
+    },
+    {
+      "text": "When SENTRET sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this POKéMON becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#bd835a",
+    "secondary": "#4a3120",
+    "accent": "#ffffff",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#bd835a",
+      "#4a3120",
+      "#ffffff",
+      "#cdcdc5",
+      "#8b5a41",
+      "#d8474f"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/161.png",
+    "front": "/pokemon/sprites/161.png",
+    "back": "/pokemon/sprites/back/161.png",
+    "shiny": "/pokemon/sprites/shiny/161.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/161.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Sentret",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Furret",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Fire Punch",
+      "url": "https://pokeapi.co/api/v2/move/7/",
+      "type": "Fire",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Scratch",
+      "url": "https://pokeapi.co/api/v2/move/10/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Grassland",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 43,
+  "order": 258,
+  "isDefault": true,
+  "captureRate": 255,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Sentret",
+      "raw_name": "sentret",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/161.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/161.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/161.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Sentret",
+      "raw_name": "sentret",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/161/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Oran Berry",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/161.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/161.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "オタチ",
+    "roomaji": "Otachi",
+    "ko": "꼬리선",
+    "zh-Hant": "尾立",
+    "fr": "Fouinette",
+    "de": "Wiesor",
+    "es": "Sentret",
+    "it": "Sentret",
+    "en": "Sentret",
+    "ja": "オタチ",
+    "zh-Hans": "尾立"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ffd583",
+      "#7b1029",
+      "#c59c6a"
+    ],
+    "primary": "#ffd583",
+    "secondary": "#7b1029",
+    "accent": "#c59c6a"
+  }
+}

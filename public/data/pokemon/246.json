@@ -1,0 +1,340 @@
+{
+  "id": 246,
+  "name": "Larvitar",
+  "species": "Rock Skin Pokémon",
+  "type": [
+    "Rock",
+    "Ground"
+  ],
+  "typeDetails": [
+    {
+      "name": "Rock",
+      "slot": 1
+    },
+    {
+      "name": "Ground",
+      "slot": 2
+    }
+  ],
+  "height": 0.6,
+  "weight": 72,
+  "abilities": [
+    {
+      "name": "Guts",
+      "url": "https://pokeapi.co/api/v2/ability/62/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Sand veil",
+      "url": "https://pokeapi.co/api/v2/ability/8/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "specialAttack": 45,
+    "specialDefense": 50,
+    "speed": 41
+  },
+  "description": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+  "flavorTexts": [
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+      "version": "gold"
+    },
+    {
+      "text": "It is born deep underground. It can't emerge until it has entirely consumed the soil around it.",
+      "version": "silver"
+    },
+    {
+      "text": "Born deep under­ ground, this POKéMON becomes a pupa after eating enough dirt to make a mountain.",
+      "version": "crystal"
+    },
+    {
+      "text": "LARVITAR is born deep under the ground. To come up to the surface, this POKéMON must eat its way through the soil above. Until it does so, LARVITAR cannot see its parent’s face.",
+      "version": "ruby"
+    },
+    {
+      "text": "LARVITAR is born deep under the ground. To come up to the surface, this POKéMON must eat its way through the soil above. Until it does so, LARVITAR cannot see its parent’s face.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#accd9c",
+    "secondary": "#7b9c62",
+    "accent": "#e75735",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#accd9c",
+      "#7b9c62",
+      "#e75735",
+      "#fb9660",
+      "#4a5a39",
+      "#2d2f2d"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/246.png",
+    "front": "/pokemon/sprites/246.png",
+    "back": "/pokemon/sprites/back/246.png",
+    "shiny": "/pokemon/sprites/shiny/246.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/246.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Larvitar",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Pupitar",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 55,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thrash",
+      "url": "https://pokeapi.co/api/v2/move/37/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Rock Throw",
+      "url": "https://pokeapi.co/api/v2/move/88/",
+      "type": "Rock",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mimic",
+      "url": "https://pokeapi.co/api/v2/move/102/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Mountain",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 60,
+  "order": 340,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 35,
+  "growthRate": "slow",
+  "hatchCounter": 40,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Larvitar",
+      "raw_name": "larvitar",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/246.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/246.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/246.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/246.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Larvitar",
+      "raw_name": "larvitar",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/246/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/246.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/246.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ヨーギラス",
+    "roomaji": "Yogiras",
+    "ko": "애버라스",
+    "zh-Hant": "幼基拉斯",
+    "fr": "Embrylex",
+    "de": "Larvitar",
+    "es": "Larvitar",
+    "it": "Larvitar",
+    "en": "Larvitar",
+    "ja": "ヨーギラス",
+    "zh-Hans": "幼基拉斯"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#cdee10",
+      "#9cac20",
+      "#626a00"
+    ],
+    "primary": "#cdee10",
+    "secondary": "#9cac20",
+    "accent": "#626a00"
+  }
+}

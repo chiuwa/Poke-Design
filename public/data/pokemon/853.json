@@ -1,0 +1,308 @@
+{
+  "id": 853,
+  "name": "Grapploct",
+  "species": "Jujitsu Pokémon",
+  "type": [
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fighting",
+      "slot": 1
+    }
+  ],
+  "height": 1.6,
+  "weight": 39,
+  "abilities": [
+    {
+      "name": "Limber",
+      "url": "https://pokeapi.co/api/v2/ability/7/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Technician",
+      "url": "https://pokeapi.co/api/v2/ability/101/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 118,
+    "defense": 90,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 42
+  },
+  "description": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+  "flavorTexts": [
+    {
+      "text": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+      "version": "sword"
+    },
+    {
+      "text": "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#322c4e",
+    "secondary": "#115ae3",
+    "accent": "#4a4473",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#322c4e",
+      "#115ae3",
+      "#4a4473"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/853.png",
+    "front": "/pokemon/sprites/853.png",
+    "back": "/pokemon/sprites/back/853.png",
+    "shiny": "/pokemon/sprites/shiny/853.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/853.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Clobbopus",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Grapploct",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bind",
+      "url": "https://pokeapi.co/api/v2/move/20/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Submission",
+      "url": "https://pokeapi.co/api/v2/move/66/",
+      "type": "Fighting",
+      "power": 80,
+      "accuracy": 80,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Waterfall",
+      "url": "https://pokeapi.co/api/v2/move/127/",
+      "type": "Water",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Reversal",
+      "url": "https://pokeapi.co/api/v2/move/179/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 168,
+  "order": 1037,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 50,
+  "growthRate": "medium slow",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Grapploct",
+      "raw_name": "grapploct",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/853.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/853.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/853.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/853.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Grapploct",
+      "raw_name": "grapploct",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/853/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/853.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "オトスパス",
+    "roomaji": "Otosupus",
+    "ko": "케오퍼스",
+    "zh-Hant": "八爪武師",
+    "fr": "Krakos",
+    "de": "Kaocto",
+    "es": "Grapploct",
+    "it": "Grapploct",
+    "en": "Grapploct",
+    "ja": "オトスパス",
+    "zh-Hans": "八爪武师"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ba9a99",
+      "#e3111a",
+      "#f4eee8"
+    ],
+    "primary": "#ba9a99",
+    "secondary": "#e3111a",
+    "accent": "#f4eee8"
+  }
+}

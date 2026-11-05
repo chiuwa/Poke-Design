@@ -1,0 +1,323 @@
+{
+  "id": 910,
+  "name": "Crocalor",
+  "species": "Fire Croc Pokémon",
+  "type": [
+    "Fire"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fire",
+      "slot": 1
+    }
+  ],
+  "height": 1,
+  "weight": 30.7,
+  "abilities": [
+    {
+      "name": "Blaze",
+      "url": "https://pokeapi.co/api/v2/ability/66/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Unaware",
+      "url": "https://pokeapi.co/api/v2/ability/109/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 55,
+    "defense": 78,
+    "specialAttack": 90,
+    "specialDefense": 58,
+    "speed": 49
+  },
+  "description": "The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.",
+  "flavorTexts": [
+    {
+      "text": "The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
+      "version": "violet"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ef3c3c",
+    "secondary": "#9f3d32",
+    "accent": "#fff8e0",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ef3c3c",
+      "#9f3d32",
+      "#fff8e0",
+      "#a8968c",
+      "#f99a38",
+      "#fcd24e"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/910.png",
+    "front": "/pokemon/sprites/910.png",
+    "back": null,
+    "shiny": "/pokemon/sprites/shiny/910.png",
+    "back_shiny": null,
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Fuecoco",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Crocalor",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Skeledirge",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Ember",
+      "url": "https://pokeapi.co/api/v2/move/52/",
+      "type": "Fire",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Fire Spin",
+      "url": "https://pokeapi.co/api/v2/move/83/",
+      "type": "Fire",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Lick",
+      "url": "https://pokeapi.co/api/v2/move/122/",
+      "type": "Ghost",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Fire Blast",
+      "url": "https://pokeapi.co/api/v2/move/126/",
+      "type": "Fire",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Curse",
+      "url": "https://pokeapi.co/api/v2/move/174/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 144,
+  "order": 910,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 50,
+  "growthRate": "medium slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 1,
+  "forms": [
+    {
+      "name": "Crocalor",
+      "raw_name": "crocalor",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+        "back_default": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/910.png",
+        "back_shiny": null,
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Crocalor",
+      "raw_name": "crocalor",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/910/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/910.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "アチゲータ",
+    "roomaji": "Achigator",
+    "ko": "악뜨거",
+    "zh-Hant": "炙燙鱷",
+    "fr": "Crocogril",
+    "de": "Lokroko",
+    "es": "Crocalor",
+    "it": "Crocalor",
+    "en": "Crocalor",
+    "ja": "アチゲータ",
+    "zh-Hans": "炙烫鳄"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#fe9827",
+      "#ec42a4",
+      "#fff8df"
+    ],
+    "primary": "#fe9827",
+    "secondary": "#ec42a4",
+    "accent": "#fff8df"
+  }
+}

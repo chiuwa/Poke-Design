@@ -1,0 +1,708 @@
+/* ============================================
+   App Layout — Apple Design Language
+   ============================================ */
+
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px 80px;
+  min-height: 100vh;
+}
+
+/* ===== Sticky translucent header (Apple: materials & depth) ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  /* Apple: translucent material, content scrolls underneath */
+  background: var(--bg-elev);
+  backdrop-filter: blur(var(--blur-lg)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(180%);
+  /* Apple: bright top edge = light catching the material */
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  padding: 16px 32px;
+  margin: 0 -32px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.header-icon {
+  font-size: 28px;
+  display: inline-block;
+  /* No animation — decorative, seen every session */
+}
+
+.header h1 {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+/* ===== Search — Apple-style filled field ===== */
+.search {
+  flex: 1;
+  max-width: 400px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev-2);
+  border: 1px solid transparent;
+  color: var(--text);
+  font-size: 0.9375rem;
+  /* Apple: respond on interaction, don't animate size */
+  transition: border-color 200ms var(--ease), background-color 200ms var(--ease), box-shadow 200ms var(--ease);
+  outline: none;
+}
+
+.search:focus {
+  background: var(--bg-elev-solid);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.search::placeholder {
+  color: var(--text-tertiary);
+}
+
+.result-count {
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  letter-spacing: -0.003em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== Hero section (collapsed on scroll feel — simply reduced here) ===== */
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: -0.032em;
+  font-weight: 700;
+  color: var(--text);
+  font-optical-sizing: auto;
+}
+
+.hero-subtitle {
+  margin-top: 12px;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  line-height: 1.5;
+  letter-spacing: -0.004em;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+/* ===== Grid ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 12px;
+  }
+}
+
+/* ===== Pokemon Card — Apple-grade material ===== */
+.pokemon-card {
+  position: relative;
+  background: var(--bg-elev);
+  backdrop-filter: blur(var(--blur-md)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(180%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 12px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  /* Apple: continuous response — scale on press, subtle lift on hover */
+  transition: transform 220ms var(--ease-spring),
+              box-shadow 220ms var(--ease),
+              border-color 200ms var(--ease);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  /* Stagger entrance — Apple prefers subtle, not flashy */
+  opacity: 0;
+  transform: translateY(8px);
+  animation: cardIn 300ms var(--ease-out) forwards;
+}
+
+@keyframes cardIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger — Apple: 30-80ms between items, first batch only */
+.pokemon-card:nth-child(1) { animation-delay: 0ms; }
+.pokemon-card:nth-child(2) { animation-delay: 30ms; }
+.pokemon-card:nth-child(3) { animation-delay: 60ms; }
+.pokemon-card:nth-child(4) { animation-delay: 90ms; }
+.pokemon-card:nth-child(5) { animation-delay: 120ms; }
+.pokemon-card:nth-child(6) { animation-delay: 150ms; }
+.pokemon-card:nth-child(7) { animation-delay: 180ms; }
+.pokemon-card:nth-child(8) { animation-delay: 210ms; }
+.pokemon-card:nth-child(n+9) { animation-delay: 240ms; }
+
+@media (hover: hover) and (pointer: fine) {
+  .pokemon-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.pokemon-card:active {
+  transform: scale(0.97);
+  /* Apple: respond on pointer-down */
+  transition: transform 100ms var(--ease-out);
+}
+
+.pokemon-card img {
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  transition: transform 220ms var(--ease-spring);
+  margin-bottom: 4px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pokemon-card:hover img {
+    transform: scale(1.06);
+  }
+}
+
+.pokemon-card-id {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.pokemon-card-name {
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.014em;
+  color: var(--text);
+}
+
+.pokemon-card-types {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.type-chip {
+  font-size: 0.625rem;
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Load More — Apple-style secondary button ===== */
+.load-more {
+  display: block;
+  margin: 40px auto 0;
+  padding: 12px 24px;
+  border-radius: 980px; /* Apple pill shape */
+  background: var(--bg-elev);
+  backdrop-filter: blur(var(--blur-md)) saturate(180%);
+  border: 1px solid var(--border);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--accent);
+  transition: transform 100ms var(--ease-out),
+              background-color 200ms var(--ease),
+              border-color 200ms var(--ease);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .load-more:hover {
+    background: var(--bg-elev-solid);
+    border-color: var(--border-strong);
+  }
+}
+
+.load-more:active {
+  transform: scale(0.97);
+}
+
+/* ===== Modal / Detail Sheet — Apple sheet style ===== */
+.detail-overlay {
+  position: fixed;
+  inset: 0;
+  /* Apple: dim to focus */
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+  animation: overlayIn 220ms var(--ease-out);
+}
+
+@keyframes overlayIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.detail-modal {
+  position: relative;
+  /* Apple material: strong blur + deep shadow */
+  background: var(--bg-elev);
+  backdrop-filter: blur(var(--blur-lg)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--blur-lg)) saturate(180%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  max-width: 580px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+  /* Apple: modal transform-origin center, enter from scale(0.95) + opacity 0 */
+  animation: modalIn 320ms var(--ease-spring);
+  transform-origin: center;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Apple: materialize — animate blur + scale together */
+@media (prefers-reduced-motion: reduce) {
+  .detail-overlay, .detail-modal, .pokemon-card {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.detail-close {
+  position: sticky;
+  top: 16px;
+  margin-left: auto;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--bg-elev-2);
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  z-index: 10;
+  margin-right: 16px;
+  margin-top: 16px;
+  transition: transform 100ms var(--ease-out), background-color 200ms var(--ease);
+  color: var(--text-muted);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .detail-close:hover {
+    background: var(--border-strong);
+    color: var(--text);
+  }
+}
+
+.detail-close:active {
+  transform: scale(0.94);
+}
+
+.detail-hero {
+  display: flex;
+  gap: 24px;
+  padding: 8px 28px 20px;
+  align-items: flex-start;
+}
+
+.detail-sprite {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+  /* Apple: no looping idle animation — reduced motion respects stillness */
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.detail-id {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.detail-info h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.024em;
+  line-height: 1.1;
+  margin-top: 4px;
+  color: var(--text);
+}
+
+.detail-species {
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  margin-top: 4px;
+  letter-spacing: -0.004em;
+}
+
+.detail-types {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.detail-desc {
+  font-size: 0.9375rem;
+  margin-top: 16px;
+  line-height: 1.55;
+  letter-spacing: -0.003em;
+  color: var(--text);
+}
+
+/* ===== Sections ===== */
+.palette-section,
+.stats-section {
+  padding: 20px 28px;
+  border-top: 1px solid var(--border);
+}
+
+.palette-section h3,
+.stats-section h3 {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-tertiary);
+  margin-bottom: 14px;
+}
+
+/* ===== Palette ===== */
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.palette-swatch {
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 1;
+  min-height: 72px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  transition: transform 100ms var(--ease-out), filter 200ms var(--ease);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: copy;
+  text-align: left;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .palette-swatch:hover {
+    filter: brightness(1.08);
+  }
+}
+
+.palette-swatch:active {
+  transform: scale(0.97);
+}
+
+.palette-swatch code {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  opacity: 0.85;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.palette-highlights {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.palette-hex {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid var(--border-strong);
+  transition: transform 100ms var(--ease-out), border-color 200ms var(--ease);
+  cursor: copy;
+  padding: 0;
+}
+
+.palette-hex:active {
+  transform: scale(0.92);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .palette-hex:hover {
+    transform: scale(1.12);
+    border-color: var(--accent);
+  }
+}
+
+/* ===== Stats — Apple data viz style ===== */
+.stat-row {
+  display: grid;
+  grid-template-columns: 68px 1fr 40px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+}
+
+.stat-label {
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: -0.003em;
+}
+
+.stat-bar {
+  height: 8px;
+  background: var(--bg-elev-2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  border-radius: 4px;
+  /* Apple: explanatory animation, can be longer */
+  animation: statGrow 500ms var(--ease-spring);
+  transform-origin: left;
+  animation-fill-mode: both;
+}
+
+/* Stagger — 50ms between stats */
+.stat-row:nth-of-type(1) .stat-fill { animation-delay: 0ms; }
+.stat-row:nth-of-type(2) .stat-fill { animation-delay: 50ms; }
+.stat-row:nth-of-type(3) .stat-fill { animation-delay: 100ms; }
+.stat-row:nth-of-type(4) .stat-fill { animation-delay: 150ms; }
+.stat-row:nth-of-type(5) .stat-fill { animation-delay: 200ms; }
+.stat-row:nth-of-type(6) .stat-fill { animation-delay: 250ms; }
+
+@keyframes statGrow {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.stat-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.detail-meta {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-top: 20px;
+  line-height: 1.55;
+  letter-spacing: -0.004em;
+}
+
+.loading-note {
+  padding: 32px 28px;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+/* ===== Empty state ===== */
+.empty-state {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-muted);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .app {
+    padding: 0 16px 48px;
+  }
+  .header {
+    padding: 12px 16px;
+    margin: 0 -16px 24px;
+    flex-wrap: wrap;
+  }
+  .header-brand h1 {
+    font-size: 1.125rem;
+  }
+  .search {
+    order: 3;
+    max-width: 100%;
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .detail-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 16px;
+  }
+  .detail-types {
+    justify-content: center;
+  }
+  .palette-section, .stats-section {
+    padding: 16px 20px;
+  }
+  .palette-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .palette-swatch {
+    aspect-ratio: auto;
+    min-height: 0;
+    padding: 10px 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* ===== AI Agent section (WebMCP) ===== */
+.agent-section {
+  margin-top: 64px;
+  padding: 40px 32px;
+  background: linear-gradient(135deg, var(--bg-elev) 0%, var(--bg-elev-2) 100%);
+  backdrop-filter: blur(var(--blur-md)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(180%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.agent-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.024em;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.agent-section p {
+  font-size: 1rem;
+  line-height: 1.55;
+  letter-spacing: -0.003em;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0 auto 24px;
+}
+
+.agent-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.agent-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 980px;
+  background: var(--bg-elev-solid);
+  border: 1px solid var(--border);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: -0.003em;
+  transition: transform 100ms var(--ease-out), border-color 200ms var(--ease);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .agent-pill:hover {
+    border-color: var(--accent);
+  }
+}
+
+.agent-pill:active {
+  transform: scale(0.97);
+}
+
+.agent-pill code {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  padding: 2px 6px;
+  border-radius: 4px;
+}

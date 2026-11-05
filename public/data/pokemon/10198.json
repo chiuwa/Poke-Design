@@ -1,0 +1,114 @@
+{
+  "id": 10198,
+  "name": "Butterfree-gmax",
+  "species": "Pokémon",
+  "type": [
+    "Bug",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 17,
+  "weight": 1000,
+  "abilities": [
+    {
+      "name": "Compound eyes",
+      "url": "https://pokeapi.co/api/v2/ability/14/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Tinted lens",
+      "url": "https://pokeapi.co/api/v2/ability/110/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 70
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#9be79a",
+    "secondary": "#92cdbc",
+    "accent": "#7264aa",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#9be79a",
+      "#92cdbc",
+      "#7264aa",
+      "#594b72",
+      "#fafefe",
+      "#72bccc"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10198.png",
+    "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10198.png",
+    "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10198.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10198.png",
+    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10198.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 178,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Butterfree gmax",
+      "raw_name": "butterfree-gmax",
+      "form_name": "gmax",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": true,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10198.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10198.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10198.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10198.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10198.ogg",
+    "legacy": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": 10300,
+  "name": "Hawlucha-mega",
+  "species": "Pokémon",
+  "type": [
+    "Fighting",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fighting",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 1,
+  "weight": 25,
+  "abilities": [],
+  "baseStats": {
+    "hp": 78,
+    "attack": 137,
+    "defense": 100,
+    "specialAttack": 74,
+    "specialDefense": 93,
+    "speed": 118
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#eadd71",
+    "secondary": "#da9b3c",
+    "accent": "#62caa4",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#eadd71",
+      "#da9b3c",
+      "#62caa4",
+      "#33855b",
+      "#F8F8F8",
+      "#e03337"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10300.png",
+    "front": "/pokemon/sprites/10300.png",
+    "back": "/pokemon/sprites/back/10300.png",
+    "shiny": "/pokemon/sprites/shiny/10300.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10300.png",
+    "front_female": "/pokemon/sprites/female/10300.png",
+    "back_female": "/pokemon/sprites/back/female/10300.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10300.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10300.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

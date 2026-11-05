@@ -1,0 +1,304 @@
+{
+  "id": 888,
+  "name": "Zacian",
+  "species": "Warrior Pokémon",
+  "type": [
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    }
+  ],
+  "height": 2.8,
+  "weight": 110,
+  "abilities": [
+    {
+      "name": "Intrepid sword",
+      "url": "https://pokeapi.co/api/v2/ability/234/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 92,
+    "attack": 120,
+    "defense": 115,
+    "specialAttack": 80,
+    "specialDefense": 115,
+    "speed": 138
+  },
+  "description": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
+  "flavorTexts": [
+    {
+      "text": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon has slumbered for many years. Some say it’s Zamazenta’s elder sister—others say the two Pokémon are rivals.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#4999da",
+    "secondary": "#3a72b1",
+    "accent": "#be3c45",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#4999da",
+      "#3a72b1",
+      "#be3c45",
+      "#ed5858",
+      "#f9e2c2",
+      "#b94048"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/888.png",
+    "front": "/pokemon/sprites/888.png",
+    "back": "/pokemon/sprites/back/888.png",
+    "shiny": "/pokemon/sprites/shiny/888.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/888.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Zacian",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Quick Attack",
+      "url": "https://pokeapi.co/api/v2/move/98/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 1
+    },
+    {
+      "name": "Focus Energy",
+      "url": "https://pokeapi.co/api/v2/move/116/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Slash",
+      "url": "https://pokeapi.co/api/v2/move/163/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Reversal",
+      "url": "https://pokeapi.co/api/v2/move/179/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 335,
+  "order": 1075,
+  "isDefault": true,
+  "captureRate": 10,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Zacian",
+      "raw_name": "zacian",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/888.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/888.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/888.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Zacian",
+      "raw_name": "zacian",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/888/",
+      "type": ""
+    },
+    {
+      "name": "Zacian crowned",
+      "raw_name": "zacian-crowned",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10188/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/888.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ザシアン",
+    "roomaji": "Zacian",
+    "ko": "자시안",
+    "zh-Hant": "蒼響",
+    "fr": "Zacian",
+    "de": "Zacian",
+    "es": "Zacian",
+    "it": "Zacian",
+    "en": "Zacian",
+    "ja": "ザシアン",
+    "zh-Hans": "苍响"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#34bdd6",
+      "#080808",
+      "#345ab1"
+    ],
+    "primary": "#34bdd6",
+    "secondary": "#080808",
+    "accent": "#345ab1"
+  }
+}

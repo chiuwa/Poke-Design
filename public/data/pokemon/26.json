@@ -1,0 +1,360 @@
+{
+  "id": 26,
+  "name": "Raichu",
+  "species": "Mouse Pokémon",
+  "type": [
+    "Electric"
+  ],
+  "typeDetails": [
+    {
+      "name": "Electric",
+      "slot": 1
+    }
+  ],
+  "height": 0.8,
+  "weight": 30,
+  "abilities": [
+    {
+      "name": "Static",
+      "url": "https://pokeapi.co/api/v2/ability/9/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Lightning rod",
+      "url": "https://pokeapi.co/api/v2/ability/31/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 110
+  },
+  "description": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+  "flavorTexts": [
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+      "version": "sword"
+    },
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+      "version": "red"
+    },
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+      "version": "blue"
+    },
+    {
+      "text": "When electricity builds up inside its body, it becomes feisty. It also glows in the dark.",
+      "version": "yellow"
+    },
+    {
+      "text": "When its electric­ ity builds, its muscles are stimu­ lated, and it be­ comes more aggres­ sive than usual.",
+      "version": "gold"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#f6ac29",
+    "secondary": "#d97c3d",
+    "accent": "#ffeed5",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#f6ac29",
+      "#d97c3d",
+      "#ffeed5",
+      "#8b6210",
+      "#fbbd31",
+      "#fddd67"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/26.png",
+    "front": "/pokemon/sprites/26.png",
+    "back": "/pokemon/sprites/back/26.png",
+    "shiny": "/pokemon/sprites/shiny/26.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/26.png",
+    "front_female": "/pokemon/sprites/female/26.png",
+    "back_female": "/pokemon/sprites/back/female/26.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/26.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/26.png"
+  },
+  "evolution": [
+    {
+      "name": "Pichu",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Pikachu",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "level": 3,
+      "details": [
+        {
+          "item": "thunder stone",
+          "trigger": "use item"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Pay Day",
+      "url": "https://pokeapi.co/api/v2/move/6/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tail Whip",
+      "url": "https://pokeapi.co/api/v2/move/39/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Submission",
+      "url": "https://pokeapi.co/api/v2/move/66/",
+      "type": "Fighting",
+      "power": 80,
+      "accuracy": 80,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 218,
+  "order": 51,
+  "isDefault": true,
+  "captureRate": 75,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 10,
+  "hasGenderDifferences": true,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Raichu",
+      "raw_name": "raichu",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/26.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/26.png",
+        "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/26.png",
+        "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/26.png"
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Raichu",
+      "raw_name": "raichu",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/26/",
+      "type": ""
+    },
+    {
+      "name": "Mega Raichu X",
+      "raw_name": "mega-raichu-x",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10304/",
+      "type": ""
+    },
+    {
+      "name": "Mega Raichu Y",
+      "raw_name": "mega-raichu-y",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10305/",
+      "type": ""
+    },
+    {
+      "name": "Alolan Raichu",
+      "raw_name": "raichu-alola",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10100/",
+      "type": "Alolan"
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Oran Berry",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/26.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/26.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ライチュウ",
+    "roomaji": "Raichu",
+    "ko": "라이츄",
+    "zh-Hant": "雷丘",
+    "fr": "Raichu",
+    "de": "Raichu",
+    "es": "Raichu",
+    "it": "Raichu",
+    "en": "Raichu",
+    "ja": "ライチュウ",
+    "zh-Hans": "雷丘"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f67b20",
+      "#ffe6d5",
+      "#8b6210"
+    ],
+    "primary": "#f67b20",
+    "secondary": "#ffe6d5",
+    "accent": "#8b6210"
+  }
+}

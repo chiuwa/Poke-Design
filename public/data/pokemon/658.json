@@ -1,0 +1,346 @@
+{
+  "id": 658,
+  "name": "Greninja",
+  "species": "Ninja Pokémon",
+  "type": [
+    "Water",
+    "Dark"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Dark",
+      "slot": 2
+    }
+  ],
+  "height": 1.5,
+  "weight": 40,
+  "abilities": [
+    {
+      "name": "Torrent",
+      "url": "https://pokeapi.co/api/v2/ability/67/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Protean",
+      "url": "https://pokeapi.co/api/v2/ability/168/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 95,
+    "defense": 67,
+    "specialAttack": 103,
+    "specialDefense": 71,
+    "speed": 122
+  },
+  "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+  "flavorTexts": [
+    {
+      "text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+      "version": "x"
+    },
+    {
+      "text": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+      "version": "y"
+    },
+    {
+      "text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#2e4999",
+    "secondary": "#3d61cc",
+    "accent": "#1b2a59",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#2e4999",
+      "#3d61cc",
+      "#1b2a59"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/658.png",
+    "front": "/pokemon/sprites/658.png",
+    "back": "/pokemon/sprites/back/658.png",
+    "shiny": "/pokemon/sprites/shiny/658.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/658.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Froakie",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Frogadier",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Greninja",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Pound",
+      "url": "https://pokeapi.co/api/v2/move/1/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Low Kick",
+      "url": "https://pokeapi.co/api/v2/move/67/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 239,
+  "order": 788,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 1,
+  "forms": [
+    {
+      "name": "Greninja",
+      "raw_name": "greninja",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/658.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/658.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/658.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Greninja",
+      "raw_name": "greninja",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/658/",
+      "type": ""
+    },
+    {
+      "name": "Mega Greninja",
+      "raw_name": "greninja-mega",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10294/",
+      "type": "Mega"
+    },
+    {
+      "name": "Battle Bond Greninja",
+      "raw_name": "greninja-battle-bond",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10116/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/658.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ゲッコウガ",
+    "roomaji": "Gekkouga",
+    "ko": "개굴닌자",
+    "zh-Hant": "甲賀忍蛙",
+    "fr": "Amphinobi",
+    "de": "Quajutsu",
+    "es": "Greninja",
+    "it": "Greninja",
+    "en": "Greninja",
+    "ja": "ゲッコウガ",
+    "zh-Hans": "甲贺忍蛙"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#3d3d40",
+      "#505059",
+      "#242426"
+    ],
+    "primary": "#3d3d40",
+    "secondary": "#505059",
+    "accent": "#242426"
+  }
+}

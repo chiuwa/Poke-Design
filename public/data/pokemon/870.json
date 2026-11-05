@@ -1,0 +1,310 @@
+{
+  "id": 870,
+  "name": "Falinks",
+  "species": "Formation Pokémon",
+  "type": [
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fighting",
+      "slot": 1
+    }
+  ],
+  "height": 3,
+  "weight": 62,
+  "abilities": [
+    {
+      "name": "Battle armor",
+      "url": "https://pokeapi.co/api/v2/ability/4/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Defiant",
+      "url": "https://pokeapi.co/api/v2/ability/128/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defense": 100,
+    "specialAttack": 70,
+    "specialDefense": 60,
+    "speed": 75
+  },
+  "description": "Five of them are troopers, and one is the brass. The brass’s orders are absolute.",
+  "flavorTexts": [
+    {
+      "text": "Five of them are troopers, and one is the brass. The brass’s orders are absolute.",
+      "version": "sword"
+    },
+    {
+      "text": "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#fccc4a",
+    "secondary": "#cd9f3d",
+    "accent": "#292929",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fccc4a",
+      "#cd9f3d",
+      "#292929",
+      "#f3fcff",
+      "#e82828",
+      "#853024"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/870.png",
+    "front": "/pokemon/sprites/870.png",
+    "back": "/pokemon/sprites/back/870.png",
+    "shiny": "/pokemon/sprites/shiny/870.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/870.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Falinks",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Screech",
+      "url": "https://pokeapi.co/api/v2/move/103/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 85,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Focus Energy",
+      "url": "https://pokeapi.co/api/v2/move/116/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rock Slide",
+      "url": "https://pokeapi.co/api/v2/move/157/",
+      "type": "Rock",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Reversal",
+      "url": "https://pokeapi.co/api/v2/move/179/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 165,
+  "order": 1054,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 50,
+  "growthRate": "medium",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Falinks",
+      "raw_name": "falinks",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/870.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/870.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/870.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Falinks",
+      "raw_name": "falinks",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/870/",
+      "type": ""
+    },
+    {
+      "name": "Mega Falinks",
+      "raw_name": "mega-falinks",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10303/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/870.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "タイレーツ",
+    "roomaji": "Tairetsu",
+    "ko": "대여르",
+    "zh-Hant": "列陣兵",
+    "fr": "Hexadron",
+    "de": "Legios",
+    "es": "Falinks",
+    "it": "Falinks",
+    "en": "Falinks",
+    "ja": "タイレーツ",
+    "zh-Hans": "列阵兵"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#b6886e",
+      "#111111",
+      "#8b5845"
+    ],
+    "primary": "#b6886e",
+    "secondary": "#111111",
+    "accent": "#8b5845"
+  }
+}

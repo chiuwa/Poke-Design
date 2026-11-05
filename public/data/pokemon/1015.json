@@ -1,0 +1,303 @@
+{
+  "id": 1015,
+  "name": "Munkidori",
+  "species": "Retainer Pokémon",
+  "type": [
+    "Poison",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Poison",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 1,
+  "weight": 12.2,
+  "abilities": [
+    {
+      "name": "Toxic chain",
+      "url": "https://pokeapi.co/api/v2/ability/302/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Frisk",
+      "url": "https://pokeapi.co/api/v2/ability/119/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 75,
+    "defense": 66,
+    "specialAttack": 130,
+    "specialDefense": 90,
+    "speed": 106
+  },
+  "description": "The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.",
+  "flavorTexts": [
+    {
+      "text": "The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
+      "version": "violet"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#2d2d2d",
+    "secondary": "#4e4947",
+    "accent": "#aec9e9",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#2d2d2d",
+      "#4e4947",
+      "#aec9e9"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/1015.png",
+    "front": "/pokemon/sprites/1015.png",
+    "back": null,
+    "shiny": "/pokemon/sprites/shiny/1015.png",
+    "back_shiny": null,
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Munkidori",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Scratch",
+      "url": "https://pokeapi.co/api/v2/move/10/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confusion",
+      "url": "https://pokeapi.co/api/v2/move/93/",
+      "type": "Psychic",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Night Shade",
+      "url": "https://pokeapi.co/api/v2/move/101/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Metronome",
+      "url": "https://pokeapi.co/api/v2/move/118/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thief",
+      "url": "https://pokeapi.co/api/v2/move/168/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Spite",
+      "url": "https://pokeapi.co/api/v2/move/180/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 278,
+  "order": 1099,
+  "isDefault": true,
+  "captureRate": 3,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 50,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Munkidori",
+      "raw_name": "munkidori",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1015.png",
+        "back_default": null,
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1015.png",
+        "back_shiny": null,
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Munkidori",
+      "raw_name": "munkidori",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/1015/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1015.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "マシマシラ",
+    "ko": "이야후",
+    "zh-Hant": "願增猿",
+    "fr": "Fortusimia",
+    "de": "Benesaru",
+    "es": "Munkidori",
+    "it": "Munkidori",
+    "en": "Munkidori",
+    "ja": "マシマシラ",
+    "zh-Hans": "愿增猿"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#485962",
+      "#68918f",
+      "#aec9e9"
+    ],
+    "primary": "#485962",
+    "secondary": "#68918f",
+    "accent": "#aec9e9"
+  }
+}

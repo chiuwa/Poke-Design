@@ -1,0 +1,349 @@
+{
+  "id": 479,
+  "name": "Rotom",
+  "species": "Plasma Pokémon",
+  "type": [
+    "Electric",
+    "Ghost"
+  ],
+  "typeDetails": [
+    {
+      "name": "Electric",
+      "slot": 1
+    },
+    {
+      "name": "Ghost",
+      "slot": 2
+    }
+  ],
+  "height": 0.3,
+  "weight": 0.3,
+  "abilities": [
+    {
+      "name": "Levitate",
+      "url": "https://pokeapi.co/api/v2/ability/26/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 77,
+    "specialAttack": 95,
+    "specialDefense": 77,
+    "speed": 91
+  },
+  "description": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+  "flavorTexts": [
+    {
+      "text": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+      "version": "platinum"
+    },
+    {
+      "text": "Research continues on this Pokémon, which could be the power source of a unique motor.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Research continues on this Pokémon, which could be the power source of a unique motor.",
+      "version": "soulsilver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#e87537",
+    "secondary": "#5ac5bd",
+    "accent": "#29acbd",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#e87537",
+      "#5ac5bd",
+      "#29acbd",
+      "#ffffff",
+      "#346da8",
+      "#c54a18"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/479.png",
+    "front": "/pokemon/sprites/479.png",
+    "back": "/pokemon/sprites/back/479.png",
+    "shiny": "/pokemon/sprites/shiny/479.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/479.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Rotom",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Thunder Shock",
+      "url": "https://pokeapi.co/api/v2/move/84/",
+      "type": "Electric",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunder",
+      "url": "https://pokeapi.co/api/v2/move/87/",
+      "type": "Electric",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Night Shade",
+      "url": "https://pokeapi.co/api/v2/move/101/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Dream Eater",
+      "url": "https://pokeapi.co/api/v2/move/138/",
+      "type": "Psychic",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Flash",
+      "url": "https://pokeapi.co/api/v2/move/148/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 154,
+  "order": 587,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Rotom",
+      "raw_name": "rotom",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/479.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/479.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/479.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Rotom",
+      "raw_name": "rotom",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/479/",
+      "type": ""
+    },
+    {
+      "name": "Rotom heat",
+      "raw_name": "rotom-heat",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10008/",
+      "type": ""
+    },
+    {
+      "name": "Rotom wash",
+      "raw_name": "rotom-wash",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10009/",
+      "type": ""
+    },
+    {
+      "name": "Rotom frost",
+      "raw_name": "rotom-frost",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10010/",
+      "type": ""
+    },
+    {
+      "name": "Rotom fan",
+      "raw_name": "rotom-fan",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10011/",
+      "type": ""
+    },
+    {
+      "name": "Rotom mow",
+      "raw_name": "rotom-mow",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10012/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/479.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/479.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ロトム",
+    "roomaji": "Rotom",
+    "ko": "로토무",
+    "zh-Hant": "洛托姆",
+    "fr": "Motisma",
+    "de": "Rotom",
+    "es": "Rotom",
+    "it": "Rotom",
+    "en": "Rotom",
+    "ja": "ロトム",
+    "zh-Hans": "洛托姆"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f6bd8b",
+      "#eea473",
+      "#c50041"
+    ],
+    "primary": "#f6bd8b",
+    "secondary": "#eea473",
+    "accent": "#c50041"
+  }
+}

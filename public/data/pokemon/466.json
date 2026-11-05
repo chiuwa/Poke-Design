@@ -1,0 +1,340 @@
+{
+  "id": 466,
+  "name": "Electivire",
+  "species": "Thunderbolt Pokémon",
+  "type": [
+    "Electric"
+  ],
+  "typeDetails": [
+    {
+      "name": "Electric",
+      "slot": 1
+    }
+  ],
+  "height": 1.8,
+  "weight": 138.6,
+  "abilities": [
+    {
+      "name": "Motor drive",
+      "url": "https://pokeapi.co/api/v2/ability/78/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Vital spirit",
+      "url": "https://pokeapi.co/api/v2/ability/72/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 123,
+    "defense": 67,
+    "specialAttack": 95,
+    "specialDefense": 85,
+    "speed": 95
+  },
+  "description": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+  "flavorTexts": [
+    {
+      "text": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+      "version": "heartgold"
+    },
+    {
+      "text": "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+      "version": "diamond"
+    },
+    {
+      "text": "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+      "version": "pearl"
+    },
+    {
+      "text": "Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.",
+      "version": "platinum"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ffde20",
+    "secondary": "#c5ac41",
+    "accent": "#312929",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ffde20",
+      "#c5ac41",
+      "#312929",
+      "#131010",
+      "#ef5742",
+      "#fddd40"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/466.png",
+    "front": "/pokemon/sprites/466.png",
+    "back": "/pokemon/sprites/back/466.png",
+    "shiny": "/pokemon/sprites/shiny/466.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/466.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Elekid",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Electabuzz",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Electivire",
+      "level": 3,
+      "details": [
+        {
+          "held_item": "electirizer",
+          "trigger": "trade"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Fire Punch",
+      "url": "https://pokeapi.co/api/v2/move/7/",
+      "type": "Fire",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Low Kick",
+      "url": "https://pokeapi.co/api/v2/move/67/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Shock",
+      "url": "https://pokeapi.co/api/v2/move/84/",
+      "type": "Electric",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 243,
+  "order": 203,
+  "isDefault": true,
+  "captureRate": 30,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": 2,
+  "forms": [
+    {
+      "name": "Electivire",
+      "raw_name": "electivire",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/466.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/466.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/466.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Electivire",
+      "raw_name": "electivire",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/466/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Electirizer",
+      "rarity": 50
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/466.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/466.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "エレキブル",
+    "roomaji": "Elekible",
+    "ko": "에레키블",
+    "zh-Hant": "電擊魔獸",
+    "fr": "Élekable",
+    "de": "Elevoltek",
+    "es": "Electivire",
+    "it": "Electivire",
+    "en": "Electivire",
+    "ja": "エレキブル",
+    "zh-Hans": "电击魔兽"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f6ac20",
+      "#312929",
+      "#c57320"
+    ],
+    "primary": "#f6ac20",
+    "secondary": "#312929",
+    "accent": "#c57320"
+  }
+}

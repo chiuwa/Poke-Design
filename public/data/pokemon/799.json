@@ -1,0 +1,310 @@
+{
+  "id": 799,
+  "name": "Guzzlord",
+  "species": "Junkivore Pokémon",
+  "type": [
+    "Dark",
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dark",
+      "slot": 1
+    },
+    {
+      "name": "Dragon",
+      "slot": 2
+    }
+  ],
+  "height": 5.5,
+  "weight": 888,
+  "abilities": [
+    {
+      "name": "Beast boost",
+      "url": "https://pokeapi.co/api/v2/ability/224/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 223,
+    "attack": 101,
+    "defense": 53,
+    "specialAttack": 97,
+    "specialDefense": 53,
+    "speed": 43
+  },
+  "description": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
+  "flavorTexts": [
+    {
+      "text": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
+      "version": "sun"
+    },
+    {
+      "text": "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "An unknown life-form called a UB. It may be constantly hungry—it is certainly always devouring something.",
+      "version": "ultra-moon"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#394f59",
+    "secondary": "#232e37",
+    "accent": "#fbd14f",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#394f59",
+      "#232e37",
+      "#fbd14f",
+      "#c29432",
+      "#38adcf",
+      "#6bd5ef"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/799.png",
+    "front": "/pokemon/sprites/799.png",
+    "back": "/pokemon/sprites/back/799.png",
+    "shiny": "/pokemon/sprites/shiny/799.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/799.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Guzzlord",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thrash",
+      "url": "https://pokeapi.co/api/v2/move/37/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bite",
+      "url": "https://pokeapi.co/api/v2/move/44/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Dragon Rage",
+      "url": "https://pokeapi.co/api/v2/move/82/",
+      "type": "Dragon",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Earthquake",
+      "url": "https://pokeapi.co/api/v2/move/89/",
+      "type": "Ground",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Fire Blast",
+      "url": "https://pokeapi.co/api/v2/move/126/",
+      "type": "Fire",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Amnesia",
+      "url": "https://pokeapi.co/api/v2/move/133/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 257,
+  "order": 976,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Guzzlord",
+      "raw_name": "guzzlord",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/799.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/799.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/799.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/799.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Guzzlord",
+      "raw_name": "guzzlord",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/799/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/799.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "アクジキング",
+    "roomaji": "Akuziking",
+    "ko": "악식킹",
+    "zh-Hant": "惡食大王",
+    "fr": "Engloutyran",
+    "de": "Schlingking",
+    "es": "Guzzlord",
+    "it": "Guzzlord",
+    "en": "Guzzlord",
+    "ja": "アクジキング",
+    "zh-Hans": "恶食大王"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f3f3f3",
+      "#b3b3b3",
+      "#525252"
+    ],
+    "primary": "#f3f3f3",
+    "secondary": "#b3b3b3",
+    "accent": "#525252"
+  }
+}

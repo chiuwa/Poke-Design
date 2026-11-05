@@ -1,0 +1,83 @@
+{
+  "id": 10301,
+  "name": "Zygarde-mega",
+  "species": "Pokémon",
+  "type": [
+    "Dragon",
+    "Ground"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dragon",
+      "slot": 1
+    },
+    {
+      "name": "Ground",
+      "slot": 2
+    }
+  ],
+  "height": 7.7,
+  "weight": 610,
+  "abilities": [],
+  "baseStats": {
+    "hp": 216,
+    "attack": 70,
+    "defense": 91,
+    "specialAttack": 216,
+    "specialDefense": 85,
+    "speed": 100
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#8bef32",
+    "secondary": "#564b48",
+    "accent": "#38312e",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#8bef32",
+      "#564b48",
+      "#38312e",
+      "#e72d5a",
+      "#1a59bd",
+      "#f76a98"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10301.png",
+    "front": "/pokemon/sprites/10301.png",
+    "back": "/pokemon/sprites/back/10301.png",
+    "shiny": "/pokemon/sprites/shiny/10301.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10301.png",
+    "front_female": "/pokemon/sprites/female/10301.png",
+    "back_female": "/pokemon/sprites/back/female/10301.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10301.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10301.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

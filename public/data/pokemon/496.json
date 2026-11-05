@@ -1,0 +1,335 @@
+{
+  "id": 496,
+  "name": "Servine",
+  "species": "Grass Snake Pokémon",
+  "type": [
+    "Grass"
+  ],
+  "typeDetails": [
+    {
+      "name": "Grass",
+      "slot": 1
+    }
+  ],
+  "height": 0.8,
+  "weight": 16,
+  "abilities": [
+    {
+      "name": "Overgrow",
+      "url": "https://pokeapi.co/api/v2/ability/65/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Contrary",
+      "url": "https://pokeapi.co/api/v2/ability/126/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 60,
+    "specialDefense": 75,
+    "speed": 83
+  },
+  "description": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+  "flavorTexts": [
+    {
+      "text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      "version": "black"
+    },
+    {
+      "text": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+      "version": "white"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "white-2"
+    },
+    {
+      "text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#29c54a",
+    "secondary": "#34923f",
+    "accent": "#fff6bd",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#29c54a",
+      "#34923f",
+      "#fff6bd",
+      "#ffef9e",
+      "#fccc42",
+      "#d2be5b"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/496.png",
+    "front": "/pokemon/sprites/496.png",
+    "back": "/pokemon/sprites/back/496.png",
+    "shiny": "/pokemon/sprites/shiny/496.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/496.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Snivy",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Servine",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Serperior",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bind",
+      "url": "https://pokeapi.co/api/v2/move/20/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Vine Whip",
+      "url": "https://pokeapi.co/api/v2/move/22/",
+      "type": "Grass",
+      "power": 45,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Wrap",
+      "url": "https://pokeapi.co/api/v2/move/35/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mega Drain",
+      "url": "https://pokeapi.co/api/v2/move/72/",
+      "type": "Grass",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Leech Seed",
+      "url": "https://pokeapi.co/api/v2/move/73/",
+      "type": "Grass",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Growth",
+      "url": "https://pokeapi.co/api/v2/move/74/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 145,
+  "order": 611,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 1,
+  "forms": [
+    {
+      "name": "Servine",
+      "raw_name": "servine",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/496.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/496.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/496.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Servine",
+      "raw_name": "servine",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/496/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/496.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/496.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ジャノビー",
+    "roomaji": "Janovy",
+    "ko": "샤비",
+    "zh-Hant": "青藤蛇",
+    "fr": "Lianaja",
+    "de": "Efoserp",
+    "es": "Servine",
+    "it": "Servine",
+    "en": "Servine",
+    "ja": "ジャノビー",
+    "zh-Hans": "青藤蛇"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#299cac",
+      "#f6ffde",
+      "#20314a"
+    ],
+    "primary": "#299cac",
+    "secondary": "#f6ffde",
+    "accent": "#20314a"
+  }
+}

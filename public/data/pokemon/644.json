@@ -1,0 +1,314 @@
+{
+  "id": 644,
+  "name": "Zekrom",
+  "species": "Deep Black Pokémon",
+  "type": [
+    "Dragon",
+    "Electric"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dragon",
+      "slot": 1
+    },
+    {
+      "name": "Electric",
+      "slot": 2
+    }
+  ],
+  "height": 2.9,
+  "weight": 345,
+  "abilities": [
+    {
+      "name": "Teravolt",
+      "url": "https://pokeapi.co/api/v2/ability/164/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 150,
+    "defense": 120,
+    "specialAttack": 120,
+    "specialDefense": 100,
+    "speed": 90
+  },
+  "description": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+  "flavorTexts": [
+    {
+      "text": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+      "version": "black"
+    },
+    {
+      "text": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
+      "version": "white"
+    },
+    {
+      "text": "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+      "version": "black-2"
+    },
+    {
+      "text": "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+      "version": "white-2"
+    },
+    {
+      "text": "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#313139",
+    "secondary": "#202029",
+    "accent": "#181820",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#313139",
+      "#202029",
+      "#181820",
+      "#25252c",
+      "#8f0d0d",
+      "#7bf5fd"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/644.png",
+    "front": "/pokemon/sprites/644.png",
+    "back": "/pokemon/sprites/back/644.png",
+    "shiny": "/pokemon/sprites/shiny/644.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/644.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Zekrom",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Fly",
+      "url": "https://pokeapi.co/api/v2/move/19/",
+      "type": "Flying",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Strength",
+      "url": "https://pokeapi.co/api/v2/move/70/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Dragon Rage",
+      "url": "https://pokeapi.co/api/v2/move/82/",
+      "type": "Dragon",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunder",
+      "url": "https://pokeapi.co/api/v2/move/87/",
+      "type": "Electric",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 306,
+  "order": 769,
+  "isDefault": true,
+  "captureRate": 3,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Zekrom",
+      "raw_name": "zekrom",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/644.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/644.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/644.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Zekrom",
+      "raw_name": "zekrom",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/644/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/644.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/644.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ゼクロム",
+    "roomaji": "Zekrom",
+    "ko": "제크로무",
+    "zh-Hant": "捷克羅姆",
+    "fr": "Zekrom",
+    "de": "Zekrom",
+    "es": "Zekrom",
+    "it": "Zekrom",
+    "en": "Zekrom",
+    "ja": "ゼクロム",
+    "zh-Hans": "捷克罗姆"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#313939",
+      "#395a62",
+      "#202920"
+    ],
+    "primary": "#313939",
+    "secondary": "#395a62",
+    "accent": "#202920"
+  }
+}

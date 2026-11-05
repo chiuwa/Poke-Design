@@ -1,0 +1,83 @@
+{
+  "id": 10291,
+  "name": "Chandelure-mega",
+  "species": "Pokémon",
+  "type": [
+    "Ghost",
+    "Fire"
+  ],
+  "typeDetails": [
+    {
+      "name": "Ghost",
+      "slot": 1
+    },
+    {
+      "name": "Fire",
+      "slot": 2
+    }
+  ],
+  "height": 2.5,
+  "weight": 69.6,
+  "abilities": [],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defense": 110,
+    "specialAttack": 175,
+    "specialDefense": 110,
+    "speed": 90
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#313131",
+    "secondary": "#c5a564",
+    "accent": "#7058e2",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#313131",
+      "#c5a564",
+      "#7058e2",
+      "#aba6f3",
+      "#c6d5d5",
+      "#fee542"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10291.png",
+    "front": "/pokemon/sprites/10291.png",
+    "back": "/pokemon/sprites/back/10291.png",
+    "shiny": "/pokemon/sprites/shiny/10291.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10291.png",
+    "front_female": "/pokemon/sprites/female/10291.png",
+    "back_female": "/pokemon/sprites/back/female/10291.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10291.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10291.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

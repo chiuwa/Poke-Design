@@ -1,0 +1,83 @@
+{
+  "id": 10278,
+  "name": "Clefable-mega",
+  "species": "Pokémon",
+  "type": [
+    "Fairy",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 1.7,
+  "weight": 42.3,
+  "abilities": [],
+  "baseStats": {
+    "hp": 95,
+    "attack": 80,
+    "defense": 93,
+    "specialAttack": 135,
+    "specialDefense": 110,
+    "speed": 70
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#fcc6b6",
+    "secondary": "#e99696",
+    "accent": "#fa9dc4",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fcc6b6",
+      "#e99696",
+      "#fa9dc4",
+      "#f8e068",
+      "#ffffff",
+      "#f34539"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10278.png",
+    "front": "/pokemon/sprites/10278.png",
+    "back": "/pokemon/sprites/back/10278.png",
+    "shiny": "/pokemon/sprites/shiny/10278.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10278.png",
+    "front_female": "/pokemon/sprites/female/10278.png",
+    "back_female": "/pokemon/sprites/back/female/10278.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10278.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10278.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

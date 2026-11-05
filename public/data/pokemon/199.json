@@ -1,0 +1,366 @@
+{
+  "id": 199,
+  "name": "Slowking",
+  "species": "Royal Pokémon",
+  "type": [
+    "Water",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 2,
+  "weight": 79.5,
+  "abilities": [
+    {
+      "name": "Oblivious",
+      "url": "https://pokeapi.co/api/v2/ability/12/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Own tempo",
+      "url": "https://pokeapi.co/api/v2/ability/20/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Regenerator",
+      "url": "https://pokeapi.co/api/v2/ability/144/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 75,
+    "defense": 80,
+    "specialAttack": 100,
+    "specialDefense": 110,
+    "speed": 30
+  },
+  "description": "It has incredible intellect and in­ tuition. Whatever the situation, it remains calm and collected.",
+  "flavorTexts": [
+    {
+      "text": "It has incredible intellect and in­ tuition. Whatever the situation, it remains calm and collected.",
+      "version": "gold"
+    },
+    {
+      "text": "When its head was bitten, toxins entered SLOWPOKE's head and unlocked an extraordinary power.",
+      "version": "silver"
+    },
+    {
+      "text": "Every time it ya­ wns, SHELLDER injects more poi­ son into it. The poison makes it more intelligent.",
+      "version": "crystal"
+    },
+    {
+      "text": "SLOWKING undertakes research every day in an effort to solve the mysteries of the world. However, this POKéMON apparently forgets everything it has learned if the SHELLDER on its head comes off.",
+      "version": "ruby"
+    },
+    {
+      "text": "SLOWKING undertakes research every day in an effort to solve the mysteries of the world. However, this POKéMON apparently forgets everything it has learned if the SHELLDER on its head comes off.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ee736a",
+    "secondary": "#c85555",
+    "accent": "#d5d5d5",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ee736a",
+      "#c85555",
+      "#d5d5d5",
+      "#aca4a4",
+      "#fffe93",
+      "#f85f51"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/199.png",
+    "front": "/pokemon/sprites/199.png",
+    "back": "/pokemon/sprites/back/199.png",
+    "shiny": "/pokemon/sprites/shiny/199.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/199.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Slowpoke",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Slowbro",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "level up"
+        },
+        {
+          "item": "galarica cuff",
+          "trigger": "use item"
+        }
+      ]
+    },
+    {
+      "name": "Slowking",
+      "level": 2,
+      "details": [
+        {
+          "held_item": "kings rock",
+          "trigger": "trade"
+        },
+        {
+          "item": "galarica wreath",
+          "trigger": "use item"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Pay Day",
+      "url": "https://pokeapi.co/api/v2/move/6/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Fire Punch",
+      "url": "https://pokeapi.co/api/v2/move/7/",
+      "type": "Fire",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Punch",
+      "url": "https://pokeapi.co/api/v2/move/9/",
+      "type": "Electric",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Growl",
+      "url": "https://pokeapi.co/api/v2/move/45/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Disable",
+      "url": "https://pokeapi.co/api/v2/move/50/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Waters-edge",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 172,
+  "order": 130,
+  "isDefault": true,
+  "captureRate": 70,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Slowking",
+      "raw_name": "slowking",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/199.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/199.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/199.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Slowking",
+      "raw_name": "slowking",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/199/",
+      "type": ""
+    },
+    {
+      "name": "Galarian Slowking",
+      "raw_name": "slowking-galar",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10172/",
+      "type": "Galarian"
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Kings Rock",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/199.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/199.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ヤドキング",
+    "roomaji": "Yadoking",
+    "ko": "야도킹",
+    "zh-Hant": "呆呆王",
+    "fr": "Roigada",
+    "de": "Laschoking",
+    "es": "Slowking",
+    "it": "Slowking",
+    "en": "Slowking",
+    "ja": "ヤドキング",
+    "zh-Hans": "呆呆王"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#de73ac",
+      "#dedecd",
+      "#aca4a4"
+    ],
+    "primary": "#de73ac",
+    "secondary": "#dedecd",
+    "accent": "#aca4a4"
+  }
+}

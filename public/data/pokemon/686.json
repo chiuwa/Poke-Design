@@ -1,0 +1,332 @@
+{
+  "id": 686,
+  "name": "Inkay",
+  "species": "Revolving Pokémon",
+  "type": [
+    "Dark",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dark",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 0.4,
+  "weight": 3.5,
+  "abilities": [
+    {
+      "name": "Contrary",
+      "url": "https://pokeapi.co/api/v2/ability/126/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Suction cups",
+      "url": "https://pokeapi.co/api/v2/ability/21/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Infiltrator",
+      "url": "https://pokeapi.co/api/v2/ability/151/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 54,
+    "defense": 53,
+    "specialAttack": 37,
+    "specialDefense": 46,
+    "speed": 45
+  },
+  "description": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+  "flavorTexts": [
+    {
+      "text": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+      "version": "x"
+    },
+    {
+      "text": "It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.",
+      "version": "y"
+    },
+    {
+      "text": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place.",
+      "version": "ultra-sun"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#f8f8f8",
+    "secondary": "#ffa6bc",
+    "accent": "#85bcf2",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#f8f8f8",
+      "#ffa6bc",
+      "#85bcf2"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/686.png",
+    "front": "/pokemon/sprites/686.png",
+    "back": "/pokemon/sprites/back/686.png",
+    "shiny": "/pokemon/sprites/shiny/686.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/686.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Inkay",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Malamar",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Bind",
+      "url": "https://pokeapi.co/api/v2/move/20/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Wrap",
+      "url": "https://pokeapi.co/api/v2/move/35/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Disable",
+      "url": "https://pokeapi.co/api/v2/move/50/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Peck",
+      "url": "https://pokeapi.co/api/v2/move/64/",
+      "type": "Flying",
+      "power": 35,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hypnosis",
+      "url": "https://pokeapi.co/api/v2/move/95/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": 60,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 58,
+  "order": 821,
+  "isDefault": true,
+  "captureRate": 190,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Inkay",
+      "raw_name": "inkay",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/686.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/686.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/686.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Inkay",
+      "raw_name": "inkay",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/686/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/686.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "マーイーカ",
+    "roomaji": "Maaiika",
+    "ko": "오케이징",
+    "zh-Hant": "好啦魷",
+    "fr": "Sepiatop",
+    "de": "Iscalar",
+    "es": "Inkay",
+    "it": "Inkay",
+    "en": "Inkay",
+    "ja": "マーイーカ",
+    "zh-Hans": "好啦鱿"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f8f8f8",
+      "#e9a6ff",
+      "#e5c050"
+    ],
+    "primary": "#f8f8f8",
+    "secondary": "#e9a6ff",
+    "accent": "#e5c050"
+  }
+}

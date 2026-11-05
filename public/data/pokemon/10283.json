@@ -1,0 +1,83 @@
+{
+  "id": 10283,
+  "name": "Feraligatr-mega",
+  "species": "Pokémon",
+  "type": [
+    "Water",
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Dragon",
+      "slot": 2
+    }
+  ],
+  "height": 2.3,
+  "weight": 108.8,
+  "abilities": [],
+  "baseStats": {
+    "hp": 85,
+    "attack": 160,
+    "defense": 125,
+    "specialAttack": 89,
+    "specialDefense": 93,
+    "speed": 78
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#ef575e",
+    "secondary": "#a83e42",
+    "accent": "#63b4f3",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ef575e",
+      "#a83e42",
+      "#63b4f3",
+      "#428cca",
+      "#fee592",
+      "#2b4b89"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10283.png",
+    "front": "/pokemon/sprites/10283.png",
+    "back": "/pokemon/sprites/back/10283.png",
+    "shiny": "/pokemon/sprites/shiny/10283.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10283.png",
+    "front_female": "/pokemon/sprites/female/10283.png",
+    "back_female": "/pokemon/sprites/back/female/10283.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10283.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10283.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

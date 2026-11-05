@@ -1,0 +1,83 @@
+{
+  "id": 10280,
+  "name": "Starmie-mega",
+  "species": "Pokémon",
+  "type": [
+    "Water",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 2.3,
+  "weight": 80,
+  "abilities": [],
+  "baseStats": {
+    "hp": 60,
+    "attack": 140,
+    "defense": 105,
+    "specialAttack": 130,
+    "specialDefense": 105,
+    "speed": 120
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#7361c3",
+    "secondary": "#9f79d9",
+    "accent": "#ecc457",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#7361c3",
+      "#9f79d9",
+      "#ecc457",
+      "#c29431",
+      "#ef5875",
+      "#c72b5c"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10280.png",
+    "front": "/pokemon/sprites/10280.png",
+    "back": "/pokemon/sprites/back/10280.png",
+    "shiny": "/pokemon/sprites/shiny/10280.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10280.png",
+    "front_female": "/pokemon/sprites/female/10280.png",
+    "back_female": "/pokemon/sprites/back/female/10280.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10280.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10280.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": 442,
+  "name": "Spiritomb",
+  "species": "Forbidden Pokémon",
+  "type": [
+    "Ghost",
+    "Dark"
+  ],
+  "typeDetails": [
+    {
+      "name": "Ghost",
+      "slot": 1
+    },
+    {
+      "name": "Dark",
+      "slot": 2
+    }
+  ],
+  "height": 1,
+  "weight": 108,
+  "abilities": [
+    {
+      "name": "Pressure",
+      "url": "https://pokeapi.co/api/v2/ability/46/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Infiltrator",
+      "url": "https://pokeapi.co/api/v2/ability/151/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 92,
+    "defense": 108,
+    "specialAttack": 92,
+    "specialDefense": 108,
+    "speed": 35
+  },
+  "description": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+  "flavorTexts": [
+    {
+      "text": "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+      "version": "diamond"
+    },
+    {
+      "text": "It was bound to a fissure in an odd keystone as punishment for misdeeds 500 years ago.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+      "version": "platinum"
+    },
+    {
+      "text": "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
+      "version": "soulsilver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#a4529c",
+    "secondary": "#c573bd",
+    "accent": "#62b441",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#a4529c",
+      "#c573bd",
+      "#62b441",
+      "#52896d",
+      "#b39c95",
+      "#fddd3a"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/442.png",
+    "front": "/pokemon/sprites/442.png",
+    "back": "/pokemon/sprites/back/442.png",
+    "shiny": "/pokemon/sprites/shiny/442.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/442.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Spiritomb",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Disable",
+      "url": "https://pokeapi.co/api/v2/move/50/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hypnosis",
+      "url": "https://pokeapi.co/api/v2/move/95/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": 60,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Night Shade",
+      "url": "https://pokeapi.co/api/v2/move/101/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Smokescreen",
+      "url": "https://pokeapi.co/api/v2/move/108/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Dream Eater",
+      "url": "https://pokeapi.co/api/v2/move/138/",
+      "type": "Psychic",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Flash",
+      "url": "https://pokeapi.co/api/v2/move/148/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 170,
+  "order": 567,
+  "isDefault": true,
+  "captureRate": 100,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 30,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Spiritomb",
+      "raw_name": "spiritomb",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/442.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/442.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/442.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Spiritomb",
+      "raw_name": "spiritomb",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/442/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/442.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/442.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ミカルゲ",
+    "roomaji": "Mikaruge",
+    "ko": "화강돌",
+    "zh-Hant": "花岩怪",
+    "fr": "Spiritomb",
+    "de": "Kryppuk",
+    "es": "Spiritomb",
+    "it": "Spiritomb",
+    "en": "Spiritomb",
+    "ja": "ミカルゲ",
+    "zh-Hans": "花岩怪"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#52a4b4",
+      "#73c5cd",
+      "#bd41cd"
+    ],
+    "primary": "#52a4b4",
+    "secondary": "#73c5cd",
+    "accent": "#bd41cd"
+  }
+}

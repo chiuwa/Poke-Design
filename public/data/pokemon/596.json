@@ -1,0 +1,336 @@
+{
+  "id": 596,
+  "name": "Galvantula",
+  "species": "EleSpider Pokémon",
+  "type": [
+    "Bug",
+    "Electric"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    },
+    {
+      "name": "Electric",
+      "slot": 2
+    }
+  ],
+  "height": 0.8,
+  "weight": 14.3,
+  "abilities": [
+    {
+      "name": "Compound eyes",
+      "url": "https://pokeapi.co/api/v2/ability/14/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Unnerve",
+      "url": "https://pokeapi.co/api/v2/ability/127/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Swarm",
+      "url": "https://pokeapi.co/api/v2/ability/68/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 77,
+    "defense": 60,
+    "specialAttack": 97,
+    "specialDefense": 60,
+    "speed": 108
+  },
+  "description": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+  "flavorTexts": [
+    {
+      "text": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+      "version": "black"
+    },
+    {
+      "text": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+      "version": "white"
+    },
+    {
+      "text": "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+      "version": "black-2"
+    },
+    {
+      "text": "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+      "version": "white-2"
+    },
+    {
+      "text": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ffde52",
+    "secondary": "#cdac00",
+    "accent": "#3952b4",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ffde52",
+      "#cdac00",
+      "#3952b4",
+      "#2a3b79",
+      "#ffffff",
+      "#192940"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/596.png",
+    "front": "/pokemon/sprites/596.png",
+    "back": "/pokemon/sprites/back/596.png",
+    "shiny": "/pokemon/sprites/shiny/596.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/596.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Joltik",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Galvantula",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Poison Sting",
+      "url": "https://pokeapi.co/api/v2/move/40/",
+      "type": "Poison",
+      "power": 15,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Pin Missile",
+      "url": "https://pokeapi.co/api/v2/move/42/",
+      "type": "Bug",
+      "power": 25,
+      "accuracy": 95,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "String Shot",
+      "url": "https://pokeapi.co/api/v2/move/81/",
+      "type": "Bug",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunder",
+      "url": "https://pokeapi.co/api/v2/move/87/",
+      "type": "Electric",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Screech",
+      "url": "https://pokeapi.co/api/v2/move/103/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 85,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 165,
+  "order": 718,
+  "isDefault": true,
+  "captureRate": 75,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Galvantula",
+      "raw_name": "galvantula",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/596.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/596.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/596.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Galvantula",
+      "raw_name": "galvantula",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/596/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/596.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/596.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "デンチュラ",
+    "roomaji": "Dentula",
+    "ko": "전툴라",
+    "zh-Hant": "電蜘蛛",
+    "fr": "Mygavolt",
+    "de": "Voltula",
+    "es": "Galvantula",
+    "it": "Galvantula",
+    "en": "Galvantula",
+    "ja": "デンチュラ",
+    "zh-Hans": "电蜘蛛"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ffd552",
+      "#eea400",
+      "#104162"
+    ],
+    "primary": "#ffd552",
+    "secondary": "#eea400",
+    "accent": "#104162"
+  }
+}

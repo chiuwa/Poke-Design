@@ -1,0 +1,326 @@
+{
+  "id": 561,
+  "name": "Sigilyph",
+  "species": "Avianoid Pokémon",
+  "type": [
+    "Psychic",
+    "Flying"
+  ],
+  "typeDetails": [
+    {
+      "name": "Psychic",
+      "slot": 1
+    },
+    {
+      "name": "Flying",
+      "slot": 2
+    }
+  ],
+  "height": 1.4,
+  "weight": 14,
+  "abilities": [
+    {
+      "name": "Wonder skin",
+      "url": "https://pokeapi.co/api/v2/ability/147/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Magic guard",
+      "url": "https://pokeapi.co/api/v2/ability/98/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Tinted lens",
+      "url": "https://pokeapi.co/api/v2/ability/110/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 58,
+    "defense": 80,
+    "specialAttack": 103,
+    "specialDefense": 80,
+    "speed": 97
+  },
+  "description": "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+  "flavorTexts": [
+    {
+      "text": "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+      "version": "black"
+    },
+    {
+      "text": "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+      "version": "white"
+    },
+    {
+      "text": "The guardians of an ancient city, they always fly the same route while keeping watch for invaders.",
+      "version": "black-2"
+    },
+    {
+      "text": "The guardians of an ancient city, they always fly the same route while keeping watch for invaders.",
+      "version": "white-2"
+    },
+    {
+      "text": "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#313131",
+    "secondary": "#ffc508",
+    "accent": "#9a7b27",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#313131",
+      "#ffc508",
+      "#9a7b27",
+      "#4aace6",
+      "#d71a1a",
+      "#55c35d"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/561.png",
+    "front": "/pokemon/sprites/561.png",
+    "back": "/pokemon/sprites/back/561.png",
+    "shiny": "/pokemon/sprites/shiny/561.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/561.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Sigilyph",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Gust",
+      "url": "https://pokeapi.co/api/v2/move/16/",
+      "type": "Flying",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Whirlwind",
+      "url": "https://pokeapi.co/api/v2/move/18/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Fly",
+      "url": "https://pokeapi.co/api/v2/move/19/",
+      "type": "Flying",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confusion",
+      "url": "https://pokeapi.co/api/v2/move/93/",
+      "type": "Psychic",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hypnosis",
+      "url": "https://pokeapi.co/api/v2/move/95/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": 60,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 172,
+  "order": 682,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Sigilyph",
+      "raw_name": "sigilyph",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/561.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/561.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/561.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Sigilyph",
+      "raw_name": "sigilyph",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/561/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/561.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/561.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "シンボラー",
+    "roomaji": "Symboler",
+    "ko": "심보러",
+    "zh-Hant": "象徵鳥",
+    "fr": "Cryptéro",
+    "de": "Symvolara",
+    "es": "Sigilyph",
+    "it": "Sigilyph",
+    "en": "Sigilyph",
+    "ja": "シンボラー",
+    "zh-Hans": "象征鸟"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#313131",
+      "#c5e65a",
+      "#ff8b00"
+    ],
+    "primary": "#313131",
+    "secondary": "#c5e65a",
+    "accent": "#ff8b00"
+  }
+}

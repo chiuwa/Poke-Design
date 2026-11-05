@@ -1,0 +1,309 @@
+{
+  "id": 890,
+  "name": "Eternatus",
+  "species": "Gigantic Pokémon",
+  "type": [
+    "Poison",
+    "Dragon"
+  ],
+  "typeDetails": [
+    {
+      "name": "Poison",
+      "slot": 1
+    },
+    {
+      "name": "Dragon",
+      "slot": 2
+    }
+  ],
+  "height": 20,
+  "weight": 950,
+  "abilities": [
+    {
+      "name": "Pressure",
+      "url": "https://pokeapi.co/api/v2/ability/46/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 85,
+    "defense": 95,
+    "specialAttack": 145,
+    "specialDefense": 95,
+    "speed": 130
+  },
+  "description": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+  "flavorTexts": [
+    {
+      "text": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+      "version": "sword"
+    },
+    {
+      "text": "It was inside a meteorite that fell 20,000 years ago. There seems to be a connection between this Pokémon and the Dynamax phenomenon.",
+      "version": "shield"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#26124d",
+    "secondary": "#3a15bc",
+    "accent": "#ee7173",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#26124d",
+      "#3a15bc",
+      "#ee7173",
+      "#f33358",
+      "#e4263b",
+      "#3d2871"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/890.png",
+    "front": "/pokemon/sprites/890.png",
+    "back": "/pokemon/sprites/back/890.png",
+    "shiny": "/pokemon/sprites/shiny/890.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/890.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Eternatus",
+      "level": 1,
+      "details": []
+    }
+  ],
+  "moves": [
+    {
+      "name": "Fly",
+      "url": "https://pokeapi.co/api/v2/move/19/",
+      "type": "Flying",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Fire Spin",
+      "url": "https://pokeapi.co/api/v2/move/83/",
+      "type": "Fire",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Screech",
+      "url": "https://pokeapi.co/api/v2/move/103/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 85,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Recover",
+      "url": "https://pokeapi.co/api/v2/move/105/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Fire Blast",
+      "url": "https://pokeapi.co/api/v2/move/126/",
+      "type": "Fire",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 345,
+  "order": 1079,
+  "isDefault": true,
+  "captureRate": 255,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Eternatus",
+      "raw_name": "eternatus",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/890.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/890.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/890.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Eternatus",
+      "raw_name": "eternatus",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/890/",
+      "type": ""
+    },
+    {
+      "name": "Eternatus eternamax",
+      "raw_name": "eternatus-eternamax",
+      "is_default": false,
+      "url": "https://pokeapi.co/api/v2/pokemon/10190/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/890.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ムゲンダイナ",
+    "roomaji": "Mugendina",
+    "ko": "무한다이노",
+    "zh-Hant": "無極汰那",
+    "fr": "Éthernatos",
+    "de": "Endynalos",
+    "es": "Eternatus",
+    "it": "Eternatus",
+    "en": "Eternatus",
+    "ja": "ムゲンダイナ",
+    "zh-Hans": "无极汰那"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#4f1046",
+      "#a91cad",
+      "#6f206c"
+    ],
+    "primary": "#4f1046",
+    "secondary": "#a91cad",
+    "accent": "#6f206c"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": 10297,
+  "name": "Malamar-mega",
+  "species": "Pokémon",
+  "type": [
+    "Dark",
+    "Psychic"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dark",
+      "slot": 1
+    },
+    {
+      "name": "Psychic",
+      "slot": 2
+    }
+  ],
+  "height": 2.9,
+  "weight": 69.8,
+  "abilities": [],
+  "baseStats": {
+    "hp": 86,
+    "attack": 102,
+    "defense": 88,
+    "specialAttack": 98,
+    "specialDefense": 120,
+    "speed": 88
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#6268b8",
+    "secondary": "#d34783",
+    "accent": "#68f5f9",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#6268b8",
+      "#d34783",
+      "#68f5f9",
+      "#6a8ce0",
+      "#adf89d",
+      "#f88bd8"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10297.png",
+    "front": "/pokemon/sprites/10297.png",
+    "back": "/pokemon/sprites/back/10297.png",
+    "shiny": "/pokemon/sprites/shiny/10297.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10297.png",
+    "front_female": "/pokemon/sprites/female/10297.png",
+    "back_female": "/pokemon/sprites/back/female/10297.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10297.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10297.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

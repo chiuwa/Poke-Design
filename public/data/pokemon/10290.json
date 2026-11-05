@@ -1,0 +1,74 @@
+{
+  "id": 10290,
+  "name": "Eelektross-mega",
+  "species": "Pok\u00e9mon",
+  "type": [
+    "Electric"
+  ],
+  "typeDetails": [
+    {
+      "name": "Electric",
+      "slot": 1
+    }
+  ],
+  "height": 3.0,
+  "weight": 180.0,
+  "abilities": [],
+  "baseStats": {
+    "hp": 85,
+    "attack": 145,
+    "defense": 80,
+    "specialAttack": 135,
+    "specialDefense": 90,
+    "speed": 80
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#F8D030",
+    "secondary": "#F08030",
+    "accent": "#F8F8F8",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#F8D030",
+      "#F08030",
+      "#F8F8F8"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/10290.png",
+    "front": "/pokemon/sprites/10290.png",
+    "back": "/pokemon/sprites/back/10290.png",
+    "shiny": "/pokemon/sprites/shiny/10290.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10290.png",
+    "front_female": "/pokemon/sprites/female/10290.png",
+    "back_female": "/pokemon/sprites/back/female/10290.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10290.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10290.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

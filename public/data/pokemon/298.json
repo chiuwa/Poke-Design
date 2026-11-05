@@ -1,0 +1,341 @@
+{
+  "id": 298,
+  "name": "Azurill",
+  "species": "Polka Dot Pokémon",
+  "type": [
+    "Normal",
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    },
+    {
+      "name": "Fairy",
+      "slot": 2
+    }
+  ],
+  "height": 0.2,
+  "weight": 2,
+  "abilities": [
+    {
+      "name": "Thick fat",
+      "url": "https://pokeapi.co/api/v2/ability/47/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Huge power",
+      "url": "https://pokeapi.co/api/v2/ability/37/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Sap sipper",
+      "url": "https://pokeapi.co/api/v2/ability/157/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 40,
+    "speed": 20
+  },
+  "description": "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+  "flavorTexts": [
+    {
+      "text": "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+      "version": "diamond"
+    },
+    {
+      "text": "AZURILL spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these POKéMON managed to hurl itself a record 33 feet.",
+      "version": "ruby"
+    },
+    {
+      "text": "AZURILL’s tail is large and bouncy. It is packed full of the nutrients this POKéMON needs to grow. AZURILL can be seen bouncing and playing on its big, rubbery tail.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.",
+      "version": "emerald"
+    },
+    {
+      "text": "It battles by flinging around its tail, which is bigger than its body. The tail is a flotation device in water.",
+      "version": "firered"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#4a7be6",
+    "secondary": "#6ab4ff",
+    "accent": "#314a8b",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#4a7be6",
+      "#6ab4ff",
+      "#314a8b"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/298.png",
+    "front": "/pokemon/sprites/298.png",
+    "back": "/pokemon/sprites/back/298.png",
+    "shiny": "/pokemon/sprites/shiny/298.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/298.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Azurill",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Marill",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Azumarill",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tail Whip",
+      "url": "https://pokeapi.co/api/v2/move/39/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Sing",
+      "url": "https://pokeapi.co/api/v2/move/47/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 55,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Supersonic",
+      "url": "https://pokeapi.co/api/v2/move/48/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 55,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Bubble Beam",
+      "url": "https://pokeapi.co/api/v2/move/61/",
+      "type": "Water",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mimic",
+      "url": "https://pokeapi.co/api/v2/move/102/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Waters-edge",
+  "generation": 1,
+  "rarity": "Baby",
+  "baseExperience": 38,
+  "order": 277,
+  "isDefault": true,
+  "captureRate": 150,
+  "baseHappiness": 70,
+  "growthRate": "fast",
+  "hatchCounter": 10,
+  "hasGenderDifferences": false,
+  "genderRate": 6,
+  "forms": [
+    {
+      "name": "Azurill",
+      "raw_name": "azurill",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/298.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/298.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/298.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Azurill",
+      "raw_name": "azurill",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/298/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/298.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/298.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ルリリ",
+    "roomaji": "Ruriri",
+    "ko": "루리리",
+    "zh-Hant": "露力麗",
+    "fr": "Azurill",
+    "de": "Azurill",
+    "es": "Azurill",
+    "it": "Azurill",
+    "en": "Azurill",
+    "ja": "ルリリ",
+    "zh-Hans": "露力丽"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#52a441",
+      "#94f683",
+      "#31734a"
+    ],
+    "primary": "#52a441",
+    "secondary": "#94f683",
+    "accent": "#31734a"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "id": 173,
+  "name": "Cleffa",
+  "species": "Star Shape Pokémon",
+  "type": [
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    }
+  ],
+  "height": 0.3,
+  "weight": 3,
+  "abilities": [
+    {
+      "name": "Cute charm",
+      "url": "https://pokeapi.co/api/v2/ability/56/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Magic guard",
+      "url": "https://pokeapi.co/api/v2/ability/98/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Friend guard",
+      "url": "https://pokeapi.co/api/v2/ability/132/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "specialAttack": 45,
+    "specialDefense": 55,
+    "speed": 15
+  },
+  "description": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+  "flavorTexts": [
+    {
+      "text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+      "version": "gold"
+    },
+    {
+      "text": "When numerous me­ teors illuminate the night sky, sightings of CLEFFA strangely increase.",
+      "version": "silver"
+    },
+    {
+      "text": "If the impact site of a meteorite is found, this POKéMON is certain to be within the immediate area.",
+      "version": "crystal"
+    },
+    {
+      "text": "On nights with many shooting stars, CLEFFA can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these POKéMON quench their thirst with the morning dew.",
+      "version": "ruby"
+    },
+    {
+      "text": "On nights with many shooting stars, CLEFFA can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these POKéMON quench their thirst with the morning dew.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ffa494",
+    "secondary": "#ffc5ac",
+    "accent": "#622018",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ffa494",
+      "#ffc5ac",
+      "#622018"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/173.png",
+    "front": "/pokemon/sprites/173.png",
+    "back": "/pokemon/sprites/back/173.png",
+    "shiny": "/pokemon/sprites/shiny/173.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/173.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Cleffa",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Clefairy",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Clefable",
+      "level": 3,
+      "details": [
+        {
+          "item": "moon stone",
+          "trigger": "use item"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Pound",
+      "url": "https://pokeapi.co/api/v2/move/1/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Sing",
+      "url": "https://pokeapi.co/api/v2/move/47/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 55,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Counter",
+      "url": "https://pokeapi.co/api/v2/move/68/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": -5
+    },
+    {
+      "name": "Seismic Toss",
+      "url": "https://pokeapi.co/api/v2/move/69/",
+      "type": "Fighting",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Mountain",
+  "generation": 1,
+  "rarity": "Baby",
+  "baseExperience": 44,
+  "order": 63,
+  "isDefault": true,
+  "captureRate": 150,
+  "baseHappiness": 140,
+  "growthRate": "fast",
+  "hatchCounter": 10,
+  "hasGenderDifferences": false,
+  "genderRate": 6,
+  "forms": [
+    {
+      "name": "Cleffa",
+      "raw_name": "cleffa",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/173.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/173.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/173.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Cleffa",
+      "raw_name": "cleffa",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/173/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Moon Stone",
+      "rarity": 5
+    },
+    {
+      "name": "Leppa Berry",
+      "rarity": 50
+    },
+    {
+      "name": "Comet Shard",
+      "rarity": 1
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/173.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/173.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ピィ",
+    "roomaji": "Py",
+    "ko": "삐",
+    "zh-Hant": "皮寶寶",
+    "fr": "Mélo",
+    "de": "Pii",
+    "es": "Cleffa",
+    "it": "Cleffa",
+    "en": "Cleffa",
+    "ja": "ピィ",
+    "zh-Hans": "皮宝宝"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#f6b4d5",
+      "#ffd5f6",
+      "#94395a"
+    ],
+    "primary": "#f6b4d5",
+    "secondary": "#ffd5f6",
+    "accent": "#94395a"
+  }
+}

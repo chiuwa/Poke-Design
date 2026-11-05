@@ -1,0 +1,333 @@
+{
+  "id": 292,
+  "name": "Shedinja",
+  "species": "Shed Pokémon",
+  "type": [
+    "Bug",
+    "Ghost"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    },
+    {
+      "name": "Ghost",
+      "slot": 2
+    }
+  ],
+  "height": 0.8,
+  "weight": 1.2,
+  "abilities": [
+    {
+      "name": "Wonder guard",
+      "url": "https://pokeapi.co/api/v2/ability/25/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 1,
+    "attack": 90,
+    "defense": 45,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 40
+  },
+  "description": "SHEDINJA’s hard body doesn’t move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this POKéMON will steal the spirit of anyone peering into its hollow body from its back.",
+  "flavorTexts": [
+    {
+      "text": "SHEDINJA’s hard body doesn’t move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this POKéMON will steal the spirit of anyone peering into its hollow body from its back.",
+      "version": "ruby"
+    },
+    {
+      "text": "SHEDINJA is a peculiar POKéMON. It seems to appear unsought in a POKé BALL after a NINCADA evolves. This bizarre POKéMON is entirely immobile - it doesn’t even breathe.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A peculiar POKéMON that floats in air even though its wings remain completely still. The inside of its body is hollow and utterly dark.",
+      "version": "emerald"
+    },
+    {
+      "text": "A most peculiar POKéMON that somehow appears in a POKé BALL when a NINCADA evolves.",
+      "version": "firered"
+    },
+    {
+      "text": "A most peculiar POKéMON that somehow appears in a POKé BALL when a NINCADA evolves.",
+      "version": "leafgreen"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#b4945a",
+    "secondary": "#deb473",
+    "accent": "#d5d5e5",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#b4945a",
+      "#deb473",
+      "#d5d5e5",
+      "#ffffff",
+      "#bcb4ad",
+      "#93837c"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/292.png",
+    "front": "/pokemon/sprites/292.png",
+    "back": "/pokemon/sprites/back/292.png",
+    "shiny": "/pokemon/sprites/shiny/292.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/292.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Nincada",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Ninjask",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Shedinja",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "shed"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Scratch",
+      "url": "https://pokeapi.co/api/v2/move/10/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Sand Attack",
+      "url": "https://pokeapi.co/api/v2/move/28/",
+      "type": "Ground",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "String Shot",
+      "url": "https://pokeapi.co/api/v2/move/81/",
+      "type": "Bug",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Dig",
+      "url": "https://pokeapi.co/api/v2/move/91/",
+      "type": "Ground",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Agility",
+      "url": "https://pokeapi.co/api/v2/move/97/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mimic",
+      "url": "https://pokeapi.co/api/v2/move/102/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Harden",
+      "url": "https://pokeapi.co/api/v2/move/106/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confuse Ray",
+      "url": "https://pokeapi.co/api/v2/move/109/",
+      "type": "Ghost",
+      "power": null,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Forest",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 83,
+  "order": 395,
+  "isDefault": true,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "slow then very fast",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Shedinja",
+      "raw_name": "shedinja",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/292.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/292.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/292.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Shedinja",
+      "raw_name": "shedinja",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/292/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/292.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/292.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "ヌケニン",
+    "roomaji": "Nukenin",
+    "ko": "껍질몬",
+    "zh-Hant": "脫殼忍者",
+    "fr": "Munja",
+    "de": "Ninjatom",
+    "es": "Shedinja",
+    "it": "Shedinja",
+    "en": "Shedinja",
+    "ja": "ヌケニン",
+    "zh-Hans": "脱壳忍者"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#eebd83",
+      "#f6e6a4",
+      "#623931"
+    ],
+    "primary": "#eebd83",
+    "secondary": "#f6e6a4",
+    "accent": "#623931"
+  }
+}

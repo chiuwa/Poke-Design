@@ -1,0 +1,83 @@
+{
+  "id": 10289,
+  "name": "Scrafty-mega",
+  "species": "Pokémon",
+  "type": [
+    "Dark",
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Dark",
+      "slot": 1
+    },
+    {
+      "name": "Fighting",
+      "slot": 2
+    }
+  ],
+  "height": 1.1,
+  "weight": 31,
+  "abilities": [],
+  "baseStats": {
+    "hp": 65,
+    "attack": 130,
+    "defense": 135,
+    "specialAttack": 55,
+    "specialDefense": 135,
+    "speed": 68
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#f68944",
+    "secondary": "#d94f2d",
+    "accent": "#e3e3e3",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#f68944",
+      "#d94f2d",
+      "#e3e3e3",
+      "#dbd7df",
+      "#e03337",
+      "#707070"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10289.png",
+    "front": "/pokemon/sprites/10289.png",
+    "back": "/pokemon/sprites/back/10289.png",
+    "shiny": "/pokemon/sprites/shiny/10289.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10289.png",
+    "front_female": "/pokemon/sprites/female/10289.png",
+    "back_female": "/pokemon/sprites/back/female/10289.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10289.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10289.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

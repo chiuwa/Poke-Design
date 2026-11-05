@@ -1,0 +1,345 @@
+{
+  "id": 183,
+  "name": "Marill",
+  "species": "Aqua Mouse Pokémon",
+  "type": [
+    "Water",
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Fairy",
+      "slot": 2
+    }
+  ],
+  "height": 0.4,
+  "weight": 8.5,
+  "abilities": [
+    {
+      "name": "Thick fat",
+      "url": "https://pokeapi.co/api/v2/ability/47/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Huge power",
+      "url": "https://pokeapi.co/api/v2/ability/37/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Sap sipper",
+      "url": "https://pokeapi.co/api/v2/ability/157/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 20,
+    "specialDefense": 50,
+    "speed": 40
+  },
+  "description": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+  "flavorTexts": [
+    {
+      "text": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+      "version": "gold"
+    },
+    {
+      "text": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
+      "version": "silver"
+    },
+    {
+      "text": "The fur on its body naturally repels water. It can stay dry, even when it plays in the water.",
+      "version": "crystal"
+    },
+    {
+      "text": "MARILL’s oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water’s surface, it’s a sure indication that this POKéMON is diving beneath the water to feed on aquatic plants.",
+      "version": "ruby"
+    },
+    {
+      "text": "When fishing for food at the edge of a fast-running stream, MARILL wraps its tail around the trunk of a tree. This POKéMON’s tail is flexible and configured to stretch.",
+      "version": "sapphire"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#5a9cee",
+    "secondary": "#316aac",
+    "accent": "#ffffff",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#5a9cee",
+      "#316aac",
+      "#ffffff",
+      "#5b83c8",
+      "#1c222c",
+      "#d84756"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/183.png",
+    "front": "/pokemon/sprites/183.png",
+    "back": "/pokemon/sprites/back/183.png",
+    "shiny": "/pokemon/sprites/shiny/183.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/183.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Azurill",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Marill",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Azumarill",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Mega Punch",
+      "url": "https://pokeapi.co/api/v2/move/5/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Ice Punch",
+      "url": "https://pokeapi.co/api/v2/move/8/",
+      "type": "Ice",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Mega Kick",
+      "url": "https://pokeapi.co/api/v2/move/25/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tail Whip",
+      "url": "https://pokeapi.co/api/v2/move/39/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Sing",
+      "url": "https://pokeapi.co/api/v2/move/47/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 55,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Supersonic",
+      "url": "https://pokeapi.co/api/v2/move/48/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 55,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "url": "https://pokeapi.co/api/v2/move/56/",
+      "type": "Water",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Waters-edge",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 88,
+  "order": 278,
+  "isDefault": true,
+  "captureRate": 190,
+  "baseHappiness": 70,
+  "growthRate": "fast",
+  "hatchCounter": 10,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Marill",
+      "raw_name": "marill",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/183.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/183.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/183.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Marill",
+      "raw_name": "marill",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/183/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/183.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/183.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "マリル",
+    "roomaji": "Maril",
+    "ko": "마릴",
+    "zh-Hant": "瑪力露",
+    "fr": "Marill",
+    "de": "Marill",
+    "es": "Marill",
+    "it": "Marill",
+    "en": "Marill",
+    "ja": "マリル",
+    "zh-Hans": "玛力露"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#94ff94",
+      "#4acd73",
+      "#317b39"
+    ],
+    "primary": "#94ff94",
+    "secondary": "#4acd73",
+    "accent": "#317b39"
+  }
+}

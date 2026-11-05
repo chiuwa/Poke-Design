@@ -1,0 +1,83 @@
+{
+  "id": 10294,
+  "name": "Greninja-mega",
+  "species": "Pokémon",
+  "type": [
+    "Water",
+    "Dark"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    },
+    {
+      "name": "Dark",
+      "slot": 2
+    }
+  ],
+  "height": 1.5,
+  "weight": 40,
+  "abilities": [],
+  "baseStats": {
+    "hp": 72,
+    "attack": 125,
+    "defense": 77,
+    "specialAttack": 133,
+    "specialDefense": 81,
+    "speed": 142
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#59cbe7",
+    "secondary": "#399fb8",
+    "accent": "#313349",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#59cbe7",
+      "#399fb8",
+      "#313349",
+      "#1d5a97",
+      "#ef7d80",
+      "#bb3963"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10294.png",
+    "front": "/pokemon/sprites/10294.png",
+    "back": "/pokemon/sprites/back/10294.png",
+    "shiny": "/pokemon/sprites/shiny/10294.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10294.png",
+    "front_female": "/pokemon/sprites/female/10294.png",
+    "back_female": "/pokemon/sprites/back/female/10294.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10294.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10294.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

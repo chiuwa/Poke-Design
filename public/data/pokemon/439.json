@@ -1,0 +1,350 @@
+{
+  "id": 439,
+  "name": "Mime-jr",
+  "species": "Mime Pokémon",
+  "type": [
+    "Psychic",
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Psychic",
+      "slot": 1
+    },
+    {
+      "name": "Fairy",
+      "slot": 2
+    }
+  ],
+  "height": 0.6,
+  "weight": 13,
+  "abilities": [
+    {
+      "name": "Soundproof",
+      "url": "https://pokeapi.co/api/v2/ability/43/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Filter",
+      "url": "https://pokeapi.co/api/v2/ability/111/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Technician",
+      "url": "https://pokeapi.co/api/v2/ability/101/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 25,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 90,
+    "speed": 60
+  },
+  "description": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+  "flavorTexts": [
+    {
+      "text": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+      "version": "diamond"
+    },
+    {
+      "text": "It likes places where people gather. It mimics foes to confuse them, then makes its getaway.",
+      "version": "pearl"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "platinum"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "heartgold"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "soulsilver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#ffc5d5",
+    "secondary": "#d97eac",
+    "accent": "#536dd1",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#ffc5d5",
+      "#d97eac",
+      "#536dd1",
+      "#314a94",
+      "#e85e42",
+      "#ffffff"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/439.png",
+    "front": "/pokemon/sprites/439.png",
+    "back": "/pokemon/sprites/back/439.png",
+    "shiny": "/pokemon/sprites/shiny/439.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/439.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Mime-jr",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Mr-mime",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Mr-rime",
+      "level": 3,
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Pound",
+      "url": "https://pokeapi.co/api/v2/move/1/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Slap",
+      "url": "https://pokeapi.co/api/v2/move/3/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Psybeam",
+      "url": "https://pokeapi.co/api/v2/move/60/",
+      "type": "Psychic",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunder",
+      "url": "https://pokeapi.co/api/v2/move/87/",
+      "type": "Electric",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Confusion",
+      "url": "https://pokeapi.co/api/v2/move/93/",
+      "type": "Psychic",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Hypnosis",
+      "url": "https://pokeapi.co/api/v2/move/95/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": 60,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Meditate",
+      "url": "https://pokeapi.co/api/v2/move/96/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mimic",
+      "url": "https://pokeapi.co/api/v2/move/102/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Baby",
+  "baseExperience": 62,
+  "order": 193,
+  "isDefault": true,
+  "captureRate": 145,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 25,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Mime jr",
+      "raw_name": "mime-jr",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/439.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/439.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/439.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Mime jr",
+      "raw_name": "mime-jr",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/439/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Leppa Berry",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/439.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/439.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "マネネ",
+    "roomaji": "Manene",
+    "ko": "흉내내",
+    "zh-Hant": "魔尼尼",
+    "fr": "Mime Jr.",
+    "de": "Pantimimi",
+    "es": "Mime Jr.",
+    "it": "Mime Jr.",
+    "en": "Mime Jr.",
+    "ja": "マネネ",
+    "zh-Hans": "魔尼尼"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ffd5de",
+      "#5ac58b",
+      "#39946a"
+    ],
+    "primary": "#ffd5de",
+    "secondary": "#5ac58b",
+    "accent": "#39946a"
+  }
+}

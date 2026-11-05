@@ -1,0 +1,318 @@
+{
+  "id": 772,
+  "name": "Type-null",
+  "species": "Synthetic Pokémon",
+  "type": [
+    "Normal"
+  ],
+  "typeDetails": [
+    {
+      "name": "Normal",
+      "slot": 1
+    }
+  ],
+  "height": 1.9,
+  "weight": 120.5,
+  "abilities": [
+    {
+      "name": "Battle armor",
+      "url": "https://pokeapi.co/api/v2/ability/4/",
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 95,
+    "speed": 59
+  },
+  "description": "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+  "flavorTexts": [
+    {
+      "text": "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+      "version": "sun"
+    },
+    {
+      "text": "Due to the danger that this synthetic Pokémon may go on a rampage, it wears a control mask to restrain its power.",
+      "version": "moon"
+    },
+    {
+      "text": "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "There’s danger of its going on a rampage, so its true power is sealed away beneath its control mask.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Rumor has it that the theft of top-secret research notes led to a new instance of this Pokémon being created in the Galar region.",
+      "version": "sword"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#78615f",
+    "secondary": "#92a6a9",
+    "accent": "#c06040",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#78615f",
+      "#92a6a9",
+      "#c06040",
+      "#339278",
+      "#c1cecf",
+      "#912cdc"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/772.png",
+    "front": "/pokemon/sprites/772.png",
+    "back": "/pokemon/sprites/back/772.png",
+    "shiny": "/pokemon/sprites/shiny/772.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/772.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Type-null",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Silvally",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Razor Wind",
+      "url": "https://pokeapi.co/api/v2/move/13/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Roar",
+      "url": "https://pokeapi.co/api/v2/move/46/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": -6
+    },
+    {
+      "name": "Hyper Beam",
+      "url": "https://pokeapi.co/api/v2/move/63/",
+      "type": "Normal",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Thunder Wave",
+      "url": "https://pokeapi.co/api/v2/move/86/",
+      "type": "Electric",
+      "power": null,
+      "accuracy": 90,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rage",
+      "url": "https://pokeapi.co/api/v2/move/99/",
+      "type": "Normal",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rock Slide",
+      "url": "https://pokeapi.co/api/v2/move/157/",
+      "type": "Rock",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Tri Attack",
+      "url": "https://pokeapi.co/api/v2/move/161/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Legendary",
+  "baseExperience": 107,
+  "order": 931,
+  "isDefault": true,
+  "captureRate": 3,
+  "baseHappiness": 0,
+  "growthRate": "slow",
+  "hatchCounter": 120,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [
+    {
+      "name": "Type null",
+      "raw_name": "type-null",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/772.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/772.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/772.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/772.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Type null",
+      "raw_name": "type-null",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/772/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/772.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "タイプ：ヌル",
+    "roomaji": "Null",
+    "ko": "타입:널",
+    "zh-Hant": "屬性：空",
+    "fr": "Type:0",
+    "de": "Typ:Null",
+    "es": "Código Cero",
+    "it": "Tipo Zero",
+    "en": "Type: Null",
+    "ja": "タイプ：ヌル",
+    "zh-Hans": "属性：空"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#080808",
+      "#cfbe9a",
+      "#60472d"
+    ],
+    "primary": "#080808",
+    "secondary": "#cfbe9a",
+    "accent": "#60472d"
+  }
+}

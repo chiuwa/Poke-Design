@@ -1,0 +1,331 @@
+{
+  "id": 98,
+  "name": "Krabby",
+  "species": "River Crab Pokémon",
+  "type": [
+    "Water"
+  ],
+  "typeDetails": [
+    {
+      "name": "Water",
+      "slot": 1
+    }
+  ],
+  "height": 0.4,
+  "weight": 6.5,
+  "abilities": [
+    {
+      "name": "Hyper cutter",
+      "url": "https://pokeapi.co/api/v2/ability/52/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Shell armor",
+      "url": "https://pokeapi.co/api/v2/ability/75/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Sheer force",
+      "url": "https://pokeapi.co/api/v2/ability/125/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 105,
+    "defense": 90,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 50
+  },
+  "description": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+  "flavorTexts": [
+    {
+      "text": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+      "version": "red"
+    },
+    {
+      "text": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+      "version": "blue"
+    },
+    {
+      "text": "Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast.",
+      "version": "yellow"
+    },
+    {
+      "text": "If it senses dan­ ger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+      "version": "gold"
+    },
+    {
+      "text": "The pincers break off easily. If it loses a pincer, it somehow becomes incapable of walk­ ing sideways.",
+      "version": "silver"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#de524a",
+    "secondary": "#f9763e",
+    "accent": "#ffdebd",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#de524a",
+      "#f9763e",
+      "#ffdebd",
+      "#e4bd8f",
+      "#71521a",
+      "#ffffff"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/98.png",
+    "front": "/pokemon/sprites/98.png",
+    "back": "/pokemon/sprites/back/98.png",
+    "shiny": "/pokemon/sprites/shiny/98.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/98.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Krabby",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Kingler",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Vice Grip",
+      "url": "https://pokeapi.co/api/v2/move/11/",
+      "type": "Normal",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Guillotine",
+      "url": "https://pokeapi.co/api/v2/move/12/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 30,
+      "pp": 5,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Swords Dance",
+      "url": "https://pokeapi.co/api/v2/move/14/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Cut",
+      "url": "https://pokeapi.co/api/v2/move/15/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 95,
+      "pp": 30,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Slam",
+      "url": "https://pokeapi.co/api/v2/move/21/",
+      "type": "Normal",
+      "power": 80,
+      "accuracy": 75,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Headbutt",
+      "url": "https://pokeapi.co/api/v2/move/29/",
+      "type": "Normal",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Leer",
+      "url": "https://pokeapi.co/api/v2/move/43/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Water Gun",
+      "url": "https://pokeapi.co/api/v2/move/55/",
+      "type": "Water",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Ice Beam",
+      "url": "https://pokeapi.co/api/v2/move/58/",
+      "type": "Ice",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Blizzard",
+      "url": "https://pokeapi.co/api/v2/move/59/",
+      "type": "Ice",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 5,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Waters-edge",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 65,
+  "order": 156,
+  "isDefault": true,
+  "captureRate": 225,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Krabby",
+      "raw_name": "krabby",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/98.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/98.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/98.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Krabby",
+      "raw_name": "krabby",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/98/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/98.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/98.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "クラブ",
+    "roomaji": "Crab",
+    "ko": "크랩",
+    "zh-Hant": "大鉗蟹",
+    "fr": "Krabby",
+    "de": "Krabby",
+    "es": "Krabby",
+    "it": "Krabby",
+    "en": "Krabby",
+    "ja": "クラブ",
+    "zh-Hans": "大钳蟹"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#b49c29",
+      "#e6cda4",
+      "#fff6de"
+    ],
+    "primary": "#b49c29",
+    "secondary": "#e6cda4",
+    "accent": "#fff6de"
+  }
+}

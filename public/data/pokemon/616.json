@@ -1,0 +1,330 @@
+{
+  "id": 616,
+  "name": "Shelmet",
+  "species": "Snail Pokémon",
+  "type": [
+    "Bug"
+  ],
+  "typeDetails": [
+    {
+      "name": "Bug",
+      "slot": 1
+    }
+  ],
+  "height": 0.4,
+  "weight": 7.7,
+  "abilities": [
+    {
+      "name": "Hydration",
+      "url": "https://pokeapi.co/api/v2/ability/93/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Shell armor",
+      "url": "https://pokeapi.co/api/v2/ability/75/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Overcoat",
+      "url": "https://pokeapi.co/api/v2/ability/142/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 40,
+    "defense": 85,
+    "specialAttack": 40,
+    "specialDefense": 65,
+    "speed": 25
+  },
+  "description": "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+  "flavorTexts": [
+    {
+      "text": "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+      "version": "black"
+    },
+    {
+      "text": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "version": "white"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "x"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#c5c5d5",
+    "secondary": "#9494ac",
+    "accent": "#f8527d",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#c5c5d5",
+      "#9494ac",
+      "#f8527d",
+      "#af284c",
+      "#53bb3d",
+      "#abb2d4"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/616.png",
+    "front": "/pokemon/sprites/616.png",
+    "back": "/pokemon/sprites/back/616.png",
+    "shiny": "/pokemon/sprites/shiny/616.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/616.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Shelmet",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Accelgor",
+      "level": 2,
+      "details": [
+        {
+          "trigger": "trade"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Body Slam",
+      "url": "https://pokeapi.co/api/v2/move/34/",
+      "type": "Normal",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Double Edge",
+      "url": "https://pokeapi.co/api/v2/move/38/",
+      "type": "Normal",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Acid",
+      "url": "https://pokeapi.co/api/v2/move/51/",
+      "type": "Poison",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 30,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Absorb",
+      "url": "https://pokeapi.co/api/v2/move/71/",
+      "type": "Grass",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Mega Drain",
+      "url": "https://pokeapi.co/api/v2/move/72/",
+      "type": "Grass",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Recover",
+      "url": "https://pokeapi.co/api/v2/move/105/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Bide",
+      "url": "https://pokeapi.co/api/v2/move/117/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 1
+    },
+    {
+      "name": "Leech Life",
+      "url": "https://pokeapi.co/api/v2/move/141/",
+      "type": "Bug",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Acid Armor",
+      "url": "https://pokeapi.co/api/v2/move/151/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Mind Reader",
+      "url": "https://pokeapi.co/api/v2/move/170/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 61,
+  "order": 738,
+  "isDefault": true,
+  "captureRate": 200,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 15,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Shelmet",
+      "raw_name": "shelmet",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/616.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/616.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/616.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Shelmet",
+      "raw_name": "shelmet",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/616/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/616.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/616.ogg"
+  },
+  "names": {
+    "ja-Hrkt": "チョボマキ",
+    "roomaji": "Chobomaki",
+    "ko": "쪼마리",
+    "zh-Hant": "小嘴蝸",
+    "fr": "Escargaume",
+    "de": "Schnuthelm",
+    "es": "Shelmet",
+    "it": "Shelmet",
+    "en": "Shelmet",
+    "ja": "チョボマキ",
+    "zh-Hans": "小嘴蜗"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#deded5",
+      "#b4ac9c",
+      "#4a4120"
+    ],
+    "primary": "#deded5",
+    "secondary": "#b4ac9c",
+    "accent": "#4a4120"
+  }
+}

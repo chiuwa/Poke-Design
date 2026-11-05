@@ -1,0 +1,78 @@
+{
+  "id": 10303,
+  "name": "Falinks-mega",
+  "species": "Pokémon",
+  "type": [
+    "Fighting"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fighting",
+      "slot": 1
+    }
+  ],
+  "height": 1.6,
+  "weight": 99,
+  "abilities": [],
+  "baseStats": {
+    "hp": 65,
+    "attack": 135,
+    "defense": 135,
+    "specialAttack": 70,
+    "specialDefense": 65,
+    "speed": 100
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#292929",
+    "secondary": "#fccc4a",
+    "accent": "#cd9f3d",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#292929",
+      "#fccc4a",
+      "#cd9f3d",
+      "#e82828",
+      "#853024",
+      "#55b3e8"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10303.png",
+    "front": "/pokemon/sprites/10303.png",
+    "back": "/pokemon/sprites/back/10303.png",
+    "shiny": "/pokemon/sprites/shiny/10303.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10303.png",
+    "front_female": "/pokemon/sprites/female/10303.png",
+    "back_female": "/pokemon/sprites/back/female/10303.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10303.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10303.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

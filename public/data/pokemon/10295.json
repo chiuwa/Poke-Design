@@ -1,0 +1,83 @@
+{
+  "id": 10295,
+  "name": "Pyroar-mega",
+  "species": "Pokémon",
+  "type": [
+    "Fire",
+    "Normal"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fire",
+      "slot": 1
+    },
+    {
+      "name": "Normal",
+      "slot": 2
+    }
+  ],
+  "height": 1.5,
+  "weight": 93.3,
+  "abilities": [],
+  "baseStats": {
+    "hp": 86,
+    "attack": 88,
+    "defense": 92,
+    "specialAttack": 129,
+    "specialDefense": 86,
+    "speed": 126
+  },
+  "description": "",
+  "flavorTexts": [],
+  "colorPalette": {
+    "primary": "#fcc835",
+    "secondary": "#dd402f",
+    "accent": "#efbc8a",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fcc835",
+      "#dd402f",
+      "#efbc8a",
+      "#b78a5f",
+      "#634b40",
+      "#46322e"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/10295.png",
+    "front": "/pokemon/sprites/10295.png",
+    "back": "/pokemon/sprites/back/10295.png",
+    "shiny": "/pokemon/sprites/shiny/10295.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/10295.png",
+    "front_female": "/pokemon/sprites/female/10295.png",
+    "back_female": "/pokemon/sprites/back/female/10295.png",
+    "front_shiny_female": "/pokemon/sprites/shiny/female/10295.png",
+    "back_shiny_female": "/pokemon/sprites/back/shiny/female/10295.png"
+  },
+  "evolution": {
+    "stage": 1,
+    "generation": 1
+  },
+  "moves": [],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": null,
+  "order": -1,
+  "isDefault": false,
+  "captureRate": 45,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": -1,
+  "forms": [],
+  "varieties": [],
+  "heldItems": [],
+  "cries": {
+    "latest": null,
+    "legacy": null
+  }
+}

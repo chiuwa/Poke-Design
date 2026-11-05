@@ -1,0 +1,345 @@
+{
+  "id": 762,
+  "name": "Steenee",
+  "species": "Fruit Pokémon",
+  "type": [
+    "Grass"
+  ],
+  "typeDetails": [
+    {
+      "name": "Grass",
+      "slot": 1
+    }
+  ],
+  "height": 0.7,
+  "weight": 8.2,
+  "abilities": [
+    {
+      "name": "Leaf guard",
+      "url": "https://pokeapi.co/api/v2/ability/102/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Oblivious",
+      "url": "https://pokeapi.co/api/v2/ability/12/",
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "name": "Sweet veil",
+      "url": "https://pokeapi.co/api/v2/ability/175/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 40,
+    "defense": 48,
+    "specialAttack": 40,
+    "specialDefense": 48,
+    "speed": 62
+  },
+  "description": "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+  "flavorTexts": [
+    {
+      "text": "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon is always bouncing around energetically. Other Pokémon are attracted by its lively appearance and pleasant aroma.",
+      "version": "moon"
+    },
+    {
+      "text": "It’s protected by its hard sepals, so it plays with bird Pokémon without worry. They peck it relentlessly, but it doesn’t care.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It bounces around, swinging the sepals on its head with abandon. They’re quite painful when they smack you!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness.",
+      "version": "sword"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#96c853",
+    "secondary": "#fdfdfd",
+    "accent": "#c64d77",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#96c853",
+      "#fdfdfd",
+      "#c64d77",
+      "#659344",
+      "#c6b8c4",
+      "#ebe048"
+    ],
+    "locked": true
+  },
+  "artwork": {
+    "official": "/pokemon/762.png",
+    "front": "/pokemon/sprites/762.png",
+    "back": "/pokemon/sprites/back/762.png",
+    "shiny": "/pokemon/sprites/shiny/762.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/762.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Bounsweet",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Steenee",
+      "level": 2,
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "level up"
+        }
+      ]
+    },
+    {
+      "name": "Tsareena",
+      "level": 3,
+      "details": [
+        {
+          "trigger": "level up"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Double Slap",
+      "url": "https://pokeapi.co/api/v2/move/3/",
+      "type": "Normal",
+      "power": 15,
+      "accuracy": 85,
+      "pp": 10,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Stomp",
+      "url": "https://pokeapi.co/api/v2/move/23/",
+      "type": "Normal",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Take Down",
+      "url": "https://pokeapi.co/api/v2/move/36/",
+      "type": "Normal",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Razor Leaf",
+      "url": "https://pokeapi.co/api/v2/move/75/",
+      "type": "Grass",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Solar Beam",
+      "url": "https://pokeapi.co/api/v2/move/76/",
+      "type": "Grass",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Reflect",
+      "url": "https://pokeapi.co/api/v2/move/115/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Swift",
+      "url": "https://pokeapi.co/api/v2/move/129/",
+      "type": "Normal",
+      "power": 60,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Splash",
+      "url": "https://pokeapi.co/api/v2/move/150/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Snore",
+      "url": "https://pokeapi.co/api/v2/move/173/",
+      "type": "Normal",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Flail",
+      "url": "https://pokeapi.co/api/v2/move/175/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 102,
+  "order": 921,
+  "isDefault": true,
+  "captureRate": 120,
+  "baseHappiness": 70,
+  "growthRate": "medium slow",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 8,
+  "forms": [
+    {
+      "name": "Steenee",
+      "raw_name": "steenee",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/762.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/762.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/762.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/762.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Steenee",
+      "raw_name": "steenee",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/762/",
+      "type": ""
+    }
+  ],
+  "heldItems": [
+    {
+      "name": "Grassy Seed",
+      "rarity": 5
+    }
+  ],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/762.ogg",
+    "legacy": null
+  },
+  "names": {
+    "it": "Steenee",
+    "ja-Hrkt": "アママイコ",
+    "roomaji": "Amamaiko",
+    "ko": "달무리나",
+    "zh-Hant": "甜舞妮",
+    "fr": "Candine",
+    "de": "Frubaila",
+    "es": "Steenee",
+    "en": "Steenee",
+    "ja": "アママイコ",
+    "zh-Hans": "甜舞妮"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#dfa0ef",
+      "#b76bcf",
+      "#fafdab"
+    ],
+    "primary": "#dfa0ef",
+    "secondary": "#b76bcf",
+    "accent": "#fafdab"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "id": 684,
+  "name": "Swirlix",
+  "species": "Cotton Candy Pokémon",
+  "type": [
+    "Fairy"
+  ],
+  "typeDetails": [
+    {
+      "name": "Fairy",
+      "slot": 1
+    }
+  ],
+  "height": 0.4,
+  "weight": 3.5,
+  "abilities": [
+    {
+      "name": "Sweet veil",
+      "url": "https://pokeapi.co/api/v2/ability/175/",
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "name": "Unburden",
+      "url": "https://pokeapi.co/api/v2/ability/84/",
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 48,
+    "defense": 66,
+    "specialAttack": 59,
+    "specialDefense": 57,
+    "speed": 49
+  },
+  "description": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+  "flavorTexts": [
+    {
+      "text": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+      "version": "x"
+    },
+    {
+      "text": "Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy.",
+      "version": "y"
+    },
+    {
+      "text": "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It eats its own weight in sugar every day. If it doesn’t get enough sugar, it becomes incredibly grumpy.",
+      "version": "sword"
+    }
+  ],
+  "colorPalette": {
+    "primary": "#fff2f2",
+    "secondary": "#ccadad",
+    "accent": "#805963",
+    "background": "#F8F8F8",
+    "text": "#2C2C2C",
+    "highlights": [
+      "#fff2f2",
+      "#ccadad",
+      "#805963"
+    ]
+  },
+  "artwork": {
+    "official": "/pokemon/684.png",
+    "front": "/pokemon/sprites/684.png",
+    "back": "/pokemon/sprites/back/684.png",
+    "shiny": "/pokemon/sprites/shiny/684.png",
+    "back_shiny": "/pokemon/sprites/back/shiny/684.png",
+    "front_female": null,
+    "back_female": null,
+    "front_shiny_female": null,
+    "back_shiny_female": null
+  },
+  "evolution": [
+    {
+      "name": "Swirlix",
+      "level": 1,
+      "details": []
+    },
+    {
+      "name": "Slurpuff",
+      "level": 2,
+      "details": [
+        {
+          "held_item": "whipped dream",
+          "trigger": "trade"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "name": "Tackle",
+      "url": "https://pokeapi.co/api/v2/move/33/",
+      "type": "Normal",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 35,
+      "damage_class": "physical",
+      "priority": 0
+    },
+    {
+      "name": "Flamethrower",
+      "url": "https://pokeapi.co/api/v2/move/53/",
+      "type": "Fire",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Surf",
+      "url": "https://pokeapi.co/api/v2/move/57/",
+      "type": "Water",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "String Shot",
+      "url": "https://pokeapi.co/api/v2/move/81/",
+      "type": "Bug",
+      "power": null,
+      "accuracy": 95,
+      "pp": 40,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thunderbolt",
+      "url": "https://pokeapi.co/api/v2/move/85/",
+      "type": "Electric",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Toxic",
+      "url": "https://pokeapi.co/api/v2/move/92/",
+      "type": "Poison",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Psychic",
+      "url": "https://pokeapi.co/api/v2/move/94/",
+      "type": "Psychic",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Double Team",
+      "url": "https://pokeapi.co/api/v2/move/104/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 15,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Light Screen",
+      "url": "https://pokeapi.co/api/v2/move/113/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 30,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Amnesia",
+      "url": "https://pokeapi.co/api/v2/move/133/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Dream Eater",
+      "url": "https://pokeapi.co/api/v2/move/138/",
+      "type": "Psychic",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 15,
+      "damage_class": "special",
+      "priority": 0
+    },
+    {
+      "name": "Flash",
+      "url": "https://pokeapi.co/api/v2/move/148/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": 100,
+      "pp": 20,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Rest",
+      "url": "https://pokeapi.co/api/v2/move/156/",
+      "type": "Psychic",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Substitute",
+      "url": "https://pokeapi.co/api/v2/move/164/",
+      "type": "Normal",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "damage_class": "status",
+      "priority": 0
+    },
+    {
+      "name": "Thief",
+      "url": "https://pokeapi.co/api/v2/move/168/",
+      "type": "Dark",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 25,
+      "damage_class": "physical",
+      "priority": 0
+    }
+  ],
+  "habitat": "Unknown",
+  "generation": 1,
+  "rarity": "Common",
+  "baseExperience": 68,
+  "order": 819,
+  "isDefault": true,
+  "captureRate": 200,
+  "baseHappiness": 70,
+  "growthRate": "medium",
+  "hatchCounter": 20,
+  "hasGenderDifferences": false,
+  "genderRate": 4,
+  "forms": [
+    {
+      "name": "Swirlix",
+      "raw_name": "swirlix",
+      "form_name": "",
+      "is_mega": false,
+      "is_gigantamax": false,
+      "is_battle_only": false,
+      "is_default": true,
+      "sprites": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/684.png",
+        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/684.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/684.png",
+        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/684.png",
+        "front_female": null,
+        "back_female": null
+      }
+    }
+  ],
+  "varieties": [
+    {
+      "name": "Swirlix",
+      "raw_name": "swirlix",
+      "is_default": true,
+      "url": "https://pokeapi.co/api/v2/pokemon/684/",
+      "type": ""
+    }
+  ],
+  "heldItems": [],
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/684.ogg",
+    "legacy": null
+  },
+  "names": {
+    "ja-Hrkt": "ペロッパフ",
+    "roomaji": "Peroppafu",
+    "ko": "나룸퍼프",
+    "zh-Hant": "綿綿泡芙",
+    "fr": "Sucroquin",
+    "de": "Flauschling",
+    "es": "Swirlix",
+    "it": "Swirlix",
+    "en": "Swirlix",
+    "ja": "ペロッパフ",
+    "zh-Hans": "绵绵泡芙"
+  },
+  "shinyColorPalette": {
+    "highlights": [
+      "#ffd9b2",
+      "#bf9973",
+      "#4d2e1f"
+    ],
+    "primary": "#ffd9b2",
+    "secondary": "#bf9973",
+    "accent": "#4d2e1f"
+  }
+}
