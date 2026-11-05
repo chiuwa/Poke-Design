@@ -55,7 +55,7 @@ export default function ReconstructionStage() {
         </button>
       </div>
 
-      <div className="reconstruction-canvas" aria-label="Virtual cursors reconstructing a generated user interface">
+      <div className="reconstruction-canvas" aria-label="Virtual cursors reconstructing a Pokémon Center-inspired design interface">
         {/* Blueprint ghost — visible only at step 1 */}
         <div className="blueprint" aria-hidden="true">
           {[0, 1, 2, 3, 4, 5, 6].map((i) => (
@@ -69,23 +69,25 @@ export default function ReconstructionStage() {
         <div className="guide guide-h" aria-hidden="true"><span>64</span></div>
         <div className="guide guide-v" aria-hidden="true"><span>128</span></div>
 
-        {/* Reconstructed specimen UI */}
-        <div className="specimen-ui">
-          <div className="ui-nav">
-            <span className="ui-logo">PAL / 039</span>
-            <span className="ui-navlinks">Home　Styles　Archive</span>
-            <span className="ui-cta">Open DESIGN.md</span>
+        {/* Reconstructed specimen UI — a Pokémon Center-inspired design station */}
+        <div className="center-ui">
+          <div className="center-sky" aria-hidden="true">
+            <span className="center-roof" />
+            <span className="center-beacon"><i /></span>
+            <span className="center-orb"><i /></span>
           </div>
-          <div className="ui-hero">
-            <div className="ui-copy">
-              <span className="ui-kicker">Color specimen / Jigglypuff</span>
-              <h3>Build a softer interface.</h3>
-              <p>One sentence. One palette. A complete design direction for your agent.</p>
-              <span className="ui-button">View palette</span>
+          <div className="center-glass" aria-hidden="true">
+            <i /><i /><i /><i /><i /><i />
+          </div>
+          <div className="center-body">
+            <div className="center-sign">
+              <span className="center-kicker">Color specimen / 039</span>
+              <h3>Design Center</h3>
+              <p>One sentence → one palette → one interface.</p>
             </div>
-            <div className="ui-art">
-              <div className="ui-art-circle" />
-              <div className="ui-art-sprite">◕</div>
+            <div className="center-door">
+              <span className="center-door-orb" />
+              <span className="center-door-line" />
             </div>
           </div>
           <div className="ui-swatches">
@@ -129,7 +131,7 @@ export default function ReconstructionStage() {
         <span>01 DOM blueprint</span>
         <span>02 Blank canvas</span>
         <span>03 Cursors rebuild</span>
-        <span>04 Generated UI</span>
+        <span>04 Design Center</span>
       </div>
     </div>
   );

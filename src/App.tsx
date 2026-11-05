@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, useCallback } from 'react';
+import { useMemo, useState, useCallback } from 'react';
 import { pokemonIndex, searchPokemon } from './lib/pokemon';
 import type { PokemonMetadata } from './lib/types';
 import PokemonCard from './components/PokemonCard';
@@ -35,20 +35,32 @@ function App() {
     setVisible(PAGE_SIZE);
   }, []);
 
-  const [clock, setClock] = useState('');
-  useEffect(() => {
-    const update = () => setClock(new Intl.DateTimeFormat('en-GB', { hour: '2-digit', minute: '2-digit' }).format(new Date()));
-    update();
-    const id = window.setInterval(update, 30000);
-    return () => window.clearInterval(id);
-  }, []);
+  const colorPrompt = `Use the Jigglypuff color palette from pokemon_palette (#ffaca4, #e67383, #ec5f6d), apply the Apple Design skill from design_skill, and design a warm landing page. Return DESIGN.md, CSS variables and a React component.`;
+  const [copiedColorPrompt, setCopiedColorPrompt] = useState(false);
+  const copyColorPrompt = () => {
+    navigator.clipboard.writeText(colorPrompt).then(() => {
+      setCopiedColorPrompt(true);
+      window.setTimeout(() => setCopiedColorPrompt(false), 1400);
+    }).catch(() => undefined);
+  };
 
   return (
     <div className="site-shell">
       <header className="masthead">
-        <a className="wordmark" href="#top" aria-label="Palette Studio home">
-          <span className="wordmark-mark">P<span>/</span>S</span>
-          <span className="wordmark-name">Palette Studio</span>
+        <a className="wordmark" href="#top" aria-label="Poké Palette Atelier home">
+          <span className="wordmark-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="30" height="30">
+              <path d="M4 21a16 16 0 0 1 32 0" fill="#c23b2b" stroke="#1a1814" strokeWidth="2.2" />
+              <rect x="4" y="21" width="32" height="4" fill="#1a1814" />
+              <circle cx="20" cy="23" r="5.2" fill="#faf8f2" stroke="#1a1814" strokeWidth="2.2" />
+              <circle cx="20" cy="23" r="1.8" fill="#1a1814" />
+              <rect x="10" y="29" width="20" height="3" fill="#1785b5" />
+              <rect x="10" y="34" width="8" height="2" fill="#ffaca4" />
+              <rect x="20" y="34" width="6" height="2" fill="#e67383" />
+              <rect x="28" y="34" width="2" height="2" fill="#2649a8" />
+            </svg>
+          </span>
+          <span className="wordmark-name">Poké Palette Atelier</span>
         </a>
         <nav className="masthead-nav" aria-label="Primary">
           <a href="#connect">Connect</a>
@@ -57,7 +69,6 @@ function App() {
         </nav>
         <div className="masthead-meta">
           <span>Design materials for agents</span>
-          <span>{clock} HKT</span>
         </div>
       </header>
 
@@ -77,6 +88,23 @@ function App() {
             <div className="hero-actions">
               <a className="primary-action" href="#connect">Connect an agent</a>
               <a className="text-action" href="#specimens">Browse 1,025 specimens <span>↘</span></a>
+            </div>
+            <div className="color-prompt-sample">
+              <div className="color-prompt-head">
+                <span>Copy &amp; paste color prompt</span>
+                <button type="button" onClick={copyColorPrompt}>
+                  {copiedColorPrompt ? '✓ Copied' : 'Copy prompt'}
+                </button>
+              </div>
+              <p>{colorPrompt}</p>
+              <div className="color-prompt-swatches" aria-hidden="true">
+                <i style={{ background: '#ffaca4' }} />
+                <i style={{ background: '#e67383' }} />
+                <i style={{ background: '#ec5f6d' }} />
+                <i style={{ background: '#dd4655' }} />
+                <i style={{ background: '#ffffff' }} />
+                <i style={{ background: '#1785b5' }} />
+              </div>
             </div>
             <div className="hero-annotation">
               <span className="annotation-line" />

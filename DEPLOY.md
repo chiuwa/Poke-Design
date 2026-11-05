@@ -34,7 +34,7 @@ Or drag `dist/` to https://app.netlify.com/drop.
 
 ```bash
 npm run build
-npx wrangler pages deploy dist --project-name=palette-studio
+npx wrangler pages deploy dist --project-name=poke-palette-atelier
 ```
 
 ## GitHub Pages

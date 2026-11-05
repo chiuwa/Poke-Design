@@ -12,7 +12,7 @@ const TABS = [
       'Restart Codex, then keep this page open in your browser',
       'Ask: “Use pokemon_palette + design_skill to design a landing page with Jigglypuff and Apple Design.”',
     ],
-    code: `[mcp_servers.palette-studio]\ncommand = "npx"\nargs = ["-y", "@mcp-b/webmcp-local-relay@latest"]`,
+    code: `[mcp_servers.poke-palette-atelier]\ncommand = "npx"\nargs = ["-y", "@mcp-b/webmcp-local-relay@latest"]`,
     note: 'Codex shares this MCP config across CLI, desktop app and IDE extension.',
   },
   {
@@ -24,7 +24,7 @@ const TABS = [
       'Open this site and confirm the relay lists it as a source',
       'Ask Claude Code to combine pokemon_palette with design_skill',
     ],
-    code: `claude mcp add --transport stdio palette-studio -- npx -y @mcp-b/webmcp-local-relay@latest`,
+    code: `claude mcp add --transport stdio poke-palette-atelier -- npx -y @mcp-b/webmcp-local-relay@latest`,
     note: 'Use /mcp inside Claude Code to verify the connection.',
   },
   {
@@ -38,7 +38,7 @@ const TABS = [
     ],
     code: `{
   "mcpServers": {
-    "palette-studio": {
+    "poke-palette-atelier": {
       "command": "npx",
       "args": ["-y", "@mcp-b/webmcp-local-relay@latest"]
     }

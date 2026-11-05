@@ -1,4 +1,4 @@
-# Palette Studio
+# Poké Palette Atelier
 
 A design-material library for AI agents. Combine `pokemon_palette` +
 `design_skill` through WebMCP and generate a UI design in one sentence.
@@ -40,7 +40,7 @@ embed. Add the relay to your MCP client:
 ### Codex — `~/.codex/config.toml`
 
 ```toml
-[mcp_servers.palette-studio]
+[mcp_servers.poke-palette-atelier]
 command = "npx"
 args = ["-y", "@mcp-b/webmcp-local-relay@latest"]
 ```
@@ -50,7 +50,7 @@ Official OpenAI documentation: [Codex MCP](https://learn.chatgpt.com/docs/extend
 ### Claude Code
 
 ```bash
-claude mcp add --transport stdio palette-studio -- npx -y @mcp-b/webmcp-local-relay@latest
+claude mcp add --transport stdio poke-palette-atelier -- npx -y @mcp-b/webmcp-local-relay@latest
 ```
 
 ### Claude Desktop / Cursor / Windsurf
@@ -58,7 +58,7 @@ claude mcp add --transport stdio palette-studio -- npx -y @mcp-b/webmcp-local-re
 ```json
 {
   "mcpServers": {
-    "palette-studio": {
+    "poke-palette-atelier": {
       "command": "npx",
       "args": ["-y", "@mcp-b/webmcp-local-relay@latest"]
     }
