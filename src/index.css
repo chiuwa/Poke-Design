@@ -1,204 +1,23 @@
-/* ============================================
-   Apple Design Foundations
-   Translucent materials · fluid motion · optical typography
-   ============================================ */
-
 :root {
-  /* Apple-style easing curves */
-  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
-  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
-  --ease-spring: cubic-bezier(0.32, 0.72, 0, 1);
-
-  /* Semantic colors — light mode */
-  --bg: #f5f5f7;
-  --bg-elev: rgba(255, 255, 255, 0.72);
-  --bg-elev-solid: #ffffff;
-  --bg-elev-2: rgba(245, 245, 247, 0.9);
-  --text: #1d1d1f;
-  --text-muted: #6e6e73;
-  --text-tertiary: #86868b;
-  --border: rgba(0, 0, 0, 0.08);
-  --border-strong: rgba(0, 0, 0, 0.12);
-  --accent: #0071e3;
-  --accent-hover: #0077ed;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
-
-  /* Typography — Apple system font with optical sizing */
-  --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
-  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
-  --font-mono: ui-monospace, 'SF Mono', Menlo, monospace;
-
-  /* Material weights (Apple: bigger surface = stronger blur) */
-  --blur-sm: 12px;
-  --blur-md: 24px;
-  --blur-lg: 40px;
-
-  --radius-sm: 10px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #000000;
-    --bg-elev: rgba(28, 28, 30, 0.72);
-    --bg-elev-solid: #1c1c1e;
-    --bg-elev-2: rgba(44, 44, 46, 0.85);
-    --text: #f5f5f7;
-    --text-muted: #a1a1a6;
-    --text-tertiary: #7d7d82;
-    --border: rgba(255, 255, 255, 0.1);
-    --border-strong: rgba(255, 255, 255, 0.16);
-    --accent: #0a84ff;
-    --accent-hover: #409cff;
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
-  }
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html, body, #root {
-  min-height: 100%;
-}
-
-body {
-  font-family: var(--font-body);
-  font-optical-sizing: auto;
-  background: var(--bg);
-  color: var(--text);
+  font-family: "Helvetica Neue", Helvetica, Arial, "Segoe UI", sans-serif;
+  color: #1a1814;
+  background: #f3f0e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.47;
-  letter-spacing: 0;
-  transition: background-color 300ms var(--ease), color 300ms var(--ease);
-  /* Apple: avoid full-viewport moving backgrounds */
-  overflow-x: hidden;
 }
 
-button {
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-  background: none;
-  border: none;
-  /* Apple: respond on pointer-down, not release */
-  transition: transform 100ms var(--ease-out), opacity 200ms var(--ease);
-}
+* { box-sizing: border-box; }
+html, body, #root { min-height: 100%; }
+body { margin: 0; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+img, svg { display: block; }
 
-button:active {
-  transform: scale(0.97);
-}
+:focus-visible { outline: 2px solid #c23b2b; outline-offset: 3px; }
 
-input {
-  font: inherit;
-  color: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-a {
-  color: var(--accent);
-  text-decoration: none;
-  transition: color 200ms var(--ease);
-}
-
-a:hover {
-  color: var(--accent-hover);
-}
-
-/* Typography utilities */
-.display-1 {
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 6vw, 4.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.028em; /* Apple: negative tracking as text grows */
-  font-weight: 700;
-  font-optical-sizing: auto;
-}
-
-.display-2 {
-  font-family: var(--font-display);
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
-  line-height: 1.1;
-  letter-spacing: -0.022em;
-  font-weight: 600;
-}
-
-.body-lg {
-  font-size: clamp(1rem, 2vw, 1.125rem);
-  line-height: 1.55;
-  letter-spacing: -0.003em;
-  color: var(--text-muted);
-}
-
-.body-sm {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  letter-spacing: 0.002em;
-  color: var(--text-muted);
-}
-
-.caption {
-  font-size: 0.75rem;
-  letter-spacing: 0.02em;
-  color: var(--text-tertiary);
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.2s !important;
-    transition-duration: 0.2s !important;
-  }
-}
-
-@media (prefers-reduced-transparency: reduce) {
-  :root {
-    --bg-elev: var(--bg-elev-solid);
-    --blur-sm: 0px;
-    --blur-md: 0px;
-    --blur-lg: 0px;
-  }
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    --border: rgba(0, 0, 0, 0.3);
-    --text-muted: var(--text);
-  }
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--border-strong);
-  border-radius: 6px;
-  border: 3px solid var(--bg);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-tertiary);
-}
-
-::selection {
-  background: color-mix(in srgb, var(--accent) 25%, transparent);
+  html { scroll-behavior: auto; }
 }

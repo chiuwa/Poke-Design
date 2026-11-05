@@ -94,7 +94,7 @@ export async function registerWebMcpTools() {
   });
 
   await ctx.registerTool({
-    name: 'get_pokemon_palette',
+    name: 'pokemon_palette',
     description:
       'Get the full extracted color palette for a Pokémon by name or id. Returns primary, secondary, accent colors plus 6 highlight hex values — ready to use as a design system.',
     inputSchema: {
@@ -131,9 +131,9 @@ export async function registerWebMcpTools() {
   });
 
   await ctx.registerTool({
-    name: 'get_design_skill',
+    name: 'design_skill',
     description:
-      'Get distilled design principles from an expert design skill to apply to a project. Skills: "apple-design" (fluid motion, materials, typography, 8 design principles), "emil-design-eng" (UI polish, animation decisions, component craft). Combine with get_pokemon_palette to generate a design brief.',
+      'Return distilled design principles from an expert design skill to apply to a project. Skills: "apple-design" (fluid motion, materials, typography, 8 design principles), "emil-design-eng" (UI polish, animation decisions, component craft). Combine with pokemon_palette to generate a design brief.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -169,9 +169,9 @@ export async function registerWebMcpTools() {
   });
 
   await ctx.registerTool({
-    name: 'generate_design_brief',
+    name: 'design_brief',
     description:
-      'Compose a complete design brief that fuses a Pokémon color palette with a design skill. Returns CSS design tokens, typography scale, motion guidance and layout suggestions — ready to paste into a web page.',
+      'Compose a complete design brief that fuses a Pokémon color palette with a design skill. Returns CSS design tokens, typography scale, motion guidance, layout and accessibility suggestions — ready to paste into a web page.',
     inputSchema: {
       type: 'object',
       properties: {
