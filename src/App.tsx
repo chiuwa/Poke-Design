@@ -50,14 +50,19 @@ function App() {
         <a className="wordmark" href="#top" aria-label="Poké Palette Atelier home">
           <span className="wordmark-mark" aria-hidden="true">
             <svg viewBox="0 0 40 40" width="30" height="30">
-              <path d="M4 21a16 16 0 0 1 32 0" fill="#c23b2b" stroke="#1a1814" strokeWidth="2.2" />
-              <rect x="4" y="21" width="32" height="4" fill="#1a1814" />
-              <circle cx="20" cy="23" r="5.2" fill="#faf8f2" stroke="#1a1814" strokeWidth="2.2" />
-              <circle cx="20" cy="23" r="1.8" fill="#1a1814" />
-              <rect x="10" y="29" width="20" height="3" fill="#1785b5" />
-              <rect x="10" y="34" width="8" height="2" fill="#ffaca4" />
-              <rect x="20" y="34" width="6" height="2" fill="#e67383" />
-              <rect x="28" y="34" width="2" height="2" fill="#2649a8" />
+              <path d="M3 22 C4 12 11 7 20 7 C29 7 36 12 37 22 Z" fill="#c23b2b" stroke="#1a1814" strokeWidth="2" />
+              <path d="M7 18 C10 12 14 10 20 10 C26 10 30 12 33 18" fill="none" stroke="#f7e5da" strokeWidth="2" strokeLinecap="round" />
+              <circle cx="20" cy="13" r="5.4" fill="#faf8f2" stroke="#1a1814" strokeWidth="2" />
+              <path d="M14.6 13 A5.4 5.4 0 0 1 25.4 13 Z" fill="#c23b2b" />
+              <rect x="14.6" y="12.2" width="10.8" height="1.6" fill="#1a1814" />
+              <circle cx="20" cy="13" r="1.8" fill="#faf8f2" stroke="#1a1814" strokeWidth="1" />
+              <rect x="7" y="24" width="26" height="5" fill="#1785b5" stroke="#1a1814" strokeWidth="1" />
+              <line x1="15.7" y1="24" x2="15.7" y2="29" stroke="#1a1814" strokeWidth="1" />
+              <line x1="24.3" y1="24" x2="24.3" y2="29" stroke="#1a1814" strokeWidth="1" />
+              <rect x="8" y="31" width="24" height="2" fill="#ffaca4" stroke="#1a1814" strokeWidth="0.6" />
+              <rect x="8" y="34" width="9" height="2" fill="#e67383" stroke="#1a1814" strokeWidth="0.6" />
+              <rect x="18" y="34" width="9" height="2" fill="#ec5f6d" stroke="#1a1814" strokeWidth="0.6" />
+              <rect x="28" y="34" width="4" height="2" fill="#2649a8" stroke="#1a1814" strokeWidth="0.6" />
             </svg>
           </span>
           <span className="wordmark-name">Poké Palette Atelier</span>
