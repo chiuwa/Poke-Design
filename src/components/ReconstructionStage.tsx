@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
  * ReconstructionStage
  * --------------------
  * Virtual cursors rebuild a Pokémon Center-inspired design station from a
- * DOM blueprint: snapshot -> blank -> rulers -> structure -> sign -> glass
+ * DOM blueprint: snapshot -> blank -> rulers -> structure -> emblem -> glass
  * -> entrance -> palette tokens -> finished specimen.
  *
  * The building is an inline SVG so its proportions stay precise at any size.
@@ -100,13 +100,14 @@ export default function ReconstructionStage() {
               <rect x="132" y="262" width="456" height="5" fill="#8d2a20" />
             </g>
 
-            {/* one ball emblem only, centered and sitting on the roof */}
+            {/* one ball emblem only, centered lower on the roof */}
             <g className="rc-layer rc-emblem">
-              <circle cx="360" cy="150" r="27" fill="#faf8f2" stroke="#2a241d" strokeWidth="3" />
-              <path d="M333 150 A27 27 0 0 1 387 150 Z" fill="#c23b2b" />
-              <rect x="333" y="146" width="54" height="8" fill="#1a1814" />
-              <circle cx="360" cy="150" r="9" fill="#faf8f2" stroke="#2a241d" strokeWidth="2.5" />
-              <ellipse cx="347" cy="137" rx="8" ry="4" fill="#ffffff" opacity="0.85" />
+              <circle cx="360" cy="205" r="26" fill="#faf8f2" stroke="#2a241d" strokeWidth="2.8" />
+              <path d="M334 205 A26 26 0 0 1 386 205 Z" fill="#c23b2b" />
+              <path d="M334 205 A26 26 0 0 1 386 205" fill="none" stroke="#2a241d" strokeWidth="2.8" />
+              <rect x="334" y="201" width="52" height="8" fill="#1a1814" />
+              <circle cx="360" cy="205" r="8.5" fill="#faf8f2" stroke="#2a241d" strokeWidth="2.4" />
+              <ellipse cx="348" cy="193" rx="7.5" ry="3.6" fill="#ffffff" opacity="0.85" />
             </g>
 
             {/* teal glass — properly inset under the roof, not full-bleed */}
