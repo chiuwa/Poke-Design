@@ -3,69 +3,14 @@ import { pokemonIndex } from '../lib/pokemon';
 import type { PokemonMetadata } from '../lib/types';
 import GeneratedPreview from './generated/GeneratedPreview';
 
-const TABS = [
-  {
-    id: 'codex',
-    label: 'Codex',
-    kicker: 'CLI / desktop / IDE',
-    steps: [
-      'Add the local relay to ~/.codex/config.toml',
-      'Restart Codex, then keep this page open in your browser',
-      'Ask: “Use pokemon_palette + design_skill to design a landing page with Jigglypuff and Apple Design.”',
-    ],
-    code: `[mcp_servers.poke-palette-atelier]\ncommand = "npx"\nargs = ["-y", "@mcp-b/webmcp-local-relay@latest"]`,
-    note: 'Codex shares this MCP config across CLI, desktop app and IDE extension.',
-  },
-  {
-    id: 'claude-code',
-    label: 'Claude Code',
-    kicker: 'CLI',
-    steps: [
-      'Run the command below in your terminal',
-      'Open this site and confirm the relay lists it as a source',
-      'Ask Claude Code to combine pokemon_palette with design_skill',
-    ],
-    code: `claude mcp add --transport stdio poke-palette-atelier -- npx -y @mcp-b/webmcp-local-relay@latest`,
-    note: 'Use /mcp inside Claude Code to verify the connection.',
-  },
-  {
-    id: 'claude-desktop',
-    label: 'Claude Desktop',
-    kicker: 'mcpServers JSON',
-    steps: [
-      'Open Settings → Developer → Edit Config',
-      'Add the relay to mcpServers and restart Claude Desktop',
-      'Open this site, then ask your agent to list tools',
-    ],
-    code: `{
-  "mcpServers": {
-    "poke-palette-atelier": {
-      "command": "npx",
-      "args": ["-y", "@mcp-b/webmcp-local-relay@latest"]
-    }
-  }
-}`,
-    note: 'Works with Claude Desktop, Cursor, Windsurf and other stdio MCP clients.',
-  },
-  {
-    id: 'chrome',
-    label: 'Chrome agent',
-    kicker: 'Native WebMCP / extension',
-    steps: [
-      'Use Chrome 155+ with WebMCP enabled, or the Model Context Tool Inspector extension',
-      'Open this page and let the browser discover document.modelContext',
-      'Ask the in-browser agent to call pokemon_palette + design_skill',
-    ],
-    code: `document.modelContext.getTools()\n// list_pokemon, pokemon_palette,\n// design_skill, design_brief`,
-    note: 'No relay needed for browser-native agents. The tools live in this tab.',
-  },
+const TOOL_CALLS = [
+  { name: 'pokemon_palette', meta: 'Jigglypuff · 6 tokens' },
+  { name: 'design_skill', meta: 'Apple Design · type / motion / material' },
+  { name: 'design_brief', meta: 'CSS tokens + layout + contrast' },
 ];
 
 export default function AgentBanner() {
-  const [active, setActive] = useState('codex');
-  const tab = TABS.find((t) => t.id === active) ?? TABS[0];
-  const [copied, setCopied] = useState(false);
-  const [copiedPrompt, setCopiedPrompt] = useState(false);
+  const [copiedField, setCopiedField] = useState<string | null>(null);
   const [promptRun, setPromptRun] = useState(0);
   const [isBuildingSample, setIsBuildingSample] = useState(false);
   const [hasResult, setHasResult] = useState(false);
@@ -74,7 +19,11 @@ export default function AgentBanner() {
   const examplePokemon =
     pokemonIndex.find((p) => p.name.toLowerCase() === 'jigglypuff') ??
     pokemonIndex[0] as PokemonMetadata;
+
   const prompt = `Use the ${examplePokemon.name} palette from pokemon_palette, apply Apple Design from design_skill, and draft a landing page. Return DESIGN.md, CSS tokens and a React component.`;
+  const siteUrl = typeof window === 'undefined'
+    ? 'https://your-domain.example/'
+    : window.location.href.split('#')[0];
 
   const runPrompt = () => {
     setHasResult(true);
@@ -89,16 +38,11 @@ export default function AgentBanner() {
     return () => window.clearTimeout(timer);
   }, [promptRun]);
 
-  const copy = async (value: string, which: 'code' | 'prompt') => {
+  const copy = async (value: string, field: string) => {
     try {
       await navigator.clipboard.writeText(value);
-      if (which === 'code') {
-        setCopied(true);
-        window.setTimeout(() => setCopied(false), 1400);
-      } else {
-        setCopiedPrompt(true);
-        window.setTimeout(() => setCopiedPrompt(false), 1400);
-      }
+      setCopiedField(field);
+      window.setTimeout(() => setCopiedField(null), 1400);
     } catch {
       // Clipboard may be unavailable over non-secure origins; text remains selectable.
     }
@@ -109,26 +53,70 @@ export default function AgentBanner() {
       <div className="section-index">01 / Studio</div>
       <div className="agent-banner-grid">
         <div className="agent-banner-intro">
-          <p className="eyebrow">WebMCP · local relay · browser native</p>
+          <p className="eyebrow">WebMCP · one URL · four tools</p>
           <h2>Color, skill,<br />one working brief.</h2>
           <p className="agent-banner-copy">
-            Four WebMCP tools turn a short brief into design material. An assistant reads a
-            <code> pokemon_palette</code>, mixes it with a <code>design_skill</code>,
-            and returns a considered UI — no screenshots, no pasted hex values.
+            A palette gives the color. A design skill gives the judgment.
+            An assistant combines both into a considered interface.
           </p>
+
           <div className="prompt-showcase">
             <div className="prompt-block">
-              <span className="prompt-label">Studio prompt</span>
-              <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
-                {isBuildingSample ? 'Running...' : hasResult ? 'Rebuild sample' : 'Try this prompt'}
-              </button>
+              <div className="prompt-block-head">
+                <span className="prompt-label">Studio prompt</span>
+                <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
+                  {isBuildingSample ? 'Running...' : hasResult ? 'Rebuild sample' : 'Try this prompt'}
+                </button>
+              </div>
               <p>{prompt}</p>
-              <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
-                {copiedPrompt ? 'Copied' : 'Copy prompt'}
-              </button>
+              <div className="prompt-block-foot">
+                <span>pokemon_palette + design_skill</span>
+                <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
+                  {copiedField === 'prompt' ? 'Copied' : 'Copy prompt'}
+                </button>
+              </div>
             </div>
           </div>
         </div>
+
+        <aside className="agent-console" aria-label="Generic WebMCP assistant example">
+          <div className="agent-console-bar">
+            <span><i /> Assistant / WebMCP</span>
+            <span>Connected</span>
+          </div>
+          <div className="agent-url-field">
+            <small>Source URL</small>
+            <div>
+              <code>{siteUrl}</code>
+              <button type="button" onClick={() => copy(siteUrl, 'url')}>
+                {copiedField === 'url' ? '✓' : 'Copy'}
+              </button>
+            </div>
+          </div>
+          <div className="agent-thread">
+            <div className="agent-message user">
+              <span>You</span>
+              <p>Jigglypuff palette + Apple Design, made into a landing page.</p>
+            </div>
+            <div className="agent-tool-list">
+              {TOOL_CALLS.map((tool, index) => (
+                <div className="agent-tool-call" key={tool.name}>
+                  <i>{String(index + 1).padStart(2, '0')}</i>
+                  <code>{tool.name}</code>
+                  <span>{tool.meta}</span>
+                </div>
+              ))}
+            </div>
+            <div className="agent-message assistant">
+              <span>Assistant</span>
+              <p>Palette, skill and interface spec are ready.</p>
+            </div>
+          </div>
+          <div className="agent-console-foot">
+            <span>Open this URL in a WebMCP-enabled browser, or attach it to a local relay.</span>
+            <code>document.modelContext</code>
+          </div>
+        </aside>
 
         {hasResult && (
           <div className="prompt-result-wrap" ref={resultRef}>
@@ -139,42 +127,6 @@ export default function AgentBanner() {
             <GeneratedPreview runId={promptRun} />
           </div>
         )}
-        <div className="agent-setup">
-          <div className="agent-tabs" role="tablist" aria-label="Agent setup">
-            {TABS.map((t) => (
-              <button
-                key={t.id}
-                type="button"
-                role="tab"
-                aria-selected={t.id === active}
-                className={t.id === active ? 'active' : ''}
-                onClick={() => setActive(t.id)}
-              >
-                {t.label}
-              </button>
-            ))}
-          </div>
-          <div className="agent-panel" role="tabpanel">
-            <div className="agent-panel-head">
-              <span>{tab.kicker}</span>
-              <span className="relay-state"><i /> Relay embed active</span>
-            </div>
-            <ol className="setup-steps">
-              {tab.steps.map((s, i) => (
-                <li key={s}><span>{String(i + 1).padStart(2, '0')}</span>{s}</li>
-              ))}
-            </ol>
-            <div className="code-block">
-              <button type="button" onClick={() => copy(tab.code, 'code')} aria-label="Copy setup code">
-                {copied ? '✓' : 'Copy'}
-              </button>
-              <pre>{tab.code}</pre>
-            </div>
-            <p className="agent-note">{tab.note}</p>
-          </div>
-        </div>
-
-
       </div>
     </section>
   );
