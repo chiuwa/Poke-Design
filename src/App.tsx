@@ -35,19 +35,11 @@ function App() {
     setVisible(PAGE_SIZE);
   }, []);
 
-  const colorPrompt = `Use the Jigglypuff color palette from pokemon_palette (#ffaca4, #e67383, #ec5f6d), apply the Apple Design skill from design_skill, and design a warm landing page. Return DESIGN.md, CSS variables and a React component.`;
-  const [copiedColorPrompt, setCopiedColorPrompt] = useState(false);
-  const copyColorPrompt = () => {
-    navigator.clipboard.writeText(colorPrompt).then(() => {
-      setCopiedColorPrompt(true);
-      window.setTimeout(() => setCopiedColorPrompt(false), 1400);
-    }).catch(() => undefined);
-  };
 
   return (
     <div className="site-shell">
       <header className="masthead">
-        <a className="wordmark" href="#top" aria-label="Poké Palette Atelier home">
+        <a className="wordmark" href="#top" aria-label="Poke Design home">
           <span className="wordmark-mark" aria-hidden="true">
             <svg viewBox="0 0 40 40" width="30" height="30">
               <path d="M3 22 C4 12 11 7 20 7 C29 7 36 12 37 22 Z" fill="#c23b2b" stroke="#1a1814" strokeWidth="2" />
@@ -65,55 +57,38 @@ function App() {
               <rect x="28" y="34" width="4" height="2" fill="#2649a8" stroke="#1a1814" strokeWidth="0.6" />
             </svg>
           </span>
-          <span className="wordmark-name">Poké Palette Atelier</span>
+          <span className="wordmark-name">Poke Design</span>
         </a>
         <nav className="masthead-nav" aria-label="Primary">
-          <a href="#connect">Connect</a>
-          <a href="#formula">Formula</a>
-          <a href="#specimens">Specimens</a>
+          <a href="#connect">Studio</a>
+          <a href="#formula">Method</a>
+          <a href="#specimens">Archive</a>
         </nav>
         <div className="masthead-meta">
-          <span>Design materials for agents</span>
+          <span>Color · craft · WebMCP</span>
         </div>
       </header>
 
       <main id="top">
         <section className="hero-editorial">
           <div className="hero-copy">
-            <p className="eyebrow">Issue 001 — AI-readable design materials</p>
+            <p className="eyebrow">Issue 001 — Color &amp; craft for assistants</p>
             <h1>
-              <span>One sentence.</span>
-              <span>A finished</span>
-              <span><em>design direction.</em></span>
+              <span>Color has</span>
+              <span>a point</span>
+              <span><em>of view.</em></span>
             </h1>
             <p className="hero-dek">
-              Combine <code>pokemon_palette</code> + <code>design_skill</code> through WebMCP.
-              Your agent reads the palette, applies a design language, and reconstructs the interface.
+              Pokemon palettes meet design skills through WebMCP.
+              A short brief becomes tokens, typography and a considered interface.
             </p>
             <div className="hero-actions">
-              <a className="primary-action" href="#connect">Connect an agent</a>
-              <a className="text-action" href="#specimens">Browse 1,025 specimens <span>↘</span></a>
-            </div>
-            <div className="color-prompt-sample">
-              <div className="color-prompt-head">
-                <span>Copy &amp; paste color prompt</span>
-                <button type="button" onClick={copyColorPrompt}>
-                  {copiedColorPrompt ? '✓ Copied' : 'Copy prompt'}
-                </button>
-              </div>
-              <p>{colorPrompt}</p>
-              <div className="color-prompt-swatches" aria-hidden="true">
-                <i style={{ background: '#ffaca4' }} />
-                <i style={{ background: '#e67383' }} />
-                <i style={{ background: '#ec5f6d' }} />
-                <i style={{ background: '#dd4655' }} />
-                <i style={{ background: '#ffffff' }} />
-                <i style={{ background: '#1785b5' }} />
-              </div>
+              <a className="primary-action" href="#connect">Open the studio</a>
+              <a className="text-action" href="#specimens">Browse 1,025 palettes <span>↘</span></a>
             </div>
             <div className="hero-annotation">
               <span className="annotation-line" />
-              <p>Based on WebMCP · W3C Community Group draft<br />No backend, no API key, no screenshot scraping.</p>
+              <p>WebMCP · W3C Community Group draft<br />Static, local, no screenshot scraping.</p>
             </div>
           </div>
           <div className="hero-stage">
@@ -124,30 +99,30 @@ function App() {
         <AgentBanner />
 
         <section className="formula-section" id="formula">
-          <div className="section-index">02 / The formula</div>
+          <div className="section-index">02 / Method</div>
           <div className="formula-grid">
             <div className="formula-intro">
-              <h2>A design library<br />made for sentence-sized briefs.</h2>
+              <h2>A small library<br />with a long reach.</h2>
               <p>
-                Pokemon palettes are the color source. Expert skills are the judgment.
-                WebMCP is the handoff. Ask once; your agent assembles the rest.
+                Palettes set the color. Skills set the judgment.
+                WebMCP carries both into the design brief.
               </p>
             </div>
             <div className="formula-steps">
-              <article><span>01</span><h3>pokemon_palette</h3><p>1,025 pre-extracted sprite palettes, each with primary, secondary, accent and highlights.</p></article>
-              <article><span>02</span><h3>design_skill</h3><p>Apple Design and Emil Kowalski principles: type, spacing, motion, materials, craft.</p></article>
-              <article><span>03</span><h3>design_brief</h3><p>A single structured output: CSS variables, type scale, motion curves, layout and accessibility.</p></article>
+              <article><span>01</span><h3>pokemon_palette</h3><p>1,025 sprite palettes: primary, secondary, accent and highlights.</p></article>
+              <article><span>02</span><h3>design_skill</h3><p>Apple Design and Emil Kowalski: type, space, motion, material, craft.</p></article>
+              <article><span>03</span><h3>design_brief</h3><p>One structured brief: CSS tokens, type scale, motion, layout, contrast.</p></article>
             </div>
           </div>
         </section>
 
         <section className="specimens-section" id="specimens">
-          <div className="section-index">03 / Palette specimens</div>
+          <div className="section-index">03 / Archive</div>
           <div className="specimens-head">
             <div>
-              <p className="eyebrow">The archive</p>
-              <h2>Choose a color origin.</h2>
-              <p>Every card is a structured design token set exposed to your agent. Open one to see its palette applied live.</p>
+              <p className="eyebrow">Colour origins</p>
+              <h2>Start with a color.</h2>
+              <p>Each card holds a palette your assistant can read. Open one to see the colors at work.</p>
             </div>
             <div className="archive-count"><b>{filtered.length}</b><span>specimens<br />in view</span></div>
           </div>
@@ -189,11 +164,11 @@ function App() {
         </section>
 
         <section className="tool-ledger">
-          <div className="section-index">04 / Tool ledger</div>
+          <div className="section-index">04 / Tools</div>
           <div className="ledger-row"><code>list_pokemon</code><span>Search the archive by name, species, type, generation or rarity.</span><em>read</em></div>
           <div className="ledger-row"><code>pokemon_palette</code><span>Return a complete palette and sprite reference for one Pokémon.</span><em>read</em></div>
           <div className="ledger-row"><code>design_skill</code><span>Return distilled Apple Design or Emil Kowalski design engineering rules.</span><em>read</em></div>
-          <div className="ledger-row"><code>design_brief</code><span>Fuse palette + skill into CSS tokens, typography, motion and layout guidance.</span><em>compose</em></div>
+          <div className="ledger-row"><code>design_brief</code><span>Combine palette and skill into CSS tokens, type, motion and layout notes.</span><em>compose</em></div>
         </section>
       </main>
 

@@ -78,7 +78,7 @@ export default function PokemonDetail({ pokemon, onClose }: Props) {
   };
 
   const tokens = Array.from(new Set([primary, secondary, accent, ...highlights]));
-  const brief = `Use the ${pokemon.name} color palette (${tokens.join(', ')}) from pokemon_palette, then apply a design_skill to generate a landing page. Return DESIGN.md, CSS variables and a React component.`;
+  const brief = `Use the ${pokemon.name} color palette (${tokens.join(', ')}) from pokemon_palette, then apply a design_skill and draft a landing page. Return DESIGN.md, CSS tokens and a React component.`;
 
   return (
     <div className="palette-overlay" onMouseDown={onClose}>
@@ -112,7 +112,7 @@ export default function PokemonDetail({ pokemon, onClose }: Props) {
             <div className="sheet-preview" aria-label="Miniature UI preview using this palette">
               <div className="mini-nav"><i /><span /><span /><span /></div>
               <div className="mini-hero">
-                <div><b>Make it<br />feel like {pokemon.name}.</b><small>One sentence → interface</small></div>
+                <div><b>Make it<br />feel like {pokemon.name}.</b><small>Palette → interface</small></div>
                 <div className="mini-orb" />
               </div>
               <div className="mini-row"><i /><i /><i /></div>
@@ -150,10 +150,10 @@ export default function PokemonDetail({ pokemon, onClose }: Props) {
             </section>
 
             <section className="sheet-brief">
-              <div className="sheet-section-head"><h3>Agent ready</h3><span>DESIGN.md starter</span></div>
+              <div className="sheet-section-head"><h3>Assistant ready</h3><span>DESIGN.md starter</span></div>
               <p>{brief}</p>
               <button type="button" className="sheet-primary-action" onClick={() => copy(brief)}>
-                {copied === brief ? 'Prompt copied' : 'Copy agent prompt'}
+                {copied === brief ? 'Prompt copied' : 'Copy studio prompt'}
               </button>
             </section>
 

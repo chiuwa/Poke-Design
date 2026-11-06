@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { pokemonIndex } from '../lib/pokemon';
 import type { PokemonMetadata } from '../lib/types';
 import GeneratedPreview from './generated/GeneratedPreview';
@@ -69,15 +69,17 @@ export default function AgentBanner() {
   const [promptRun, setPromptRun] = useState(0);
   const [isBuildingSample, setIsBuildingSample] = useState(false);
   const [hasResult, setHasResult] = useState(false);
+  const resultRef = useRef<HTMLDivElement | null>(null);
 
   const examplePokemon =
     pokemonIndex.find((p) => p.name.toLowerCase() === 'jigglypuff') ??
     pokemonIndex[0] as PokemonMetadata;
-  const prompt = `Use the ${examplePokemon.name} color palette from pokemon_palette, apply the Apple Design skill from design_skill, and generate a complete landing page. Return DESIGN.md + CSS variables + a React component.`;
+  const prompt = `Use the ${examplePokemon.name} palette from pokemon_palette, apply Apple Design from design_skill, and draft a landing page. Return DESIGN.md, CSS tokens and a React component.`;
 
   const runPrompt = () => {
     setHasResult(true);
     setPromptRun((n) => n + 1);
+    window.setTimeout(() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 120);
   };
 
   useEffect(() => {
@@ -104,19 +106,19 @@ export default function AgentBanner() {
 
   return (
     <section className="agent-banner" id="connect">
-      <div className="section-index">01 / Connect your agent</div>
+      <div className="section-index">01 / Studio</div>
       <div className="agent-banner-grid">
         <div className="agent-banner-intro">
           <p className="eyebrow">WebMCP · local relay · browser native</p>
-          <h2>One sentence in your agent.<br />A complete design system out.</h2>
+          <h2>Color, skill,<br />one working brief.</h2>
           <p className="agent-banner-copy">
-            This page publishes structured tools through WebMCP. Your agent reads a
+            Four WebMCP tools turn a short brief into design material. An assistant reads a
             <code> pokemon_palette</code>, mixes it with a <code>design_skill</code>,
-            and turns that into UI — no screenshots, no copy-pasting hex values.
+            and returns a considered UI — no screenshots, no pasted hex values.
           </p>
           <div className="prompt-showcase">
             <div className="prompt-block">
-              <span className="prompt-label">One-sentence prompt</span>
+              <span className="prompt-label">Studio prompt</span>
               <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
                 {isBuildingSample ? 'Running...' : hasResult ? 'Rebuild sample' : 'Try this prompt'}
               </button>
@@ -128,6 +130,15 @@ export default function AgentBanner() {
           </div>
         </div>
 
+        {hasResult && (
+          <div className="prompt-result-wrap" ref={resultRef}>
+            <div className="prompt-result-label">
+              <span>Result</span>
+              <span>WebMCP → React</span>
+            </div>
+            <GeneratedPreview runId={promptRun} />
+          </div>
+        )}
         <div className="agent-setup">
           <div className="agent-tabs" role="tablist" aria-label="Agent setup">
             {TABS.map((t) => (
@@ -163,15 +174,7 @@ export default function AgentBanner() {
           </div>
         </div>
 
-        {hasResult && (
-          <div className="prompt-result-wrap">
-          <div className="prompt-result-label">
-            <span>Generated result</span>
-            <span>WebMCP → React</span>
-          </div>
-            <GeneratedPreview runId={promptRun} />
-          </div>
-        )}
+
       </div>
     </section>
   );

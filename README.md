@@ -1,11 +1,11 @@
-# Poké Palette Atelier
+# Poke Design
 
 A design-material library for AI agents. Combine `pokemon_palette` +
 `design_skill` through WebMCP and generate a UI design in one sentence.
 
 ## What it is
 
-This is not a Pokédex. It is an editorial, AI-readable design archive:
+This is not a Pokédex. It is an editorial color-and-craft archive:
 
 - 1,025 sprite-derived color palettes exposed as structured WebMCP tools
 - Expert design skills: Apple Design and Emil Kowalski design engineering

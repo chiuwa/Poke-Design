@@ -1,7 +1,7 @@
 {
-  "name": "Poké Palette Atelier",
-  "short_name": "Poké Palette Atelier",
-  "description": "AI-readable design materials: pokemon_palette + design_skill through WebMCP",
+  "name": "Poke Design",
+  "short_name": "Poke Design",
+  "description": "Pokémon palettes and design skills for assistants through WebMCP",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f3f0e9",

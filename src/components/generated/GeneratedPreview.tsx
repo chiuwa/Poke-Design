@@ -16,6 +16,8 @@ const BUILD_CURSORS = [
 
 const SOURCE_WIDTH = 1180;
 const SOURCE_HEIGHT = 760;
+const MOBILE_SOURCE_WIDTH = 780;
+const MOBILE_SOURCE_HEIGHT = 1160;
 
 const PHASE_LABELS = [
   'Prompt received',
@@ -32,6 +34,7 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
   const [phase, setPhase] = useState(7);
   const [internalRun, setInternalRun] = useState(0);
   const [scale, setScale] = useState(0.42);
+  const [source, setSource] = useState({ width: SOURCE_WIDTH, height: SOURCE_HEIGHT, mobile: false });
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const runToken = runId + internalRun;
 
@@ -49,7 +52,12 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
     const element = scrollRef.current;
     if (!element) return;
     const updateScale = () => {
-      setScale(element.clientWidth / SOURCE_WIDTH);
+      const width = element.clientWidth;
+      const mobile = width <= 720;
+      const sourceWidth = mobile ? MOBILE_SOURCE_WIDTH : SOURCE_WIDTH;
+      const sourceHeight = mobile ? MOBILE_SOURCE_HEIGHT : SOURCE_HEIGHT;
+      setSource({ width: sourceWidth, height: sourceHeight, mobile });
+      setScale(width / sourceWidth);
     };
     updateScale();
     const observer = new ResizeObserver(updateScale);
@@ -94,7 +102,7 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
         <div
           className="generated-result-scroll"
           ref={scrollRef}
-          style={{ height: `${Math.round(SOURCE_HEIGHT * scale)}px` }}
+          style={{ height: `${Math.round(source.height * scale)}px` }}
         >
           <div className="gp-blueprint" aria-hidden="true">
             <span className="gp-bp gp-bp-nav" />
@@ -116,7 +124,7 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
           <div className="gp-crosshair gp-crosshair-two" aria-hidden="true">+</div>
           <div className="gp-selection" aria-hidden="true"><i /><i /><i /><i /></div>
 
-          <div className="generated-result-scale" style={{ transform: `scale(${scale})` }}>
+          <div className={`generated-result-scale${source.mobile ? ' mobile' : ''}`} style={{ transform: `scale(${scale})` }}>
             <JigglypuffSaasIndex />
           </div>
 

@@ -203,3 +203,28 @@
   .jsaas { --jp-color-line: rgba(44,44,44,0.72); }
   .jp-nav, .jp-titlebar, .jp-product { background: #fff; }
 }
+/* Mobile specimen: one-column desktop-app composition at 780px source width. */
+.generated-result-scale.mobile .jsaas { width: 780px; min-height: 1160px; font-size: 18px; }
+.generated-result-scale.mobile .jp-nav { height: 74px; padding: 0 34px; grid-template-columns: 1fr auto; }
+.generated-result-scale.mobile .jp-nav nav { display: none; }
+.generated-result-scale.mobile .jp-brand { font-size: 19px; }
+.generated-result-scale.mobile .jp-brand-mark { width: 34px; height: 34px; }
+.generated-result-scale.mobile .jp-nav-cta { min-width: 112px; height: 40px; font-size: 14px; }
+.generated-result-scale.mobile .jp-hero { grid-template-columns: 1fr; padding: 52px 34px 38px; gap: 42px; }
+.generated-result-scale.mobile .jp-hero h1 { font-size: 64px; line-height: 0.98; }
+.generated-result-scale.mobile .jp-lede { max-width: 56ch; font-size: 18px; }
+.generated-result-scale.mobile .jp-actions { margin-top: 28px; }
+.generated-result-scale.mobile .jp-product { transform: none; border-radius: 18px; }
+.generated-result-scale.mobile .jp-app-body { min-height: 470px; grid-template-columns: 190px 1fr; }
+.generated-result-scale.mobile .jp-inspector { display: none; }
+.generated-result-scale.mobile .jp-sidebar { padding: 20px 14px; }
+.generated-result-scale.mobile .jp-sidebar li { min-height: 34px; font-size: 13px; }
+.generated-result-scale.mobile .jp-content { padding: 18px 20px 22px; }
+.generated-result-scale.mobile .jp-focus-card { min-height: 126px; padding: 20px; }
+.generated-result-scale.mobile .jp-focus-copy h2 { font-size: 26px; }
+.generated-result-scale.mobile .jp-focus-copy p { font-size: 12px; }
+.generated-result-scale.mobile .jp-task-list article { min-height: 52px; }
+.generated-result-scale.mobile .jp-task-list b { font-size: 13px; }
+.generated-result-scale.mobile .jp-palette-strip { padding: 0 34px 24px; }
+.generated-result-scale.mobile .jp-features { grid-template-columns: 1fr; }
+.generated-result-scale.mobile .jp-features article { border-right: 0; border-bottom: 1px solid rgba(44,44,44,0.08); padding: 22px 34px; }

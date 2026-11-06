@@ -73,7 +73,7 @@ export default function ReconstructionStage() {
             {/* editorial margin notes */}
             <g className="rc-layer rc-notes">
               <text x="24" y="26" className="svg-kicker">SPECIMEN 039 / JIGGLYPUFF</text>
-              <text x="24" y="43" className="svg-note">One sentence → one palette → one interface.</text>
+              <text x="24" y="43" className="svg-note">Palette → brief → interface.</text>
             </g>
 
             {/* foundation + wings + central block */}
@@ -152,7 +152,7 @@ export default function ReconstructionStage() {
               ))}
             </g>
             <g className="rc-layer rc-footer">
-              <text x="52" y="440" className="svg-monotiny">Generated with pokemon_palette + design_skill</text>
+              <text x="52" y="440" className="svg-monotiny">pokemon_palette + design_skill</text>
             </g>
           </svg>
         </div>
@@ -188,7 +188,7 @@ export default function ReconstructionStage() {
         <span>01 DOM blueprint</span>
         <span>02 Blank canvas</span>
         <span>03 Cursors rebuild</span>
-        <span>04 Generated UI</span>
+        <span>04 Interface</span>
       </div>
     </div>
   );

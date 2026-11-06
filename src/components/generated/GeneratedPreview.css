@@ -256,3 +256,19 @@
 @media (max-width: 1100px) {
   .prompt-result-wrap { margin-top: 8px; }
 }
+@media (max-width: 720px) {
+  .generated-result, .generated-result-window, .generated-result-scroll { width: 100%; min-width: 0; max-width: 100%; }
+  .generated-result { overflow: hidden; box-shadow: 6px 6px 0 rgba(26,24,20,0.04); }
+  .generated-result-scroll { height: auto !important; aspect-ratio: 780 / 1160; min-height: 0; }
+  .generated-result-scale { width: 1180px; height: 760px; }
+  .generated-result-scale.mobile { width: 780px; height: 1160px; }
+  .generated-result-head { min-height: 36px; padding: 8px 10px; font-size: 7px; }
+  .gp-source { display: none; }
+  .gp-head-right { margin-left: auto; }
+  .generated-result-foot { flex-wrap: wrap; gap: 6px 10px; padding: 8px 10px; }
+  .generated-build-caption { font-size: 7px; }
+  .generated-build-caption span { padding: 7px 6px; }
+  .gp-cursor span { display: none; }
+  .gp-cursor svg { width: 12px; height: 15px; }
+  .gp-measure, .gp-crosshair { display: none; }
+}
