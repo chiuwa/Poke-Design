@@ -4,6 +4,7 @@ import JigglypuffSaasIndex from './JigglypuffSaasIndex';
 
 type GeneratedPreviewProps = {
   runId: number;
+  compact?: boolean;
 };
 
 const BUILD_CURSORS = [
@@ -30,7 +31,7 @@ const PHASE_LABELS = [
   'UI reconstructed',
 ];
 
-export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
+export default function GeneratedPreview({ runId, compact = false }: GeneratedPreviewProps) {
   const [phase, setPhase] = useState(7);
   const [internalRun, setInternalRun] = useState(0);
   const [scale, setScale] = useState(0.42);
@@ -77,7 +78,7 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
 
   return (
     <div
-      className="generated-result"
+      className={`generated-result${compact ? ' compact' : ''}`}
       data-build-phase={phase}
       aria-label="Generated SaaS index page sample with virtual-cursor rebuild"
     >
