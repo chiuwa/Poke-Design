@@ -553,3 +553,15 @@ code { font-family: var(--font-mono); }
 /* Studio workspace replaces the former two-column prompt/setup grid. */
 .agent-banner > .section-index { margin-bottom: 18px; }
 .agent-banner .agent-banner-grid { display: block; }
+
+/* If a static sprite is ever missing, show a quiet palette specimen instead of a broken-image glyph. */
+.specimen-image img[data-failed="true"] { display: none; }
+.specimen-image:has(img[data-failed="true"])::after {
+  content: "";
+  width: 54px;
+  height: 54px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: conic-gradient(var(--card-accent) 0 40%, #eee8dd 40% 70%, var(--red) 70% 100%);
+  opacity: 0.55;
+}

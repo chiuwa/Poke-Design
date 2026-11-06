@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { TYPE_COLORS } from '../lib/types';
 import type { PokemonMetadata } from '../lib/types';
 import { formatId } from '../lib/pokemon';
@@ -16,6 +17,7 @@ const TYPE_INITIALS: Record<string, string> = {
 };
 
 export default function PokemonCard({ pokemon, index, onClick }: Props) {
+  const [imageFailed, setImageFailed] = useState(false);
   const mainType = pokemon.type[0] ?? 'Normal';
   const typeColor = TYPE_COLORS[mainType] ?? '#8a8172';
 
@@ -30,7 +32,7 @@ export default function PokemonCard({ pokemon, index, onClick }: Props) {
       <span className="specimen-number">{formatId(pokemon.id)}</span>
       <span className="specimen-type-code">{TYPE_INITIALS[mainType] ?? mainType.slice(0, 2).toUpperCase()}</span>
       <span className="specimen-image">
-        <img src={`/sprites/${pokemon.id}.png`} alt="" loading="lazy" decoding="async" />
+        <img src={`/sprites/${pokemon.id}.png`} alt="" loading="lazy" decoding="async" onError={() => setImageFailed(true)} data-failed={imageFailed ? "true" : undefined} />
       </span>
       <span className="specimen-name">{pokemon.name}</span>
       <span className="specimen-species">{pokemon.species}</span>
