@@ -21,9 +21,9 @@
   cursor: pointer;
   transition: transform 140ms var(--ease-spring), background-color 160ms ease, box-shadow 180ms var(--ease-out);
 }
-.run-prompt:hover { background: var(--black); border-color: var(--black); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(26,24,20,0.12); }
+.run-prompt:hover { background: var(--red); border-color: var(--red); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(194,59,43,0.16); }
 .run-prompt:active { transform: scale(0.97); }
-.run-prompt.is-building { background: var(--black); border-color: var(--black); }
+.run-prompt.is-building { background: var(--red); border-color: var(--red); }
 .prompt-result-label { display: flex; align-items: center; gap: 12px; margin: 18px 0 9px; font-family: var(--font-mono); font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint); }
 .prompt-result-label::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
 
@@ -43,7 +43,7 @@
 .generated-window-chrome b { color: var(--ink-soft); font-weight: 500; text-transform: uppercase; }
 
 .generated-result-scroll {
-  height: 300px;
+  min-height: 280px;
   overflow: hidden;
   background:
     linear-gradient(rgba(26,24,20,0.035) 1px, transparent 1px),
@@ -55,8 +55,8 @@
 }
 .generated-result-scale {
   width: 1180px;
-  height: 900px;
-  transform: scale(0.355);
+  height: 760px;
+  /* transform is computed from the container width in React */
   transform-origin: top left;
   position: relative;
   z-index: 3;
@@ -220,8 +220,8 @@
 .generated-result[data-build-phase="7"] .generated-result-scroll { background: #f8f8f8; }
 
 @media (max-width: 720px) {
-  .generated-result-scroll { height: 250px; }
-  .generated-result-scale { transform: scale(0.29); }
+  .generated-result-scroll { min-height: 220px; }
+  /* scale remains container-width driven */
   .generated-result-foot { flex-wrap: wrap; gap: 8px; }
   .generated-result-foot em { margin-left: 0; }
   .generated-build-caption { grid-template-columns: repeat(2, 1fr); }
@@ -236,4 +236,52 @@
   .generated-result-scale .jp-product,
   .generated-result-scale .jp-palette-strip,
   .generated-result-scale .jp-features { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+/* Collapsed by default: the result only exists after the prompt is tried. */
+.gp-collapsed {
+  width: 100%;
+  min-height: 92px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "kicker action" "title action" "palette action";
+  gap: 5px 20px;
+  align-items: center;
+  padding: 16px 18px;
+  border: 1px solid var(--rule-strong);
+  background: rgba(255,255,255,0.42);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 8px 8px 0 rgba(26,24,20,0.04);
+  transition: transform 160ms var(--ease-spring), background-color 180ms ease, box-shadow 200ms var(--ease-out);
+}
+.gp-collapsed:hover { transform: translateY(-2px); background: #fffaf7; box-shadow: 10px 10px 0 rgba(26,24,20,0.06); }
+.gp-collapsed:active { transform: scale(0.99); }
+.gp-collapsed-kicker { grid-area: kicker; font-family: var(--font-mono); font-size: 8px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint); }
+.gp-collapsed-title { grid-area: title; font-family: var(--font-serif); font-size: 18px; letter-spacing: -0.01em; }
+.gp-collapsed-palette { grid-area: palette; display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; max-width: 210px; }
+.gp-collapsed-palette i { height: 6px; border: 1px solid rgba(26,24,20,0.16); }
+.gp-collapsed-action { grid-area: action; color: var(--red); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+.gp-collapsed-action b { margin-left: 6px; font-weight: 400; }
+.gp-source { white-space: nowrap; }
+.gp-collapse { color: var(--ink-faint); font: inherit; text-transform: uppercase; letter-spacing: inherit; cursor: pointer; border-bottom: 1px solid currentColor; }
+.gp-collapse:active { transform: scale(0.96); }
+.generated-result[data-build-phase="7"] .generated-result-scroll { background: #f8f8f8; }
+@media (max-width: 720px) {
+  .gp-collapsed { grid-template-columns: 1fr; grid-template-areas: "kicker" "title" "palette" "action"; }
+  .gp-collapsed-action { margin-top: 6px; }
+  .gp-source { display: none; }
+  .generated-result-head { align-items: flex-start; }
+}
+
+/* Result sits in its own full-width grid row beneath the agent setup. */
+.prompt-result-wrap {
+  grid-column: 1 / -1;
+  margin-top: 20px;
+  border-top: 1px solid var(--rule);
+  padding-top: 20px;
+}
+.prompt-result-wrap .prompt-result-label::after { display: none; }
+@media (max-width: 1100px) {
+  .prompt-result-wrap { margin-top: 8px; }
 }

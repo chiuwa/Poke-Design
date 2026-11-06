@@ -109,20 +109,15 @@ export default function AgentBanner() {
           </p>
           <div className="prompt-showcase">
             <div className="prompt-block">
-              <span className="prompt-label">Try this prompt</span>
+              <span className="prompt-label">One-sentence prompt</span>
               <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
-                {isBuildingSample ? 'Building...' : 'Build sample UI'}
+                {isBuildingSample ? 'Running...' : 'Try this prompt'}
               </button>
               <p>{prompt}</p>
               <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
                 {copiedPrompt ? 'Copied' : 'Copy prompt'}
               </button>
             </div>
-            <div className="prompt-result-label">
-              <span>Actual generated sample</span>
-              <span>WebMCP → React</span>
-            </div>
-            <GeneratedPreview runId={promptRun} />
           </div>
         </div>
 
@@ -159,6 +154,14 @@ export default function AgentBanner() {
             </div>
             <p className="agent-note">{tab.note}</p>
           </div>
+        </div>
+
+        <div className="prompt-result-wrap">
+          <div className="prompt-result-label">
+            <span>Actual generated sample</span>
+            <span>WebMCP → React</span>
+          </div>
+          <GeneratedPreview runId={promptRun} />
         </div>
       </div>
     </section>

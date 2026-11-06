@@ -20,7 +20,7 @@
 .jsaas button { font: inherit; }
 
 .jp-nav {
-  height: 72px;
+  height: 64px;
   padding: 0 clamp(24px, 5vw, 64px);
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -39,8 +39,8 @@
 .jp-nav nav { display: flex; gap: clamp(14px, 2.4vw, 32px); font-size: 13px; color: var(--jp-color-muted); }
 .jp-nav nav a { transition: color 160ms var(--jp-ease-out), transform 160ms var(--jp-spring); }
 .jp-nav nav a:hover { color: var(--jp-color-text); transform: translateY(-1px); }
-.jp-nav-cta { justify-self: end; font-size: 13px; font-weight: 620; padding: 9px 16px; border-radius: 999px; background: var(--jp-color-text); color: #fff; transition: transform 140ms var(--jp-spring), background-color 140ms ease; }
-.jp-nav-cta:hover { background: var(--jp-color-deep); transform: translateY(-1px); }
+.jsaas a.jp-nav-cta { justify-self: end; display: inline-flex; align-items: center; justify-content: center; min-width: 104px; min-height: 38px; font-size: 13px; font-weight: 680; letter-spacing: -0.01em; padding: 9px 18px; border-radius: 999px; background: var(--jp-color-accent); color: #fff; text-shadow: none; transition: transform 140ms var(--jp-spring), background-color 140ms ease; }
+.jsaas a.jp-nav-cta:hover { background: var(--jp-color-deep); color: #fff; transform: translateY(-1px); }
 .jp-nav-cta:active { transform: scale(0.97); }
 
 .jp-hero {
@@ -48,7 +48,7 @@
   grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
   gap: clamp(28px, 5vw, 72px);
   align-items: center;
-  padding: clamp(48px, 6vw, 88px) clamp(24px, 5vw, 64px) clamp(40px, 5vw, 72px);
+  padding: clamp(32px, 4.4vw, 56px) clamp(24px, 5vw, 64px) clamp(28px, 3.8vw, 48px);
 }
 .jp-eyebrow { display: flex; align-items: center; gap: 8px; margin: 0 0 18px; font: 600 11px/1 var(--jp-font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--jp-color-deep); }
 .jp-eyebrow span { width: 7px; height: 7px; border-radius: 50%; background: var(--jp-color-cool); box-shadow: 0 0 0 4px rgba(23,133,181,0.12); }

@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import './GeneratedPreview.css';
 import JigglypuffSaasIndex from './JigglypuffSaasIndex';
 
@@ -14,6 +14,10 @@ const BUILD_CURSORS = [
   { id: 'e', label: 'Tokens', color: '#6d4aa5', x: '52%', y: '8%' },
 ];
 
+const SOURCE_WIDTH = 1180;
+const SOURCE_HEIGHT = 760;
+const PALETTE = ['#ffaca4', '#e67383', '#ec5f6d', '#dd4655', '#ffffff', '#1785b5'];
+
 const PHASE_LABELS = [
   'Prompt received',
   'DOM blueprint',
@@ -28,10 +32,14 @@ const PHASE_LABELS = [
 export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
   const [phase, setPhase] = useState(7);
   const [internalRun, setInternalRun] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+  const [scale, setScale] = useState(0.42);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
   const runToken = runId + internalRun;
 
   useEffect(() => {
     if (runToken === 0) return;
+    setIsOpen(true);
     setPhase(0);
     const delays = [260, 900, 1500, 2100, 3100, 4300, 5500];
     const timers = delays.map((delay, index) =>
@@ -40,13 +48,42 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
     return () => timers.forEach(window.clearTimeout);
   }, [runToken]);
 
-  const replay = () => setInternalRun((k) => k + 1);
+  useEffect(() => {
+    const element = scrollRef.current;
+    if (!element) return;
+    const updateScale = () => {
+      setScale(element.clientWidth / SOURCE_WIDTH);
+    };
+    updateScale();
+    const observer = new ResizeObserver(updateScale);
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, [isOpen]);
+
+  const replay = () => {
+    setIsOpen(true);
+    setInternalRun((k) => k + 1);
+  };
+  const collapse = () => setIsOpen(false);
   const isBuilding = runToken > 0 && phase < 7;
   const status = isBuilding
     ? `Rebuilding · step ${phase}/7`
     : runToken > 0
       ? 'UI reconstructed'
       : 'Generated specimen / ready to rebuild';
+
+  if (!isOpen) {
+    return (
+      <button type="button" className="gp-collapsed" onClick={replay} aria-label="Open generated SaaS index page sample">
+        <span className="gp-collapsed-kicker">Generated result / collapsed</span>
+        <span className="gp-collapsed-title">Jigglypuff × Apple Design SaaS index</span>
+        <span className="gp-collapsed-palette" aria-hidden="true">
+          {PALETTE.map((color) => <i key={color} style={{ background: color }} />)}
+        </span>
+        <span className="gp-collapsed-action">Try this prompt <b>↗</b></span>
+      </button>
+    );
+  }
 
   return (
     <div
@@ -60,8 +97,9 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
           {status}
         </span>
         <span className="gp-head-right">
-          <span>Jigglypuff × Apple Design</span>
+          <span className="gp-source">Jigglypuff × Apple Design</span>
           <button type="button" className="gp-replay" onClick={replay}>Replay</button>
+          <button type="button" className="gp-collapse" onClick={collapse}>Collapse</button>
         </span>
       </div>
 
@@ -72,7 +110,11 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
           <b>React</b>
         </div>
 
-        <div className="generated-result-scroll">
+        <div
+          className="generated-result-scroll"
+          ref={scrollRef}
+          style={{ height: `${Math.round(SOURCE_HEIGHT * scale)}px` }}
+        >
           <div className="gp-blueprint" aria-hidden="true">
             <span className="gp-bp gp-bp-nav" />
             <span className="gp-bp gp-bp-hero" />
@@ -87,13 +129,13 @@ export default function GeneratedPreview({ runId }: GeneratedPreviewProps) {
           <div className="gp-ruler gp-ruler-v" aria-hidden="true"><span>0</span><span>240</span><span>480</span><span>720</span></div>
           <div className="gp-guide gp-guide-h" aria-hidden="true"><span>64</span></div>
           <div className="gp-guide gp-guide-v" aria-hidden="true"><span>128</span></div>
-          <div className="gp-measure gp-measure-one" aria-hidden="true">1180 × 900</div>
+          <div className="gp-measure gp-measure-one" aria-hidden="true">1180 × 760</div>
           <div className="gp-measure gp-measure-two" aria-hidden="true">W 560 / H 390</div>
           <div className="gp-crosshair gp-crosshair-one" aria-hidden="true">+</div>
           <div className="gp-crosshair gp-crosshair-two" aria-hidden="true">+</div>
           <div className="gp-selection" aria-hidden="true"><i /><i /><i /><i /></div>
 
-          <div className="generated-result-scale">
+          <div className="generated-result-scale" style={{ transform: `scale(${scale})` }}>
             <JigglypuffSaasIndex />
           </div>
 
