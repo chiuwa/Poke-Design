@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { pokemonIndex } from '../lib/pokemon';
 import type { PokemonMetadata } from '../lib/types';
+import GeneratedPreview from './generated/GeneratedPreview';
 
 const TABS = [
   {
@@ -65,11 +66,19 @@ export default function AgentBanner() {
   const tab = TABS.find((t) => t.id === active) ?? TABS[0];
   const [copied, setCopied] = useState(false);
   const [copiedPrompt, setCopiedPrompt] = useState(false);
+  const [promptRun, setPromptRun] = useState(0);
+  const [isBuildingSample, setIsBuildingSample] = useState(false);
 
   const examplePokemon =
     pokemonIndex.find((p) => p.name.toLowerCase() === 'jigglypuff') ??
     pokemonIndex[0] as PokemonMetadata;
   const prompt = `Use the ${examplePokemon.name} color palette from pokemon_palette, apply the Apple Design skill from design_skill, and generate a complete landing page. Return DESIGN.md + CSS variables + a React component.`;
+
+  const runPrompt = () => {
+    setPromptRun((n) => n + 1);
+    setIsBuildingSample(true);
+    window.setTimeout(() => setIsBuildingSample(false), 5800);
+  };
 
   const copy = async (value: string, which: 'code' | 'prompt') => {
     try {
@@ -98,12 +107,22 @@ export default function AgentBanner() {
             <code> pokemon_palette</code>, mixes it with a <code>design_skill</code>,
             and turns that into UI — no screenshots, no copy-pasting hex values.
           </p>
-          <div className="prompt-block">
-            <span className="prompt-label">Try this prompt</span>
-            <p>{prompt}</p>
-            <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
-              {copiedPrompt ? 'Copied' : 'Copy prompt'}
-            </button>
+          <div className="prompt-showcase">
+            <div className="prompt-block">
+              <span className="prompt-label">Try this prompt</span>
+              <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
+                {isBuildingSample ? 'Building...' : 'Build sample UI'}
+              </button>
+              <p>{prompt}</p>
+              <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
+                {copiedPrompt ? 'Copied' : 'Copy prompt'}
+              </button>
+            </div>
+            <div className="prompt-result-label">
+              <span>Actual generated sample</span>
+              <span>WebMCP → React</span>
+            </div>
+            <GeneratedPreview runId={promptRun} />
           </div>
         </div>
 

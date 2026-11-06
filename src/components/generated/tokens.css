@@ -1,0 +1,37 @@
+:root {
+  --jp-palette-primary: #ffaca4;
+  --jp-palette-secondary: #e67383;
+  --jp-palette-accent: #ec5f6d;
+  --jp-palette-deep: #dd4655;
+  --jp-palette-cool: #1785b5;
+  --jp-palette-white: #ffffff;
+  --jp-palette-bg: #f8f8f8;
+  --jp-palette-text: #2c2c2c;
+}
+
+.jsaas {
+  --jp-color-primary: #ffaca4;
+  --jp-color-secondary: #e67383;
+  --jp-color-accent: #ec5f6d;
+  --jp-color-deep: #dd4655;
+  --jp-color-cool: #1785b5;
+  --jp-color-bg: #f8f8f8;
+  --jp-color-canvas: #fffaf8;
+  --jp-color-text: #2c2c2c;
+  --jp-color-muted: #706763;
+  --jp-color-line: rgba(44, 44, 44, 0.12);
+  --jp-color-glass: rgba(255, 255, 255, 0.62);
+  --jp-color-surface: rgba(255, 255, 255, 0.82);
+  --jp-font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
+  --jp-font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  --jp-font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+  --jp-spring: cubic-bezier(0.32, 0.72, 0, 1);
+  --jp-ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --jp-shadow-soft: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --jp-shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --jp-shadow-large: 0 24px 60px rgba(221, 70, 85, 0.16);
+  --jp-radius-sm: 10px;
+  --jp-radius-md: 14px;
+  --jp-radius-lg: 20px;
+  --jp-radius-xl: 28px;
+}
