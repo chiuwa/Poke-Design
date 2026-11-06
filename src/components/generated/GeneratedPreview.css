@@ -161,54 +161,62 @@
 .generated-result-scale .jp-nav,
 .generated-result-scale .jp-hero-copy > *,
 .generated-result-scale .jp-product,
-.generated-result-scale .jp-product .jp-dash-head,
-.generated-result-scale .jp-product .jp-metric-row,
-.generated-result-scale .jp-product .jp-chart-card,
-.generated-result-scale .jp-product .jp-task-row,
+.generated-result-scale .jp-product .jp-titlebar,
+.generated-result-scale .jp-product .jp-sidebar,
+.generated-result-scale .jp-product .jp-content-toolbar,
+.generated-result-scale .jp-product .jp-focus-card,
+.generated-result-scale .jp-product .jp-list-head,
+.generated-result-scale .jp-product .jp-task-list,
+.generated-result-scale .jp-product .jp-inspector,
 .generated-result-scale .jp-palette-strip,
 .generated-result-scale .jp-features { transition: opacity 340ms var(--ease-out), transform 340ms var(--ease-out); }
 .generated-result[data-build-phase="3"] .generated-result-scale > .jsaas > *:not(.jp-nav) { opacity: 0; }
-.generated-result[data-build-phase="4"] .jp-nav { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="4"] .jp-hero-copy > *:not(.jp-actions):not(.jp-proof) { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="4"] .jp-product { opacity: 0; transform: translateY(12px) !important; }
-.generated-result[data-build-phase="5"] .jp-hero-copy > * { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="5"] .jp-product { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="5"] .jp-dash-head,
-.generated-result[data-build-phase="6"] .jp-dash-head,
-.generated-result[data-build-phase="7"] .jp-dash-head { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="5"] .jp-metric-row,
-.generated-result[data-build-phase="5"] .jp-chart-card,
-.generated-result[data-build-phase="5"] .jp-task-row,
-.generated-result[data-build-phase="5"] .jp-palette-strip,
-.generated-result[data-build-phase="5"] .jp-features { opacity: 0; transform: translateY(8px); }
-.generated-result[data-build-phase="6"] .jp-metric-row,
-.generated-result[data-build-phase="6"] .jp-chart-card,
-.generated-result[data-build-phase="6"] .jp-task-row,
-.generated-result[data-build-phase="6"] .jp-palette-strip,
-.generated-result[data-build-phase="6"] .jp-features,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-nav,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-hero-copy > *,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-product,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-product .jp-dash-head,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-product .jp-metric-row,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-product .jp-chart-card,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-product .jp-task-row,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-palette-strip,
-.generated-result[data-build-phase="7"] .generated-result-scale .jp-features { opacity: 1 !important; transform: none !important; }
-.generated-result[data-build-phase="6"] .jp-metric-row { transition-delay: 40ms; }
-.generated-result[data-build-phase="6"] .jp-chart-card { transition-delay: 120ms; }
-.generated-result[data-build-phase="6"] .jp-task-row { transition-delay: 190ms; }
-.generated-result[data-build-phase="6"] .jp-palette-strip { transition-delay: 250ms; }
-.generated-result[data-build-phase="6"] .jp-features { transition-delay: 310ms; }
-
-/* Starting states: once phase 3 begins, hidden pieces are staged by the rules above. */
 .generated-result[data-build-phase="3"] .jp-nav,
 .generated-result[data-build-phase="3"] .jp-hero-copy > *,
 .generated-result[data-build-phase="3"] .jp-product,
 .generated-result[data-build-phase="3"] .jp-palette-strip,
 .generated-result[data-build-phase="3"] .jp-features { opacity: 0; transform: translateY(10px); }
+.generated-result[data-build-phase="4"] .jp-nav,
+.generated-result[data-build-phase="4"] .jp-hero-copy > *:not(.jp-actions):not(.jp-proof) { opacity: 1 !important; transform: none !important; }
+.generated-result[data-build-phase="4"] .jp-product,
 .generated-result[data-build-phase="4"] .jp-palette-strip,
 .generated-result[data-build-phase="4"] .jp-features { opacity: 0; transform: translateY(10px); }
+.generated-result[data-build-phase="5"] .jp-hero-copy > *,
+.generated-result[data-build-phase="5"] .jp-product { opacity: 1 !important; transform: none !important; }
+.generated-result[data-build-phase="5"] .jp-titlebar,
+.generated-result[data-build-phase="5"] .jp-sidebar { opacity: 1 !important; transform: none !important; }
+.generated-result[data-build-phase="5"] .jp-content-toolbar,
+.generated-result[data-build-phase="5"] .jp-focus-card,
+.generated-result[data-build-phase="5"] .jp-list-head,
+.generated-result[data-build-phase="5"] .jp-task-list,
+.generated-result[data-build-phase="5"] .jp-inspector,
+.generated-result[data-build-phase="5"] .jp-palette-strip,
+.generated-result[data-build-phase="5"] .jp-features { opacity: 0; transform: translateY(8px); }
+.generated-result[data-build-phase="6"] .jp-content-toolbar,
+.generated-result[data-build-phase="6"] .jp-focus-card,
+.generated-result[data-build-phase="6"] .jp-list-head,
+.generated-result[data-build-phase="6"] .jp-task-list,
+.generated-result[data-build-phase="6"] .jp-inspector,
+.generated-result[data-build-phase="6"] .jp-palette-strip,
+.generated-result[data-build-phase="6"] .jp-features,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-nav,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-hero-copy > *,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-product,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-titlebar,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-sidebar,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-content-toolbar,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-focus-card,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-list-head,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-task-list,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-inspector,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-palette-strip,
+.generated-result[data-build-phase="7"] .generated-result-scale .jp-features { opacity: 1 !important; transform: none !important; }
+.generated-result[data-build-phase="6"] .jp-focus-card { transition-delay: 50ms; }
+.generated-result[data-build-phase="6"] .jp-list-head { transition-delay: 110ms; }
+.generated-result[data-build-phase="6"] .jp-task-list { transition-delay: 170ms; }
+.generated-result[data-build-phase="6"] .jp-inspector { transition-delay: 220ms; }
+.generated-result[data-build-phase="6"] .jp-palette-strip { transition-delay: 270ms; }
+.generated-result[data-build-phase="6"] .jp-features { transition-delay: 320ms; }
 
 /* Final state: no editorial cursors, rulers or guides remain. */
 .generated-result[data-build-phase="7"] .gp-cursor-swarm,
@@ -237,43 +245,6 @@
   .generated-result-scale .jp-palette-strip,
   .generated-result-scale .jp-features { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
-/* Collapsed by default: the result only exists after the prompt is tried. */
-.gp-collapsed {
-  width: 100%;
-  min-height: 92px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-areas: "kicker action" "title action" "palette action";
-  gap: 5px 20px;
-  align-items: center;
-  padding: 16px 18px;
-  border: 1px solid var(--rule-strong);
-  background: rgba(255,255,255,0.42);
-  color: var(--ink);
-  text-align: left;
-  cursor: pointer;
-  box-shadow: 8px 8px 0 rgba(26,24,20,0.04);
-  transition: transform 160ms var(--ease-spring), background-color 180ms ease, box-shadow 200ms var(--ease-out);
-}
-.gp-collapsed:hover { transform: translateY(-2px); background: #fffaf7; box-shadow: 10px 10px 0 rgba(26,24,20,0.06); }
-.gp-collapsed:active { transform: scale(0.99); }
-.gp-collapsed-kicker { grid-area: kicker; font-family: var(--font-mono); font-size: 8px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint); }
-.gp-collapsed-title { grid-area: title; font-family: var(--font-serif); font-size: 18px; letter-spacing: -0.01em; }
-.gp-collapsed-palette { grid-area: palette; display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px; max-width: 210px; }
-.gp-collapsed-palette i { height: 6px; border: 1px solid rgba(26,24,20,0.16); }
-.gp-collapsed-action { grid-area: action; color: var(--red); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
-.gp-collapsed-action b { margin-left: 6px; font-weight: 400; }
-.gp-source { white-space: nowrap; }
-.gp-collapse { color: var(--ink-faint); font: inherit; text-transform: uppercase; letter-spacing: inherit; cursor: pointer; border-bottom: 1px solid currentColor; }
-.gp-collapse:active { transform: scale(0.96); }
-.generated-result[data-build-phase="7"] .generated-result-scroll { background: #f8f8f8; }
-@media (max-width: 720px) {
-  .gp-collapsed { grid-template-columns: 1fr; grid-template-areas: "kicker" "title" "palette" "action"; }
-  .gp-collapsed-action { margin-top: 6px; }
-  .gp-source { display: none; }
-  .generated-result-head { align-items: flex-start; }
-}
-
 /* Result sits in its own full-width grid row beneath the agent setup. */
 .prompt-result-wrap {
   grid-column: 1 / -1;

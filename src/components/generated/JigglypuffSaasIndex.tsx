@@ -2,12 +2,18 @@ import './tokens.css';
 import './JigglypuffSaasIndex.css';
 
 const NAV_ITEMS = ['Product', 'Workspace', 'Customers', 'Pricing'];
-const METRICS = [
-  { label: 'Weekly focus', value: '82%', delta: '+12%' },
-  { label: 'Plans shipped', value: '24', delta: '+6' },
-  { label: 'Team calm', value: '4.9', delta: 'steady' },
+const SIDEBAR_ITEMS = [
+  { label: 'Today', count: '4', active: true },
+  { label: 'Upcoming', count: '12' },
+  { label: 'Projects', count: '8' },
+  { label: 'Notes', count: '' },
+  { label: 'Archive', count: '' },
 ];
-const BARS = [42, 68, 54, 86, 72, 92, 64];
+const TASKS = [
+  { title: 'Finalise launch notes', meta: 'Design · 09:30', done: true },
+  { title: 'Review customer calls', meta: 'Research · 14:00', done: false },
+  { title: 'Send weekly digest', meta: 'Studio · 16:30', done: false },
+];
 const PALETTE = ['#ffaca4', '#e67383', '#ec5f6d', '#dd4655', '#ffffff', '#1785b5'];
 
 export default function JigglypuffSaasIndex() {
@@ -23,65 +29,113 @@ export default function JigglypuffSaasIndex() {
         <nav aria-label="Product navigation">
           {NAV_ITEMS.map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}
         </nav>
-        <a className="jp-nav-cta" href="#start">Start free</a>
+        <a className="jp-nav-cta" href="#start">Open app</a>
       </header>
 
       <section className="jp-hero" id="sample-top">
         <div className="jp-hero-copy">
-          <p className="jp-eyebrow"><span /> A calmer way to plan together</p>
-          <h1>Good work,<br /><em>without the noise.</em></h1>
+          <p className="jp-eyebrow"><span /> A calmer place to work</p>
+          <h1>Good work,<br /><em>quietly organised.</em></h1>
           <p className="jp-lede">
-            Puffbase turns scattered briefs into one clear weekly rhythm. Built for teams
-            who would rather make something thoughtful than manage another dashboard.
+            One focused workspace for the day’s decisions, writing and next steps.
+            Nothing loud, nothing to configure.
           </p>
           <div className="jp-actions">
-            <a className="jp-primary" href="#start">Start free <span aria-hidden="true">↗</span></a>
-            <a className="jp-secondary" href="#workspace">See the workspace</a>
+            <a className="jp-primary" href="#start">Open Puffbase</a>
+            <a className="jp-secondary" href="#workspace">Take a look <span aria-hidden="true">→</span></a>
           </div>
           <div className="jp-proof">
-            <div className="jp-avatars" aria-hidden="true"><i>J</i><i>A</i><i>M</i><i>+</i></div>
-            <span>Designed for small teams<br />with ambitious standards.</span>
+            <span className="jp-proof-rule" aria-hidden="true" />
+            <span>Mac, iPad and iPhone<br />Designed for small teams.</span>
           </div>
         </div>
 
-        <div className="jp-product" id="workspace" aria-label="Puffbase weekly planning dashboard">
-          <div className="jp-window-bar">
-            <div className="jp-window-dots" aria-hidden="true"><i /><i /><i /></div>
-            <span>week 24 / studio plan</span>
-            <b>Live</b>
+        <div className="jp-product" id="workspace" aria-label="Puffbase desktop workspace">
+          <div className="jp-titlebar">
+            <div className="jp-traffic" aria-hidden="true"><i /><i /><i /></div>
+            <div className="jp-titlebar-title"><span>Puffbase</span><small>Today</small></div>
+            <div className="jp-titlebar-actions" aria-hidden="true">
+              <i className="jp-symbol-plus">＋</i>
+              <i className="jp-symbol-search">⌕</i>
+              <i className="jp-symbol-more">···</i>
+            </div>
           </div>
-          <div className="jp-product-body">
+          <div className="jp-app-body">
             <aside className="jp-sidebar" aria-label="Workspace sections">
-              <small>WORKSPACE</small>
-              {['Overview', 'Projects', 'Timeline', 'Notes', 'Archive'].map((x, i) => (
-                <span className={i === 0 ? 'active' : ''} key={x}><i />{x}</span>
-              ))}
-            </aside>
-            <div className="jp-dashboard">
-              <div className="jp-dash-head">
-                <div><small>THIS WEEK</small><h2>Make room for the important work.</h2></div>
-                <button type="button">New plan</button>
+              <div className="jp-sidebar-account">
+                <span className="jp-account-avatar" aria-hidden="true">S</span>
+                <div><b>Studio North</b><small>Workspace</small></div>
               </div>
-              <div className="jp-metric-row">
-                {METRICS.map((m) => (
-                  <article key={m.label}>
-                    <small>{m.label}</small>
-                    <b>{m.value}</b>
-                    <em>{m.delta}</em>
+              <div className="jp-sidebar-label">Library</div>
+              <ul>
+                {SIDEBAR_ITEMS.map((item) => (
+                  <li className={item.active ? 'active' : ''} key={item.label}>
+                    <i aria-hidden="true" />
+                    <span>{item.label}</span>
+                    {item.count && <small>{item.count}</small>}
+                  </li>
+                ))}
+              </ul>
+              <div className="jp-sidebar-foot">
+                <i aria-hidden="true" />
+                <span>Storage</span>
+                <small>2.4 GB</small>
+              </div>
+            </aside>
+
+            <section className="jp-content">
+              <div className="jp-content-toolbar">
+                <div className="jp-segmented" aria-label="View selector">
+                  <span className="active">Today</span><span>Week</span><span>All</span>
+                </div>
+                <div className="jp-toolbar-meta">
+                  <span>Thursday, 12 June</span>
+                  <b className="jp-calendar-icon" aria-hidden="true">12</b>
+                </div>
+              </div>
+
+              <div className="jp-focus-card">
+                <div className="jp-focus-copy">
+                  <small>FOCUS</small>
+                  <h2>Make room for the important work.</h2>
+                  <p>Two tasks left today. Your afternoon is clear after 15:00.</p>
+                </div>
+                <div className="jp-focus-ring" aria-hidden="true"><span>2</span><small>left</small></div>
+              </div>
+
+              <div className="jp-list-head">
+                <div><small>TO DO</small><b>Today</b></div>
+                <button type="button">New item <span aria-hidden="true">＋</span></button>
+              </div>
+              <div className="jp-task-list">
+                {TASKS.map((task) => (
+                  <article className={task.done ? 'done' : ''} key={task.title}>
+                    <i className="jp-check" aria-hidden="true">{task.done ? '✓' : ''}</i>
+                    <div><b>{task.title}</b><small>{task.meta}</small></div>
+                    <span className="jp-row-chevron" aria-hidden="true">›</span>
                   </article>
                 ))}
               </div>
-              <div className="jp-chart-card">
-                <div className="jp-chart-title"><span>Team momentum</span><b>Last 7 days</b></div>
-                <div className="jp-chart" aria-hidden="true">
-                  {BARS.map((h, i) => <i key={i} style={{ height: `${h}%` }} />)}
-                </div>
+            </section>
+
+            <aside className="jp-inspector" aria-label="Item details">
+              <small>DETAILS</small>
+              <div className="jp-inspector-empty" aria-hidden="true">
+                <i />
+                <span />
+                <span />
               </div>
-              <div className="jp-task-row">
-                <article><i className="jp-task-dot warm" /><div><b>Finalise launch notes</b><small>Today · Design</small></div><span>09:30</span></article>
-                <article><i className="jp-task-dot cool" /><div><b>Review customer calls</b><small>Today · Research</small></div><span>14:00</span></article>
+              <div className="jp-inspector-note">
+                <b>Studio note</b>
+                <p>Keep the week clear. One decision, one next step, then close the laptop.</p>
               </div>
-            </div>
+              <div className="jp-inspector-tags">
+                {['#ffaca4', '#e67383', '#ec5f6d'].map((color) => (
+                  <i key={color} style={{ background: color }} />
+                ))}
+                <span>Palette 039</span>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
@@ -89,14 +143,14 @@ export default function JigglypuffSaasIndex() {
       <section className="jp-palette-strip" aria-label="Jigglypuff palette tokens">
         <span>POKEMON_PALETTE / 039</span>
         <div>{PALETTE.map((c) => <i key={c} style={{ background: c }} title={c} />)}</div>
-        <span>APPLE_DESIGN / FLUID UI</span>
+        <span>APPLE_DESIGN / QUIET UI</span>
       </section>
 
       <section className="jp-features" id="product">
         {[
-          ['01', 'One clear rhythm', 'Every brief, decision and next step lands in a single weekly view.'],
-          ['02', 'Built around people', 'Quiet defaults, direct manipulation and no performative busyness.'],
-          ['03', 'Ready on day one', 'A considered workspace that feels familiar before anyone explains it.'],
+          ['01', 'One clear view', 'Today, upcoming and notes live in one predictable place.'],
+          ['02', 'Familiar by default', 'System typography, direct controls and no setup ritual.'],
+          ['03', 'Detail without noise', 'Restrained color, considered spacing and calm feedback.'],
         ].map(([n, title, copy]) => (
           <article key={n}><span>{n}</span><h3>{title}</h3><p>{copy}</p></article>
         ))}

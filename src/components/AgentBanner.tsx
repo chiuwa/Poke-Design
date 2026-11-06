@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { pokemonIndex } from '../lib/pokemon';
 import type { PokemonMetadata } from '../lib/types';
 import GeneratedPreview from './generated/GeneratedPreview';
@@ -68,6 +68,7 @@ export default function AgentBanner() {
   const [copiedPrompt, setCopiedPrompt] = useState(false);
   const [promptRun, setPromptRun] = useState(0);
   const [isBuildingSample, setIsBuildingSample] = useState(false);
+  const [hasResult, setHasResult] = useState(false);
 
   const examplePokemon =
     pokemonIndex.find((p) => p.name.toLowerCase() === 'jigglypuff') ??
@@ -75,10 +76,16 @@ export default function AgentBanner() {
   const prompt = `Use the ${examplePokemon.name} color palette from pokemon_palette, apply the Apple Design skill from design_skill, and generate a complete landing page. Return DESIGN.md + CSS variables + a React component.`;
 
   const runPrompt = () => {
+    setHasResult(true);
     setPromptRun((n) => n + 1);
-    setIsBuildingSample(true);
-    window.setTimeout(() => setIsBuildingSample(false), 5800);
   };
+
+  useEffect(() => {
+    if (promptRun === 0) return;
+    setIsBuildingSample(true);
+    const timer = window.setTimeout(() => setIsBuildingSample(false), 5800);
+    return () => window.clearTimeout(timer);
+  }, [promptRun]);
 
   const copy = async (value: string, which: 'code' | 'prompt') => {
     try {
@@ -111,7 +118,7 @@ export default function AgentBanner() {
             <div className="prompt-block">
               <span className="prompt-label">One-sentence prompt</span>
               <button type="button" className={`run-prompt${isBuildingSample ? ' is-building' : ''}`} onClick={runPrompt}>
-                {isBuildingSample ? 'Running...' : 'Try this prompt'}
+                {isBuildingSample ? 'Running...' : hasResult ? 'Rebuild sample' : 'Try this prompt'}
               </button>
               <p>{prompt}</p>
               <button type="button" className="copy-prompt" onClick={() => copy(prompt, 'prompt')}>
@@ -156,13 +163,15 @@ export default function AgentBanner() {
           </div>
         </div>
 
-        <div className="prompt-result-wrap">
+        {hasResult && (
+          <div className="prompt-result-wrap">
           <div className="prompt-result-label">
-            <span>Actual generated sample</span>
+            <span>Generated result</span>
             <span>WebMCP → React</span>
           </div>
-          <GeneratedPreview runId={promptRun} />
-        </div>
+            <GeneratedPreview runId={promptRun} />
+          </div>
+        )}
       </div>
     </section>
   );
